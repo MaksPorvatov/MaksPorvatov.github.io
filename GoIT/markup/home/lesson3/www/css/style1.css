@@ -10,18 +10,22 @@ h1 {
 }
 div.header{
 	background-color: gray;
-  width: 750px;
+  width: 1250px;
   padding: 25px;
   margin-left: 30px;
   font-size: 22px;
   padding-top: 10px;
   color: white;
+  margin-top: 30px;
   
 }
 
 div.item{
 	float: left;
 	margin-left: 20px;
+	float: left;
+	margin-left: 60px;
+
 }
 
 div.menu{
@@ -36,7 +40,7 @@ div.menu{
 
 div.item1{
   border: 1px solid grey;
-  padding-top: 10px;
+  padding-top: 20px;
   padding-left: 45px;
 }
 
@@ -61,7 +65,7 @@ div.text{
 div.footer{
 	background-color: lightgrey;
 	margin-top: 150px;
-	width: 800px;
+	width: 1300px;
 	height: 30px;
 	margin-left: 30px;
 	
@@ -69,11 +73,11 @@ div.footer{
 
 div.item2{
 	float: left;
-	margin-left: 40px;
+	margin-left: 50px;
 }
 
 div.item3{
-	padding-left: 600px;
+	padding-left: 1100px;
 }
 
 span.goods{
@@ -87,8 +91,8 @@ span.goods1{
 }
 
 img{
-  width: 500px;
-  height: 250px;
+  width: 550px;
+  height: 350px;
   border: 1px solid grey;
   margin-left: 30px;
     
