@@ -18,7 +18,7 @@ body{
 	float: right;
 	margin-right: 100px;
 	margin-top: 10px;
-	color: dodgerblue;
+	color: #5fa5bb;
 	height: 200px;
 }
 
@@ -33,7 +33,7 @@ body{
 	position: absolute;
 	top: 130px;
 	left: 260px;
-	color: dodgerblue; 
+	color: #5fa5bb; 
 }
 
 
@@ -58,7 +58,7 @@ body{
 
 #navi{
 	list-style: none;
-	background-color: #484848;
+	background-color: #333333;
 	margin-left: 9px;
 	width: 970px;
 	height: 30px;
@@ -93,7 +93,7 @@ body{
     position: absolute;
     top: 100%;
     width: 150px;
-    background-color: #484848;
+    background-color: #333333;
     display: none;
 }
 
@@ -182,6 +182,7 @@ h3{
 	left: 550px;
 	color: white;
 }
+
 
 
 
