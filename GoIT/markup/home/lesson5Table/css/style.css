@@ -1,0 +1,56 @@
+table{
+  margin-left: 300px;
+  margin-top: 150px;
+  border-collapse: collapse;
+  position: absolute;
+}
+.table1{
+  margin: 0;
+  padding: 0;
+  height: 10px;
+  width: 10px;
+}
+
+td{
+  border: 10px solid black;
+  margin: 0;
+  padding: 20px;
+}
+
+.cell8{
+  background-color: red;
+}
+
+.cell5{
+  background-color: yellow;
+}
+.cell10{
+  background-color: yellow;
+}
+
+.cell28{
+  background-color: blue;
+}
+
+.cell20{
+  background-color: black;
+}
+
+.cell25{
+  background-color: yellow;
+}
+
+.cell1{
+
+  width: 40px;
+  height: 10px;
+}
+
+.box{
+  position: absolute;
+  background-color: black;
+  width: 50px;
+  height: 20px;
+  top: 400px;
+  left: 410px;
+}
