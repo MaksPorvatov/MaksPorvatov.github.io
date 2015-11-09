@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Zazor</title>
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="phones">
+      <a class="phone-icon" href="img/phone.png"></a>
+      <span>(044) 123 45 67</span>
+      <span>(044) 567 89 10</span>
+    </div>
+    <div class="login-form" clearfix>
+      <form action="#">
+        <img class="loginpng" src="img/login.png">
+        <input type="text" name="name" placeholder="логин" required>
+        <input type="password" name="password" placeholder="пароль" required>
+        <input type="submit" value="вход" id="submit">
+      </form>
+    <span class="line">&nbsp;|&nbsp;</span>
+    <a class="registration" href="#">регистрация</a>
+    <a href="#" class="forgot"> забыли пароль?</a>
+    </div>
+    <div class="mini-menu" clearfix>
+      <a href="#">
+        <img src="img/home.png">
+      </a>
+      <a href="#">
+        <img src="img/sitemap.png">
+      </a>
+      <a href="#">
+        <img src="img/letter.png">
+      </a>
+    </div>
+    <div class="center-img">
+      <img src="img/center-img.png" alt="zazor" class="center-menu">
+    </div>
+  </header>
+
+  <!--header-->
+
+  <nav class="main-menu" clearfix>
+    <ul>
+      <li>
+        <a href="#">О КОМПАНИИ</a>
+      </li>
+      <li>
+        <a href="#">ОПЛАТА</a>
+      </li>
+      <li>
+        <a href="#">ДОСТАВКА</a>
+      </li>
+      <li>
+        <a href="#">СТАТЬИ</a>
+      </li>
+      <li>
+        <a href="">КОНТАКТЫ</a>
+      </li>
+    </ul>
+  </nav>
+  <div class="basket">
+    <a href="#">
+      <img src="img/basket.png">
+    </a>
+    <span class="goods-basket">товаров:</span>
+    <span class="numbers-of-goods">0</span>
+    <span class="total-price">на сумму:</span>
+    <span class="namber-of-total-price">0.00 грн.</span>
+  </div>
+  <div class="search">
+    <div class="search-auto">
+      <span class="search-title-auto"><span>Диски</span><span>Поиск по автомобилю</span><span>Шины</span></span>
+    </div>
+    <form action="#" class="about-auto">
+      <span>Марка авто</span>
+      <select name="marka">
+        <option value="все"></option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+      <span>Марка авто</span>
+      <select name="marka">
+        <option value="все"></options>
+        <option value="1">1</options>
+        <option value="2">2</options>
+        <option value="3">3</options>
+        <option value="4">4</options>
+        <option value="5">5</options>
+      </select>
+      <div class="model-of-auto">Модель авто</div>
+      <select name="model" id="model">
+        <option value="все"></option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+      <span id="model-of-auto">Модель авто</span>
+      <select name="model" id="model">
+        <option value="всe"></opton>
+        <option value="1">1</opton>
+        <option value="2">2</opton>
+        <option value="3">3</opton>
+        <option value="4">4</opton>
+        <option value="5">5</opton>
+      </select>
+      <span id="year-of-auto">Год выпуска</span>
+      <select name="year" id="year">
+        <option value="все"></option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+      <span id="year1">Год выпуска</span>
+      <select name="year" id="year">
+        <option value="все"></option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+      <span id="grade">Комплектация</span>
+      <select name="grade-search" id="grade-search">
+        <option value="все"></option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+      <span id="grade1">Комплектация</span>
+      <select name="grade-search" id="grade-search">
+        <option value="все"></option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+      <input type="submit" value="ПОИСК..." class="send-about-auto">
+    </form>
+    <div class="select-tiers">
+      <form action="#" class="search-tires">
+      <span>ПОИСК ШИН</span>
+      <div class="search-tiers-size">
+        <span id="size">Размер:</span>
+        <select name="tiers-size" id="tiers-size">
+          <option value="all"></option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+        <span id="line-tiers">/</span>
+        <select name="tiers-size1" id="tiers-size1">
+          <option value="all"></option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+      </div>
+      <div class="r-of-tiers">
+        <span id="r-tiers">R</span>
+        <select name="r-tiers" id="r-tiers">
+          <option value="all"></option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+      </div>
+      <div class="sesone">
+        <span id="sesone1">Сезон:</span>
+        <div class="radio">
+          <label>
+            <input type="radio" name="season" id="for-season">лето
+          </label>
+          <label>
+            <input type="radio" name="season" id="for-season">зима
+          </label>
+          <label>
+            <input type="radio" name="season" id="for-season">всесез
+          </label>
+        </div>
+        <input type="submit" value="ПОИСК..." class="send-about-tier">
+      </div>
+      </form>
+    </div>
+    <div class="wheels">
+      <form action="#">
+        <span class="search-of-wheels">ПОИСК ДИСКОВ</span>
+        <div class="d-wheels">
+          <span id="d-of-wheels">Диаметр дисков</span>
+          <select name="d-wheels" id="d-wheels">
+            <option value="all"></option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+        </div>
+        <div class="number-of">
+          <div id="number-of">
+            <p>Количество</p>
+            <p>крепежных</p>
+            <p>отверстий:</p>
+          </div>
+          <select name="n-wheels" id="n-wheels">
+            <option value="all"></option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+        </div>
+        <div class="diametr">
+          <div id="diametr-of">
+            <p>Диаметр</p>
+            <p>расположеня</p>
+            <p>крепежных</p>
+            <p>отверстий:</p>
+          </div>
+          <select name="diametr-of-hole" id="diametr-of-hole">
+            <option value="all"></option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+        </div>
+        <div class="diametr-right">
+          <div id="d-right">
+            <p>ДЦО</p>
+            <p>(диаметр</p>
+            <p>центрального</p>
+            <p>отверстия):</p>
+          </div>
+          <select name="d-right-search" id="d-right-search">
+            <option value="all"></option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+          <div id="ET">
+            <p>ЕТ</p>
+            <p>вылет диска:</p>
+          </div>
+          <select name="d-right-search" id="d-right-search">
+            <option value="all"></option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+          <input type="submit" value="ПОИСК..." class="send-about-d">
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!--middle-->
+
+
+  <!--left-->
+  <div class="middle">
+    <div class="left-side">
+      <img class="list" src="img/list.png">
+      <p id="site-menu-titel">КАТАЛОГ ПРОДУКЦИИ:</p>
+      <p id="wheels-menu-title">ШИНЫ</p>
+      <div class="side-menu1">
+        <div class="circle-for-wheels-menu"></div>
+        <ul>
+          <li><a href="#">Наименование 1</a></li>
+          <li><a href="#">Наименование 2</a></li>
+          <li><a href="#">Наименование 3</a></li>
+          <li><a href="#">Наименование 4</a></li>
+        </ul>
+      </div>
+      <div class="side-menu2">
+        <div id="disk-menu">ДИСКИ</div>
+        <div id="circle-for-wheels-disk"></div>
+        <ul>
+          <li><a href="#">Наименование 1</a></li>
+          <li><a href="#">Наименование 2</a></li>
+          <li><a href="#">Наименование 3</a></li>
+          <li><a href="#">Наименование 4</a></li>
+        </ul>
+      <div class="side-menu3">
+        <div id="bolts-menu">БОЛТЫ</div>
+        <div id="circle-for-wheels-bolts"></div>
+        <ul>
+          <li><a href="#">Наименование 1</a></li>
+          <li><a href="#">Наименование 2</a></li>
+          <li><a href="#">Наименование 3</a></li>
+          <li><a href="#">Наименование 4</a></li>
+        </ul>
+      </div>
+    </div>
+      <!--right-->
+
+    <div class="right-side" clearfix>
+      <p id="right-site-menu-title">БРЕНДЫ:</p>
+      <div class="list-img"></div>
+      <div class="side-menu-right1">
+        <div id="wheels-menu-right">ШИНЫ</div>
+        <div id="circle-wheels-menu"></div>
+        <form action="#">
+          <div id="list-menu-right1">
+            <div>
+              <input type="checkbox" name="option1">
+              <span>Бренд 1</span>
+            </div>
+            <div>
+              <input type="checkbox" name="option2">
+              <span>Бренд 2</span>
+            </div>
+            <div>
+              <input type="checkbox" name="option3">
+              <span>Бренд 3</span>
+            </div>
+            <div>
+              <input type="checkbox" name="option4">
+              <span>Бренд 4</span>
+            </div>
+          </div>
+        </form>
+        <div id="disk-menu-right">ДИСКИ</div>
+        <div id="circle-disk-menu"></div>
+        <form action="#">
+          <div id="list-menu-right2">
+            <div>
+              <input type="checkbox" name="option1">
+              <span>Бренд 1</span>
+            </div>
+            <div>
+              <input type="checkbox" name="option2">
+              <span>Бренд 2</span>
+            </div>
+            <div>
+              <input type="checkbox" name="option3">
+              <span>Бренд 3</span>
+            </div>
+            <div>
+              <input type="checkbox" name="option4">
+              <span>Бренд 4</span>
+            </div>
+          </div>
+          <input type="submit" value="ВЫБРАТЬ" class="submit">
+        </form>
+      </div>
+    </div>
+    <div class="midd-img">
+      <img src="img/middle-img.png" id="middle-img">
+    </div>
+    <div class="companies">
+      <img src="img/companies.png" id="companies">
+    </div>
+  </div>
+
+  <!--footer-->
+
+  <footer>
+    <nav class="footer-menu">
+      <ul>
+        <li><a href="">О компании</a></li>
+        <li>|</li>
+        <li><a href="">Доставка</a></li>
+        <li>|</li>
+        <li><a href="">Статьи</a></li>
+        <li>|</li>
+        <li><a href="">Контакти</a></li>
+      </ul>
+    </nav>
+    <p class="done-by">Созлание сайта Global Vision</p>
+  </footer>
+</body>
+</html>
