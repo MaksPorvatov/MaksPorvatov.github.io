@@ -851,12 +851,15 @@ footer{
   font-size: 11px;
 }
 
-.done-by{
-   position: relative;
-    top: 24px;
-    left: -2px;
-    color: #d04435;
-    font-size: 10px;
+.footer-menu ul li a:hover{
+  color: #1f71ab;
+}
 
+.done-by{
+  position: relative;
+  top: 24px;
+  left: -2px;
+  color: #d04435;
+  font-size: 10px;
 }
 
