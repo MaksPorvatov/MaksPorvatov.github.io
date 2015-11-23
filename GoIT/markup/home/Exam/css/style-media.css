@@ -1,0 +1,537 @@
+@media (max-width: 768px){
+  .logo__top{
+    left: 99px;
+    top: 67px;
+  }
+  .menu{
+   position: absolute;
+   float: left;
+   left: 53px;
+   top: 70px;
+   margin: 0;
+  }
+  .menu__item{
+    float: left;
+    margin-left: 47px;
+    font-size: 23px;
+  }
+
+  /*SLIDER*/
+
+  .slider{
+  height: 400px;
+  width: 100%;
+  top: 243px;
+  }
+
+  .arrow__left__link{
+  width: 25px;
+  height: 37px;
+  margin-top: 185px;
+  margin-left: 79px;
+}
+
+.text__header{
+  top: 76px;
+  left: 100px;
+  width: 425px;
+  height: 126px;
+}
+
+h2{
+    font-size: 48px;
+    text-shadow: 1px 1px 3px rgba(150, 150, 150, 1);
+    margin-top: 23px;
+    margin-left: 21px;
+}
+
+h3{
+    font-size: 24px;
+    text-shadow: 1px 1px 3px rgba(150, 150, 150, 1);
+    margin-left: 21px;
+    margin-top: 8px;
+}
+
+.text__before{
+    font-size: 14px;
+    width: 268px;
+    margin-left: 23px;
+}
+
+.back__phone{
+  position: absolute;
+  top: 63px;
+  left: 417px;
+}
+
+.front__phone{
+  float: right;
+  position: absolute;
+  right: 50px;
+  height: 422px;
+}
+
+.arrow__right__link{
+  float: right;
+  display: block;
+  margin-right: 13px;
+  margin-top: 175px;
+  width: 25px;
+  height: 37px;
+}
+
+.play__for__phone{
+  float: right;
+  position: absolute;
+  right: 109px;
+  top: 134px;
+}
+
+  .form__radio{
+    position: absolute;
+    top: 681px;
+    left: 618px;
+  }
+
+  /*CONTENT*/
+
+  .top__part{
+    margin-top: 398px;
+    height: 344px;
+  }
+
+  .container__for__text__block__top{
+     margin-left: 0;
+  }
+
+  .text__block{
+    margin-top: 78px;
+    margin-left: 102px;
+    width: 15%;
+  }
+
+  .head__for__text__block{
+    font-size: 23px;
+    width: 150px;
+  }
+
+  .text__for__block{
+    font-size: 17px;
+    width: 190px;
+  }
+
+  .link__for__block{
+    margin-top: 18px;
+    margin-left: 122px;
+  }
+
+   #icons__for__sprite__top-part a{
+     margin-left: 190px;
+  }
+
+
+  #icons__for__sprite__top-part{
+    left: -123px;
+    top: -200px;
+  }
+
+  .block__left{
+    width: 44%;
+    margin-left: 57px;
+  }
+
+  .text__for__block__left {
+    width: 208px;
+    font-size: 16px;
+  }
+
+  .sprite__for__blog {
+    margin-top: 175px;
+    margin-left: 22px;
+  }
+
+  .form__radio__for__block__left {
+    left: 233px;
+    top: 394px;
+  }
+
+  .title__for__block__left {
+    width: 100px;
+    margin-top: 22px;
+    margin-left: 60px;
+    font-size: 24px;
+  }
+
+  .box__for__blog {
+    position: absolute;
+    left: 460px;
+    bottom: 122px;
+    height: 211px;
+    width: 400px;
+  }
+
+  .blog__top {
+    font-family: "open_sanslight";
+    margin-top: 30px;
+    font-size: 13px;
+  }
+
+  .read__for__blog {
+    margin-top: 41px;
+    margin-left: 194px;
+  }
+
+  .logos{
+    background-position: 94px 12px;
+  }
+
+  .middle__bottom__text{
+    font-size: 17px;
+    width: 203px;
+  }
+
+  .title__for__middle__bottom{
+    font-size: 27px;
+  }
+
+  .copyright2013{
+    display: none;
+  }
+
+  .menu__bottom li {
+    float: left;
+    margin-left: 36px;
+    margin-top: 43px;
+    font-size: 17px;
+  }
+
+  .designed {
+    margin-right: 60px;
+    margin-top: 77px;
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 480px){
+  #drop{
+     display: block;
+     position: relative;
+     float: left;
+     width: 245px;
+     font-size: 24px;
+     top: 96px;
+     left: 120px;
+     z-index: 1;
+  }
+
+  .logo__top{
+     float: left;
+     position: absolute;
+     top: 19px;
+     left: 168px;
+     font-size: 46px;
+     color: white;
+     text-shadow: 1px 1px 3px rgba(150, 150, 150, 1);
+  }
+
+  .menu{
+    display: none;
+  }
+
+  .slider{
+     position: absolute;
+     overflow: hidden;
+     background-color: rgba(0, 0, 0, 0.3);
+     height: 245px;
+     width: 100%;
+     top: 155px;
+  }
+
+   .arrow__left__link{
+     float: left;
+     display: block;
+     width: 25px;
+     height: 37px;
+     margin-top: 106px;
+     margin-left: 2px;
+  }
+
+  .text__header{
+     position: absolute;
+     top: 61px;
+     left: 10px;
+     width: 425px;
+     height: 126px;
+ }
+
+  h2{
+     color: white;
+     font-size: 38px;
+     text-shadow: 1px 1px 3px rgba(150, 150, 150, 1);
+     margin-top: 31px;
+     margin-left: 21px;
+  }
+
+  h3{
+     color: #edbfff;
+     font-size: 19px;
+     text-shadow: 1px 1px 3px rgba(150, 150, 150, 1);
+     margin-left: 21px;
+     margin-top: 1px;
+  }
+
+ .text__before{
+     display: none;
+  }
+
+  .back__phone{
+     position: absolute;
+     top: 48px;
+     left: 265px;
+     height: 187px;
+  }
+
+  .front__phone{
+     float: right;
+     position: absolute;
+     right: 35px;
+     height: 261px;
+  }
+
+  .arrow__right__link{
+     float: right;
+     display: block;
+     margin-right: 6px;
+     margin-top: 106px;
+     width: 25px;
+     height: 37px;
+  }
+
+  .play__for__phone{
+     float: right;
+     position: absolute;
+     right: 70px;
+     top: 96px;
+     height: 50px;
+  }
+
+  .form__radio{
+    position: absolute;
+    top: 423px;
+    left: 201px;
+  }
+
+  body{
+    height: 500px;
+  }
+
+  .top__part{
+    position: relative;
+    top: 476px;
+    height: 599px;
+  }
+
+  /*CONTENT*/
+
+  .container__for__text__block__top{
+    margin-top: 10px;
+    margin-left: -37px;
+  }
+
+  .text__block{
+    width: 80%;
+    margin-left: 84px;
+    margin-top: 0;
+  }
+
+  .text__for__block{
+    font-size: 17px;
+    color: white;
+    width: 380px;
+  }
+
+  .link__for__block{
+    margin-left: 317px;
+  }
+
+  .middle__part{
+    margin-top: 476px;
+    height: 775px;
+  }
+
+  .block__left{
+    width: 80%;
+    float: left;
+  }
+
+  .sprite__for__blog {
+    margin-top: 62px;
+    margin-left: 86px;
+  }
+
+  .box__for__blog {
+    left: 147px;
+    bottom: 103px;
+  }
+
+  #icons__for__sprite__top-part {
+    left: -9999px;
+    top: -9999px;
+  }
+
+  .middle__bottom {
+    margin-left: -25px;
+    margin-top: 20px;
+    height: 248px;
+    width: 100%;
+  }
+
+  .middle__bottom__text {
+    font-size: 16px;
+    width: 390px;
+  }
+
+  .title__for__middle__bottom{
+    margin-top: -105px;
+  }
+
+  .middle__bottom__part{
+    height: 665px;
+  }
+
+  .menu__bottom {
+    margin-left: 70px;
+  }
+
+  .menu__bottom li {
+    margin-left: 7px;
+  }
+
+  .designed {
+    position: absolute;
+    margin-right: 0;
+    right: 158px;
+  }
+}
+
+
+
+
+@media (max-width: 350px){
+  #drop{
+    left: 53px;
+  }
+
+  .slider{
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .logo__top{
+    left: 102px;
+  }
+
+
+ .text__before{
+    display: none;
+  }
+
+  .back__phone{
+    display: none;
+  }
+
+  .front__phone{
+    display: none;
+  }
+
+  .play__for__phone{
+    display: none;
+  }
+
+  .form__radio{
+    top: 382px;
+    left: 109px;
+  }
+
+  .text__for__block{
+    font-size: 17px;
+    width: 190px;
+  }
+
+  .link__for__block{
+    margin-top: 18px;
+    margin-left: 158px;
+    width: 63px;
+  }
+
+  .block__left{
+    width: 88%;
+    height: 310px;
+    margin-top: 4px;
+    margin-left: 10px;
+  }
+
+  .text__for__block__left{
+    width: 213px;
+    font-size: 16px;
+  }
+
+  .form__radio__for__block__left{
+    left: 125px;
+    top: 301px;
+  }
+
+  .sprite__for__blog{
+    margin-left: 17px;
+  }
+
+
+  .box__for__blog{
+    left: 71px;
+    bottom: 201px;
+  }
+
+  .title__for__blog{
+    left: -60px;
+    bottom: 206px;
+    font-size: 20px;
+  }
+
+  .blog__top{
+    font-size: 12px;
+  }
+
+  .read__for__blog{
+    margin-left: 165px;
+  }
+
+  .middle__bottom__part{
+    display: none;
+  }
+
+  .menu__bottom {
+    display: none;
+  }
+
+  .designed {
+    right: 74px;
+  }
+}

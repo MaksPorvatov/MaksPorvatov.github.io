@@ -1,0 +1,510 @@
+html{
+  font-family: "league_gothicregular";
+}
+
+body{
+  background: url(../img/background__top.png);
+  width: 100%;
+  height: 798px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.wrapper{
+  margin: 0 auto;
+}
+
+
+.logo__top{
+  float: left;
+  position: absolute;
+  top: 19px;
+  left: 102px;
+  font-size: 46px;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(150, 150, 150, 1);
+}
+
+.logo__top span{
+  color: #724f81;
+}
+
+
+/*DROP MENU*/
+
+#drop{
+  position: relative;
+  float: left;
+  width: 245px;
+  font-size: 24px;
+  top: 96px;
+  left: 263px;
+  display: none;
+}
+
+.drop__menu{
+  display: none;
+}
+
+li:hover .drop__menu{
+  display: block;
+}
+
+#drop:hover{
+  background-color: rgba(61, 48, 69, 0.5);
+  border-radius: 15px;
+}
+
+.drop__link{
+  text-decoration: none;
+  color: white;
+  margin-left: 104px;
+}
+
+.drop__link:hover{
+  border-bottom: 1px solid #edbfff;
+  background-color: rgba(61, 48, 69, 0.5)
+}
+
+.drop__menu__item{
+  text-align: center;
+  margin-left: 0px;
+  margin-top: 7px;
+  height: 100%;
+}
+
+.drop__menu__item:hover{
+  background-color: rgba(61, 48, 69, 0.5)
+}
+
+.drop__menu__link{
+  color: white;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.drop__menu__link:hover{
+  border-bottom: 1px solid #edbfff;
+}
+
+.drop__menu__item:hover{
+  display: block;
+}
+
+
+/*MAIN MENU*/
+
+/*MAIN MENU*/
+
+.menu{
+  float: left;
+  margin-left: 376px;
+  margin-top: -47px;
+}
+
+.main__menu1{
+  float: left;
+  margin-left: 120px;
+}
+.menu__item{
+  float: left;
+  margin-left: 52px;
+  margin-top: 74px;
+  font-size: 24px;
+}
+
+.menu__link{
+  color: white;
+  text-decoration: none;
+}
+
+.menu__link:hover{
+  border-bottom: 3px solid #edbfff;
+}
+
+
+/*SLIDER*/
+
+.slider{
+  position: relative;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 400px;
+  width: 100%;
+  top: 180px;
+}
+
+.arrow__left__link{
+  float: left;
+  display: block;
+  width: 25px;
+  height: 37px;
+  margin-top: 175px;
+  margin-left: 10px;
+}
+
+.text__header{
+  position: absolute;
+  top: 76px;
+  left: 100px;
+  width: 425px;
+  height: 126px;
+}
+
+h2{
+  color: white;
+  font-size: 60px;
+  text-shadow: 1px 1px 3px rgba(150, 150, 150, 1);
+}
+
+h3{
+  color: #edbfff;
+  font-size: 32px;
+  text-shadow: 1px 1px 3px rgba(150, 150, 150, 1);
+}
+
+.text__before{
+  color: white;
+  font-size: 23px;
+  font-family: "open_sanslight";
+  width: 523px;
+}
+
+.back__phone{
+  position: absolute;
+  top: 63px;
+  left: 712px;
+}
+
+.front__phone{
+  float: right;
+  position: absolute;
+  right: 360px;
+  height: 422px;
+}
+
+.arrow__right__link{
+  float: right;
+  display: block;
+  margin-right: 260px;
+  margin-top: 175px;
+  width: 25px;
+  height: 37px;
+}
+
+.play__for__phone{
+  float: right;
+  position: absolute;
+  right: 424px;
+  top: 134px;
+}
+
+.form__radio{
+  position: absolute;
+  top: 723px;
+  left: 808px;
+}
+
+
+/*CONTENT*/
+
+/*TOP PART*/
+
+.top__part{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 338px;
+  background: rgba(112,77,126,1);
+  background: -moz-linear-gradient(top, rgba(112,77,126,1) 0%, rgba(112,77,126,1) 33%, rgba(71,71,71,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(112,77,126,1)), color-stop(33%, rgba(112,77,126,1)), color-stop(100%, rgba(71,71,71,1)));
+  background: -webkit-linear-gradient(top, rgba(112,77,126,1) 0%, rgba(112,77,126,1) 33%, rgba(71,71,71,1) 100%);
+  background: -o-linear-gradient(top, rgba(112,77,126,1) 0%, rgba(112,77,126,1) 33%, rgba(71,71,71,1) 100%);
+  background: -ms-linear-gradient(top, rgba(112,77,126,1) 0%, rgba(112,77,126,1) 33%, rgba(71,71,71,1) 100%);
+  background: linear-gradient(to bottom, rgba(112,77,126,1) 0%, rgba(112,77,126,1) 33%, rgba(71,71,71,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#704d7e', endColorstr='#474747', GradientType=0 );
+  margin-top: 347px;
+}
+
+.container__for__text__block__top{
+  margin-left: 49px;
+}
+
+.text__block{
+  float: left;
+  width: 17%;
+  height: 197px;
+  margin-left: 115px;
+  margin-top: 81px;
+}
+
+.head__for__text__block{
+  font-family: "league_gothicregular";
+  font-size: 29px;
+  color: white;
+}
+
+.text__for__block{
+  font-family: "open_sanslight";
+  font-size: 19px;
+  margin-top: 13px;
+  width: 228px;
+  color: white;
+}
+
+.link__for__block{
+  display: block;
+  margin-top: 18px;
+  margin-left: 158px;
+  font-family: "league_gothicregular";
+  font-size: 19px;
+  width: 63px;
+  color: white;
+  text-decoration: none;
+}
+
+.link__for__block:hover{
+  text-shadow: 0px 0px 30px rgba(150, 150, 150, 1);
+}
+
+#icons__for__sprite__top-part{
+  position: relative;
+  overflow: hidden;
+  width: 1200px;
+  top: -176px;
+  left: -175px;
+}
+
+#icons__for__sprite__top-part li{
+  float: left;
+}
+
+#icons__for__sprite__top-part a{
+  display: block;
+  height: 27px;
+  width: 27px;
+  background: url(../img/sprite.png) 0 0 no-repeat;
+  margin-left: 300px;
+}
+
+#icons__for__sprite__top-part .center__sprite{
+ background-position: -340px;
+}
+
+#icons__for__sprite__top-part .right__sprite{
+  background-position: -675px;
+}
+
+.middle__part{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 486px;
+  background-color:  #f9f9f9;
+}
+
+.block__left{
+  position: relative;
+  overflow: hidden;
+  background: url(../img/sprite__for__block__left.png) no-repeat;
+  width: 30%;
+  height: 310px;
+  float: left;
+  margin-top: 104px;
+  margin-left: 103px;
+}
+
+.title__for__block__left{
+  margin-top: 28px;
+  margin-left: 69px;
+  font-size: 28px;
+  color: black;
+}
+
+.title__for__block__left span{
+  color: #edbfff;
+}
+
+.text__for__block__left{
+  width: 329px;
+  font-family: "open_sanslight";
+  font-size: 20px;
+  margin-top: 13px;
+  margin-left: 69px;
+}
+
+.form__radio__for__block__left{
+  position: absolute;
+  left: 292px;
+  top: 398px;
+}
+
+.sprite__for__blog{
+  margin-top: 178px;
+  margin-left: 104px;
+}
+
+
+.box__for__blog{
+  position: absolute;
+  left: 679px;
+  bottom: 118px;
+  height: 211px;
+  width: 400px;
+}
+
+.title__for__blog{
+  position: absolute;
+  left: -68px;
+  bottom: 206px;
+  font-size: 29px;
+  font-family: "league_gothicregular";
+}
+
+.blog__top{
+  font-family: "open_sanslight";
+  margin-top: 25px;
+  font-size: 17px;
+}
+
+.blog__top span{
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.blog__middle{
+  font-family: "open_sanslight";
+  margin-top: 27px;
+  font-size: 19px;
+}
+
+.blog__middle span{
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.blog__bottom{
+  font-family: "open_sanslight";
+  margin-top: 27px;
+  font-size: 19px;
+}
+
+.blog__bottom span{
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.read__for__blog{
+  margin-top: 34px;
+  margin-left: 276px;
+}
+
+.read__for__blog a{
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  font-size: 18px;
+}
+
+.logos{
+  width: 100%;
+  height: 122px;
+  background: url(../img/logos.png) no-repeat;
+  background-color: #f9f9f9;
+  border: 1px solid #e6e6e6;
+  background-position: 190px 12px;
+}
+
+.middle__bottom__part{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 400px;
+  background-color: #ececec;
+  clear: both;
+}
+
+.middle__bottom{
+  float: left;
+  margin-left: 50px;
+  margin-top: 99px;
+  height: 205px;
+  width: 22%;
+}
+
+.middle__bottom h5{
+  font-size: 40px;
+  font-family: "league_gothicregular";
+}
+
+.middle__bottom span{
+  color: #b9b9b9;
+}
+
+.copyright2013{
+  font-style: italic;
+  font-size: 17px;
+  margin-top: 18px;
+  color: #b9b9b9;
+}
+
+.middle__bottom__text{
+  margin-top: 14px;
+  font-size: 19px;
+  font-family: "open_sanslight";
+}
+
+.title__for__middle__bottom{
+  font-size: 30px;
+  font-family: "league_gothicregular";
+}
+
+.container__for__middle__bottom{
+  margin-left: 53px;
+}
+
+.footer{
+  width: 100%;
+  height: 100px;
+  background: url(../img/footer-bottom.png)no-repeat;
+}
+
+.menu__bottom{
+  margin-left: 58px;
+}
+
+.menu__bottom li{
+  float: left;
+  margin-left: 43px;
+  margin-top: 43px;
+  font-size: 21px;
+}
+
+.menu__bottom a{
+  text-decoration: none;
+  color: white;
+}
+
+.designed{
+  float: right;
+  margin-right: 287px;
+  margin-top: 48px;
+  font-family: "open_sanslight";
+  color: white;
+  font-size: 13px;
+}
+
+.designed span{
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
