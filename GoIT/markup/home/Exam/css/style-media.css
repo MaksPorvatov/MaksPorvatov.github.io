@@ -96,7 +96,7 @@ h3{
   /*CONTENT*/
 
   .top__part{
-    margin-top: 398px;
+    margin-top: 0px;
     height: 344px;
   }
 
@@ -348,6 +348,7 @@ h3{
     position: relative;
     top: 476px;
     height: 599px;
+    margin-top: -476px;
   }
 
   /*CONTENT*/
