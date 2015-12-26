@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+  overflow: hidden;
+}
+
+fieldset {
+  width: 70%;
+  height: 100px;
+}
+
+form{
+  position: relative;
+  overflow: hidden;
+  margin-left: 500px;
+  margin-top: 100px;
+}
+
+label {
+  margin-left: 5px;
+}
+
+.inputTable{
+  position: relative;
+  overflow: hidden;
+}
+
+#firstname{
+  margin-top: 10px;
+}
+
+#lastname{
+  margin-top: 10px;
+  margin-left: 2px;
+}
+
+#address{
+  margin-top: 10px;
+  margin-left: 11px;
+}
+
+.help1{
+  position: absolute;
+  width: 206px;
+  left: 255px;
+  top: 11px;
+  display: none;
+}
+
+.help2{
+  position: absolute;
+  width: 206px;
+  left: 255px;
+  top: 11px;
+  display: none;
+}
+
+.help3{
+  position: absolute;
+  width: 206px;
+  left: 255px;
+  top: 11px;
+  display: none;
+}
+
+.helpButton{
+  margin-left: 500px;
+}
+
+/*.show__help{
+  position: absolute;
+  left: 256px;
+  top: 12px;
+}*/
