@@ -4,7 +4,7 @@ $(function() {
   var articles = [
     {
     	name: 'Порватов Максим Володимич',
-    	photo: 'photo.png',
+    	photo: 'photo.jpg',
     	iam: 'Судент курсу Front-end',
     	iwant: 'Хочу вивчати фронтенд тому-що:',
     	cool: 'it is cool',
