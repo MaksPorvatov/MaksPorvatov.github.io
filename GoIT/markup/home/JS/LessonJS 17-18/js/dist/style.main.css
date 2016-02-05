@@ -1,0 +1,18 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.box__1{
+	background-color: blue;
+	color: yellow;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.box__2{
+	background-color: yellow;
+	color: blue;
+}
