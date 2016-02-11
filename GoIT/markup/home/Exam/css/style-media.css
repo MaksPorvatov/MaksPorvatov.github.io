@@ -8,8 +8,9 @@
     margin-left: 270px;
     position: absolute;
     float: left;
-    left: 53px;
-    top: 70px;
+    left: -215px;
+    top: 100px;
+    margin: 0;
   }
   .menu__item{
     float: left;
@@ -68,14 +69,14 @@ h3{
 .front__phone{
   float: right;
   position: absolute;
-  right: 220px;
+  right: 133px;
   height: 422px;
 }
 
 .arrow__right__link{
   float: right;
   display: block;
-  margin-right: 128px;
+  margin-right: 92px;
   margin-top: 175px;
   width: 25px;
   height: 37px;
@@ -84,7 +85,7 @@ h3{
 .play__for__phone{
   float: right;
   position: absolute;
-  right: 289px;
+  right: 200px;
   top: 134px;
 }
 
@@ -127,12 +128,12 @@ h3{
   }
 
    #icons__for__sprite__top-part a{
-     margin-left: 268px;
+     margin-left: 186px;
   }
 
 
   #icons__for__sprite__top-part{
-    left: -123px;
+    left: -119px;
     top: -200px;
   }
 
@@ -165,7 +166,7 @@ h3{
 
   .box__for__blog {
     position: absolute;
-    left: 580px;
+    left: 474px;
     bottom: 122px;
     height: 211px;
     width: 400px;
