@@ -462,4 +462,44 @@ hr {
   margin-left: 12px;
   margin-top: 18px; }
 
+.link__pictures--hover, .link__pictures--hover1, .link__pictures--hover2, .link__pictures--hover3 {
+  position: absolute;
+  width: 261px;
+  height: 261px;
+  top: 20px;
+  left: 20px;
+  background-color: rgba(36, 140, 236, 0.8); }
+
+.link__pictures--hover, .link__pictures--hover1, .link__pictures--hover2, .link__pictures--hover3 {
+  position: absolute;
+  width: 261px;
+  height: 261px;
+  top: 51px;
+  left: 37px;
+  background-color: rgba(36, 140, 236, 0); }
+
+.link__pictures--hover:hover, .link__pictures--hover1:hover, .link__pictures--hover2:hover, .link__pictures--hover3:hover {
+  background-color: rgba(36, 140, 236, 0.8); }
+
+.link__pictures--hover1 {
+  top: 51px;
+  left: 333px; }
+
+.link__pictures--hover1:hover {
+  background-color: rgba(36, 140, 236, 0.8); }
+
+.link__pictures--hover2 {
+  top: 51px;
+  left: 630px; }
+
+.link__pictures--hover2:hover {
+  background-color: rgba(36, 140, 236, 0.8); }
+
+.link__pictures--hover3 {
+  top: 51px;
+  left: 928px; }
+
+.link__pictures--hover3:hover {
+  background-color: rgba(36, 140, 236, 0.8); }
+
 /*# sourceMappingURL=style.css.map */

@@ -322,6 +322,7 @@ nav{
 	height: 260px;
 	width: 260px;
 }
+
 .link__with--picture a figcaption{
 	margin-left: 52px;
 	margin-top: 31px;
@@ -600,8 +601,57 @@ hr{
 	margin-top: 18px; 
 }
 
+.link__pictures--hover{
+	position: absolute;
+	width: 261px;
+	height: 261px;
+	top: 20px;
+	left: 20px;
+	background-color: rgba(36, 140, 236, 0.8);
+}
 
+.link__pictures--hover {
+  position: absolute;
+  width: 261px;
+  height: 261px;
+  top: 51px;
+  left: 37px;
+  background-color: rgba(36, 140, 236, 0); 
+}
 
+.link__pictures--hover:hover{
+  background-color: rgba(36, 140, 236, 0.8); 
+}
+
+.link__pictures--hover1{
+  @extend .link__pictures--hover; 
+  top: 51px;
+  left: 333px;
+}
+
+.link__pictures--hover1:hover{
+  background-color: rgba(36, 140, 236, 0.8); 
+}
+
+.link__pictures--hover2{
+  @extend .link__pictures--hover; 
+  top: 51px;
+  left: 630px;
+}
+
+.link__pictures--hover2:hover{
+  background-color: rgba(36, 140, 236, 0.8); 
+}
+
+.link__pictures--hover3{
+  @extend .link__pictures--hover; 
+  top: 51px;
+  left: 928px;
+}
+
+.link__pictures--hover3:hover{
+  background-color: rgba(36, 140, 236, 0.8); 
+}
 
 
 

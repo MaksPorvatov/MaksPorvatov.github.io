@@ -16,26 +16,8 @@ module.exports = function(grunt) {
         dest: 'js/dist/script.main.min.js'
       }
     },
-    sass: {
-    dist: {
-      files: [{
-        expand: true,
-        cwd: 'styles',
-        src: ['*.scss'],
-        dest: 'styles',
-        ext: '.css'
-      }]
-    }
-  },
-  watch: {
-    sass: {
-      // We watch and compile sass files as normal but don't live reload here
-      files: ['styles/*.scss'],
-      tasks: ['sass'],
-    }
-  },
 
-  concat_css: {
+    concat_css: {
       options: {
         // Task-specific options go here. 
       },
@@ -56,6 +38,17 @@ module.exports = function(grunt) {
       }
      }
     },
+    sass: {
+    dist: {
+      files: [{
+        expand: true,
+        cwd: 'styles',
+        src: ['*.scss'],
+        dest: 'styles',
+        ext: '.css'
+      }]
+    }
+  },
 
 });
 
