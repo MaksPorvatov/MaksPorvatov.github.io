@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+	<title>Hostel</title>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <script type="text/javascript" src="js/jquery-phone.min.js"></script>
+  <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<link rel="stylesheet" href="styles/reset.css">
+	<link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/flexslider.css">
+
+</head>
+<body>
+
+
+  <div class="wrapper">
+    <!-- HEADER -->
+    <header>
+      <!-- MENU -->
+      <div class="menu--top__wrapper">
+        <div class="logo"><img src="img/logo.png" alt="logo"></div>
+        <div id="changeLa">ENG</div>
+        <ul class="menu--top">
+          <li class="menu--top__item"><a href="" class="menu--top__link">Номера и цены</a></li>
+          <li class="menu--top__item"><a href="" class="menu--top__link">Дополнительные услуги</a></li>
+          <li class="menu--top__item"><a href="" class="menu--top__link">Что мы предлагаем</a></li>
+          <li class="menu--top__item"><a href="" class="menu--top__link">Отзывы</a></li>
+          <li class="menu--top__item"><a href="" class="menu--top__link">Рядом с нами</a></li>
+          <li class="menu--top__item"><a href="" class="menu--top__link">Как добраться</a></li>
+          <li class="menu--top__item"><a href="" class="menu--top__link">Контакты</a></li>
+        </ul> 
+      </div>
+     <!--  MENU END -->
+
+     <!-- BOX FOR HEADER LEFT -->
+     <div class="header__box">
+       <div class="header__box--title">ХОСТЕЛ в центре Киева</div> 
+       <div class="header__box--information">
+         <div class="box--1"><span>Оплата: наличными или картой</span><br>цена от 150 грн/сутки</div>
+         <img class="visa" src="img/visa.png" alt="visa">
+         <div class="box--2"><span>Удобное расположение</span><br>в центре Киева</div>
+         <img class="location" src="img/location.png" alt="location">
+         <div class="box--3">8-6-2-1 местные комнаты<br> комфортные условия</div>
+         <img class="lignt" src="img/light.png" alt="light">
+       </div>
+       <form action="#" method="post">
+         <input type="submit" class="submit" value="ЗАБРОНИРОВАТЬ" />
+       </form> 
+     <!-- BOX FOR HEADER LEFT END -->
+     </div>
+     <!-- BOX FOR HEADER RIGNT -->
+       <div class="header__box--contacts">
+         <div class="first--number">+38 (044) <span>123-45-67</span></div>
+         <div class="second--number">+38 (096) <span>123-45-67</span></div>
+       </div>
+     <!-- BOX FOR HEADER RIGNT END -->
+     <div id="dialog">
+       <form class="phone">
+         <input id="phone" type="tel">
+         <input class="take--call" type="submit" value="Заказать звонок">
+       </form>
+     </div>
+     <button class="opener">Заказать звонок</button>
+    </header>
+    <!-- HERE IS END OF HEADER -->
+
+    <!-- HERE IS STAR OF MAIN MENU FIXED -->
+    <div class="menu--fixed--wrapper">
+      <nav>
+        <ul class="menu--fixed">
+          <li class="menu--fixed__item"><a href="#" class="menu--fixed__link">Главная</a></li>
+          <li class="menu--fixed__item"><a href="#" class="menu--fixed__link">Номера и цены</a></li>
+          <li class="menu--fixed__item"><a href="#" class="menu--fixed__link">Дополнительные услуги</a></li>
+          <li class="menu--fixed__item"><a href="#" class="menu--fixed__link">Что мы предлагаем</a></li>
+          <li class="menu--fixed__item"><a href="#" class="menu--fixed__link">Отзывы</a></li>
+          <li class="menu--fixed__item"><a href="#" class="menu--fixed__link">Рядом с нами</a></li>
+          <li class="menu--fixed__item"><a href="#" class="menu--fixed__link">Как добраться</a></li>
+          <li class="menu--fixed__item"><a href="#" class="menu--fixed__link">Контакты</a></li>
+        </ul>
+        <button class="opener">ЗАКАЗАТЬ ЗВОНОК</button>
+      </nav>
+      <div class="menu--fixed__phones">
+        <div class="phones">+38 (044) 123-45-67</div>
+        <div class="phones">+38 (044) 123-45-67</div>
+      </div>
+     
+    </div>
+    <!-- HERE IS END OF MAIN MENU FIXED -->
+
+   <!-- HERE IS STAT OF CONTENT -->
+   <div class="content">
+     <!--  HERE IS STARST OF TABS FOR HOTELS' NUMBERS -->
+     <div class="hotels--numbers-wrapper">
+       <div class="numbers__title">НОМЕРА И ЦЕНЫ</div>
+       <div class="price">Стоимость: </div>
+       <select><option>c 10.12.15 до 10.01.16</option>
+         <option>c 10.12.15 до 10.01.16</option>
+         <option>c 10.12.15 до 10.01.16</option>
+         <option>c 10.12.15 до 10.01.16</option>
+       </select>
+       <!-- TABS START -->
+       <div id="tabs">
+         <img src="img/sprite_sex.png">
+         <ul>
+           <li><a href="#tabs-1">ОБЩИЙ<br> 8 человк</a></li>
+           <li><a href="#tabs-2">ОБЩИЙ<br> 6 человк</a></li>
+           <li><a href="#tabs-3">ЖЕСКИЙ<br> 6 человек</a></li>
+           <li><a href="#tabs-4">МУЖСКОЙ<br> 6 человек</a></li>
+           <li><a href="#tabs-5">VIP - 1<br> 1-2 человека</a></li>
+           <li><a href="#tabs-6">VIP - 2<br> 1-2 человека</a></li>
+         </ul>
+         <div id="tabs-1">
+           <h2>ОБШИЙ номер для 8 человек</h2>
+           <p>Большие двухярусные кровати, каждое спальное место размером 90см на 200см, ортопедические матрасы.Санузел на этаже. В комнате есть индивидуальное освещение, шкафчики с замками (локеры).</p>
+           <div><span>вс.-ср. 140 грн</span><span>чт.-сб. 150грн</span> место/сутки</div>
+           <button class="opener">ЗАБРОНИРОВАТЬ</button>
+         </div>
+         <div id="tabs-2">
+           <h2>ОБШИЙ номер для 6 человек</h2>
+           <p>Большие двухярусные кровати, каждое спальное место размером 90см на 200см, ортопедические матрасы.Санузел на этаже. В комнате есть индивидуальное освещение, шкафчики с замками (локеры).</p>
+           <div><span>вс.-ср. 140 грн</span><span>чт.-сб. 150грн</span> место/сутки</div>
+           <button class="opener">ЗАБРОНИРОВАТЬ</button>
+         </div>
+         <div id="tabs-3">
+           <h2>ЖЕНИСКИЙ номер для 6 человек</h2>
+           <p>Большие двухярусные кровати, каждое спальное место размером 90см на 200см, ортопедические матрасы.Санузел на этаже. В комнате есть индивидуальное освещение, шкафчики с замками (локеры).</p>
+           <div><span>вс.-ср. 140 грн</span><span>чт.-сб. 150грн</span> место/сутки</div>
+           <button class="opener">ЗАБРОНИРОВАТЬ</button>
+         </div>
+         <div id="tabs-4">
+           <h2>МУЖСКОЙ номер для 6 человек</h2>
+           <p>Большие двухярусные кровати, каждое спальное место размером 90см на 200см, ортопедические матрасы.Санузел на этаже. В комнате есть индивидуальное освещение, шкафчики с замками (локеры).</p>
+           <div><span>вс.-ср. 140 грн</span><span>чт.-сб. 150грн</span> место/сутки</div>
+           <button class="opener">ЗАБРОНИРОВАТЬ</button>
+         </div>
+         <div id="tabs-5">
+           <h2>VIP - 1 номер для 1-2 человек</h2>
+           <p>Большие двухярусные кровати, каждое спальное место размером 90см на 200см, ортопедические матрасы.Санузел на этаже. В комнате есть индивидуальное освещение, шкафчики с замками (локеры).</p>
+           <div><span>вс.-ср. 140 грн</span><span>чт.-сб. 150грн</span> место/сутки</div>
+           <button class="opener">ЗАБРОНИРОВАТЬ</button>
+         </div>
+         <div id="tabs-6">
+           <h2>VIP - 2 номер для 1-2 человек</h2>
+           <p>Большие двухярусные кровати, каждое спальное место размером 90см на 200см, ортопедические матрасы.Санузел на этаже. В комнате есть индивидуальное освещение, шкафчики с замками (локеры).</p>
+           <div><span>вс.-ср. 140 грн</span><span>чт.-сб. 150грн</span> место/сутки</div>
+           <button class="opener">ЗАБРОНИРОВАТЬ</button>
+         </div>
+       </div>
+     </div>
+
+     <!--  HERE IS END OF TABS FOR HOTELS' NUMBERS -->
+
+     <!-- HERE IS START OF SLIDER --> 
+     <div class="flexwrapper">
+     <div class="flexslider">
+       <ul class="slides">
+         <li data-thumb="img/slider1-thumb.png">
+           <img src="img/slider_picture_1.png" />
+         </li>
+         <li data-thumb="img/slider2-thumb.png">
+           <img src="img/slider_picture_2.png" />
+         </li>
+           <li data-thumb="img/slider3-thumb.png">
+           <img src="img/slider_picture_3.png" />
+         </li>
+         <li data-thumb="img/slider4-thumb.png">
+           <img src="img/slider_picture_4.png" />
+         </li>
+         <li data-thumb="img/slider5-thumb.png">
+           <img src="img/slider_picture_5.png" />
+         </li>
+       </ul>
+     </div>
+     </div> 
+     <!-- HERE IS END OF SLIDER -->
+     <img class="sprite_advantages" src="img/sprite_advantages.png">
+     <ul class="advantages">
+       <li>Заезд в 14.00,<br> выезд в 11.00</li>
+       <li>Горячая вода<br> 24/7</li>
+       <li>Wi-Fi</li>
+       <li>Индивидуальные<br> светильники и розетки</li>
+       <li>Шкафчики<br> на замках</li>
+       <li>Постельное бельё и полотенца<br> высого качества</li>
+     </ul>
+   </div>
+
+   <!-- HERE IS START FOR FEEDBACK -->
+   <div class="feedback--wrapper">
+     <div class="feedback__title">ОТЗЫВЫ:</div>
+     <div class="feedback__slider">
+         <div class="carousel">
+          <ul class="slides">
+            <li>
+              <img src="img/feedback.png">
+              <div class="feedback--person__title">Пьер, компания "Компания"</div>
+              <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus sequi tempora, quaerat sunt eum doloribus tenetur iusto impedit laborum illum quod iste quibusdam pariatur alias est sed maxime delectus similique.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus sequi tempora, quaerat sunt eum doloribus tenetur iusto impedit laborum illum quod iste quibusdam pariatur alias est sed maxime delectus similique.</div>
+            </li>
+            <li>
+              <img src="img/feedback.png">
+              <div class="feedback--person__title">Пьер, компания "Компания"</div>
+              <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum aliquid dicta sint, at placeat, iusto, inventore eum laborum nisi laboriosam, accusantium sunt deserunt! Magnam aliquam, ducimus dolores nobis reprehenderit tempore!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus sequi tempora, quaerat sunt eum doloribus tenetur iusto impedit laborum illum quod iste quibusdam pariatur alias est sed maxime delectus similique.</div> 
+            </li>
+            <li >
+              <img src="img/feedback.png">
+              <div class="feedback--person__title">Пьер, компания "Компания"</div>
+              <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas incidunt nisi officia doloremque rem a beatae facilis voluptates reprehenderit accusantium, magni officiis eum aspernatur ducimus laborum maiores, quibusdam quas quisquam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus sequi tempora, quaerat sunt eum doloribus tenetur iusto impedit laborum illum quod iste quibusdam pariatur alias est sed maxime delectus similique.</div>  
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="feedback__slider">
+         <div class="carousel">
+          <ul class="slides">
+            <li>
+              <img src="img/feedback.png">
+              <div class="feedback--person__title">Пьер, компания "Компания"</div>
+              <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus sequi tempora, quaerat sunt eum doloribus tenetur iusto impedit laborum illum quod iste quibusdam pariatur alias est sed maxime delectus similique.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus sequi tempora, quaerat sunt eum doloribus tenetur iusto impedit laborum illum quod iste quibusdam pariatur alias est sed maxime delectus similique.</div>
+            </li>
+            <li>
+              <img src="img/feedback.png">
+              <div class="feedback--person__title">Пьер, компания "Компания"</div>
+              <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum aliquid dicta sint, at placeat, iusto, inventore eum laborum nisi laboriosam, accusantium sunt deserunt! Magnam aliquam, ducimus dolores nobis reprehenderit tempore!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus sequi tempora, quaerat sunt eum doloribus tenetur iusto impedit laborum illum quod iste quibusdam pariatur alias est sed maxime delectus similique.</div> 
+            </li>
+            <li >
+              <img src="img/feedback.png">
+              <div class="feedback--person__title">Пьер, компания "Компания"</div>
+              <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas incidunt nisi officia doloremque rem a beatae facilis voluptates reprehenderit accusantium, magni officiis eum aspernatur ducimus laborum maiores, quibusdam quas quisquam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus sequi tempora, quaerat sunt eum doloribus tenetur iusto impedit laborum illum quod iste quibusdam pariatur alias est sed maxime delectus similique.</div>  
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- FORM START -->
+      <form id="feedback--form" action="#" name="form" method="POST">
+        <div>
+          <div>Имя<input type="text" name="first_name" id="first_name"></div>
+        </div>
+        <div>
+          <textarea cols="70" rows="20"></textarea>
+        </div>
+        <input type="submit" value="Отправить">
+      </form>
+
+      <div class="aske--feedback--wrapper">
+        <div class="showForm"><button class="openerForm">Напишите нам </button>, что бы Вы хотели изменить или добавить.</div>
+      </div>
+      <!-- FORM END -->
+   </div>
+   <!-- HERE IS END FOR FEEDBACK -->
+   <!-- HERE IS END OF CONTENT -->
+
+   <!-- HERE IS START OF FOOTER -->
+   <footer>
+     <div class="contacts--wrapper">
+       <div class="contacts__title">КОНТАКТЫ:</div>
+       <ul class="contacts__phones">
+         <li><a class="home" href=""></a>+38 (044) 123-45-67</li>
+         <li><a class="kyivstar" href=""></a>+38 (096) 123-45-67</li>
+         <li><a class="life" href=""></a>+38 (063) 123-45-67</li>
+         <li><a class="vodafone" href=""></a>+38 (050) 123-45-67</li>
+       </ul>
+       <div class="mail"><a href=""></a><span>E-mail:</span>lightlife@hostel.kiev.ua</div>
+       <div class="viber"><a href=""></a><span>Viber:</span>+380961234567</div>
+       <div class="skype"><a href=""></a><span>Skype:</span>lightlife</div>
+       <img src="img/location_footer.png" alt="">
+       <div class="addres"><span>г.Киев, ул.Киквидзу, 1/2</span><br>м. "Дружбы наролоа" м."Печерск"</div>
+     </div>
+     <div class="form--footer">
+       <div id="dialog">
+       <form class="phone">
+       <div class="form__title">или Оставть заявку,<br>мы свяжемся с вами</div>
+         <div>
+           <input id="name" type="text" value="Ваше имя">
+         </div>
+         <div>
+           <input id="phone" type="tel">
+         </div>
+         <input class="take--call" type="submit" value="Отправить">
+       </form>
+     </div>
+     </div>
+   </footer>
+   <!-- HERE IS END OF FOOTET -->
+
+  </div>
+
+  
+
+</body>
+</html>

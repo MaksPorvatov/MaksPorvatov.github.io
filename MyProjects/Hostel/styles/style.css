@@ -1,0 +1,546 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:700,400);
+body {
+  max-width: 2000px;
+  margin: 0 auto;
+  height: 100%;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center; }
+
+.wrapper {
+  position: relative;
+  overflow: hidden; }
+
+/*HEDAER*/
+header {
+  background: url(../img/picture_main_header.png);
+  background-position: center;
+  width: 2000px;
+  height: 665px; }
+
+/*MENU TOP*/
+.menu--top__wrapper {
+  position: relative;
+  overflow: hidden;
+  height: 65px;
+  background-color: #f6f6f6; }
+
+.logo {
+  float: left;
+  margin-left: 94px;
+  margin-top: -3px;
+  clear: both; }
+
+#changeLa {
+  float: left;
+  margin-left: 54px;
+  margin-top: 25px;
+  font-size: 14px; }
+
+.menu--top {
+  float: left;
+  display: block;
+  margin-left: 55px; }
+  .menu--top .menu--top__item {
+    float: left;
+    margin-left: 22px;
+    margin-top: 4px; }
+    .menu--top .menu--top__item .menu--top__link {
+      display: block;
+      text-decoration: none;
+      color: black;
+      font-size: 15px;
+      padding: 23px 5px 23px 5px; }
+    .menu--top .menu--top__item .menu--top__link:hover {
+      color: #58c7f2; }
+
+/*MENU END 
+
+BOX FOR HEADER LEFT */
+.header__box {
+  position: relative;
+  overflow: hidden;
+  float: left;
+  width: 815px;
+  margin-left: 75px; }
+  .header__box .header__box--title {
+    background-color: rgba(110, 206, 244, 0.9);
+    font-weight: bold;
+    color: white;
+    font-size: 75px;
+    margin-top: 90px;
+    padding: 10px 0px 10px 0px; }
+  .header__box .header__box--information {
+    background: url(../img/background_for_header_box.png);
+    width: 815px;
+    height: 145px;
+    margin-top: 60px; }
+  .header__box #dialog {
+    background-color: white; }
+  .header__box .visa {
+    float: left;
+    margin-left: -10px;
+    margin-top: 90px; }
+  .header__box .box--1, .header__box .box--2, .header__box .box--3 {
+    float: left;
+    color: white;
+    font-size: 16px;
+    margin-left: -20px;
+    margin-top: 50px; }
+    .header__box .box--1 span, .header__box .box--2 span, .header__box .box--3 span {
+      font-weight: bold;
+      margin-left: 62px; }
+  .header__box .location {
+    position: absolute;
+    left: 335px;
+    top: 277px; }
+  .header__box .box--2 {
+    margin-top: 64px;
+    margin-left: -3px; }
+  .header__box .box--3 {
+    font-weight: bold;
+    color: white; }
+  .header__box .box--3 {
+    float: right;
+    margin-right: 28px;
+    margin-top: 73px; }
+  .header__box .lignt {
+    margin-top: 100px; }
+  .header__box .submit {
+    color: white;
+    font-weight: bold;
+    font-size: 26px;
+    padding: 25px 103px 25px 103px;
+    background-color: #0e91c4;
+    border: 0;
+    margin-top: 40px;
+    margin-left: 356px; }
+  .header__box .submit:hover {
+    background-color: #58c7f2;
+    border-bottom: 7px solid #0e91c4; }
+
+.header__box--contacts {
+  float: left; }
+  .header__box--contacts .first--number, .header__box--contacts .second--number {
+    color: white;
+    font-size: 29px;
+    margin-left: 88px;
+    margin-top: 99px; }
+    .header__box--contacts .first--number span, .header__box--contacts .second--number span {
+      font-weight: bold; }
+  .header__box--contacts .second--number {
+    margin-top: 13px;
+    margin-left: 90px; }
+
+button.opener {
+  position: absolute;
+  left: 983px;
+  top: 265px;
+  background-color: rgba(255, 255, 255, 0.2);
+  font-size: 21px;
+  font-weight: bold;
+  color: white;
+  padding: 10px 34px 10px 34px;
+  border: 1px solid white; }
+
+button.opener:hover {
+  background-color: #58c7f2; }
+
+#dialog {
+  background-color: white; }
+
+form.phone {
+  margin-top: 20px; }
+  form.phone .take--call {
+    display: block;
+    margin-top: 20px;
+    margin-left: 92px;
+    background-color: white;
+    padding: 15px; }
+  form.phone .take--call:hover {
+    background-color: #58c7f2; }
+
+/*HERE IS END OF HEADER PART*/
+/*HERE IS STAR OF MENU FIXED*/
+.menu--fixed--wrapper {
+  background: url(../img/fone_main_menu.png);
+  height: 55px;
+  z-index: 1; }
+  .menu--fixed--wrapper .menu--fixed {
+    float: left;
+    margin-left: 20px; }
+    .menu--fixed--wrapper .menu--fixed .menu--fixed__item {
+      float: left;
+      margin-top: 20px; }
+      .menu--fixed--wrapper .menu--fixed .menu--fixed__item .menu--fixed__link {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        padding: 20px 6px 20px 6px;
+        font-size: 13px; }
+      .menu--fixed--wrapper .menu--fixed .menu--fixed__item .menu--fixed__link:hover {
+        background-color: #b0b0b0; }
+  .menu--fixed--wrapper .menu--fixed__phones {
+    float: left;
+    margin-top: 10px;
+    margin-left: 32px; }
+    .menu--fixed--wrapper .menu--fixed__phones .phones {
+      font-weight: bold;
+      font-size: 18px; }
+  .menu--fixed--wrapper button.opener {
+    position: absolute;
+    left: 1060px;
+    top: 1px;
+    background-color: white;
+    color: #58c7f2;
+    padding: 17px 40px 17px 40px;
+    font-size: 16px; }
+  .menu--fixed--wrapper button.opener:hover {
+    background-color: #58c7f2;
+    color: white;
+    border: 0px; }
+
+/*HERE IS END OF MENU FIXED*/
+/*CONTENT*/
+.content {
+  position: relative;
+  overflow: hidden; }
+
+/*HERE IS STARST OF TABS FOR HOTELS' NUMBERS*/
+.hotels--numbers-wrapper {
+  position: relative;
+  overflow: hidden;
+  float: left; }
+  .hotels--numbers-wrapper .numbers__title {
+    float: left;
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 74px;
+    margin-top: 21px; }
+  .hotels--numbers-wrapper .price {
+    float: left;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 38px;
+    margin-left: 46px; }
+  .hotels--numbers-wrapper select {
+    float: left;
+    margin-left: 10px;
+    margin-top: 30px;
+    padding: 5px; }
+
+/*TABS START*/
+#tabs {
+  position: relative;
+  overflow: hidden;
+  float: left;
+  margin-left: 73px;
+  margin-top: 27px;
+  border: none;
+  clear: both; }
+  #tabs img {
+    position: absolute;
+    left: 25px;
+    top: 30px; }
+  #tabs ul {
+    float: left;
+    clear: both; }
+    #tabs ul li {
+      margin: 10px;
+      width: 175px; }
+  #tabs a {
+    display: block;
+    border: dashed 1px;
+    width: 175px;
+    background-color: white;
+    margin-top: 5px;
+    text-decoration: none;
+    color: black;
+    padding: 20px; }
+  #tabs .tabs--click {
+    background-color: #58c7f2;
+    border: solid #58c7f2; }
+
+#tabs-1, #tabs-2, #tabs-3, #tabs-4, #tabs-5, #tabs-6 {
+  height: 100%;
+  width: 800px; }
+  #tabs-1 h2, #tabs-2 h2, #tabs-3 h2, #tabs-4 h2, #tabs-5 h2, #tabs-6 h2 {
+    float: left;
+    color: #58c7f2;
+    font-size: 25px;
+    padding: 10px;
+    font-weight: bold;
+    margin-left: 97px;
+    margin-top: 10px;
+    overflow: hidden; }
+  #tabs-1 p, #tabs-2 p, #tabs-3 p, #tabs-4 p, #tabs-5 p, #tabs-6 p {
+    position: absolute;
+    width: 452px;
+    text-align: justify;
+    left: 303px;
+    top: 96px; }
+  #tabs-1 div, #tabs-2 div, #tabs-3 div, #tabs-4 div, #tabs-5 div, #tabs-6 div {
+    position: absolute;
+    width: 413px;
+    left: 263px;
+    top: 225px; }
+    #tabs-1 div span, #tabs-2 div span, #tabs-3 div span, #tabs-4 div span, #tabs-5 div span, #tabs-6 div span {
+      font-weight: bold;
+      margin-left: 15px;
+      margin-right: 25px; }
+  #tabs-1 button.opener, #tabs-2 button.opener, #tabs-3 button.opener, #tabs-4 button.opener, #tabs-5 button.opener, #tabs-6 button.opener {
+    position: absolute;
+    left: 307px;
+    top: 276px;
+    background-color: #0e91c4;
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    padding: 25px 103px 25px 103px; }
+  #tabs-1 button.opener:hover, #tabs-2 button.opener:hover, #tabs-3 button.opener:hover, #tabs-4 button.opener:hover, #tabs-5 button.opener:hover, #tabs-6 button.opener:hover {
+    background-color: #58c7f2;
+    border-bottom: 7px solid #0e91c4; }
+
+.flex-control-thumbs img {
+  width: 55px !important;
+  padding: 5px; }
+
+.flex-control-thumbs li {
+  width: auto !important; }
+
+.flexwrapper {
+  margin-top: 50px; }
+
+.flexslider {
+  float: left;
+  width: 450px;
+  height: 400px; }
+
+.advantages {
+  position: absolute;
+  left: 330px;
+  top: 537px; }
+  .advantages li {
+    float: left;
+    margin-left: 45px; }
+
+.sprite_advantages {
+  position: absolute;
+  left: 405px;
+  top: 490px; }
+
+/*HERE IS START FOR FEEDBACK*/
+.feedback--wrapper {
+  position: relative;
+  overflow: hidden;
+  height: 650px; }
+
+.feedback__title {
+  float: left;
+  margin-left: 79px;
+  margin-top: 55px;
+  font-weight: bold;
+  font-size: 36px; }
+
+.feedback__slider {
+  float: left;
+  width: 400px;
+  margin-top: 135px;
+  margin-left: 75px; }
+  .feedback__slider .carousel .slides li img {
+    float: left; }
+  .feedback__slider .carousel .slides li .feedback--person__title {
+    margin-left: 15px;
+    margin-top: 48px;
+    font-weight: bold;
+    font-size: 15px; }
+  .feedback__slider .carousel .slides li div {
+    float: left;
+    text-align: justify;
+    margin-top: 30px;
+    line-height: 24px; }
+
+/*HERE IS END FOR FEEDBACK*/
+/*FEEDBACK START*/
+#feedback--form {
+  float: left;
+  border: 1px solid #58c7f2;
+  position: fixed;
+  left: 335px;
+  top: 160px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 15px;
+  -webkit-box-shadow: -1px -1px 63px 8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px -1px 63px 8px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px -1px 63px 8px rgba(0, 0, 0, 0.75);
+  display: none;
+  z-index: 1; }
+  #feedback--form div {
+    margin-top: 10px; }
+
+.aske--feedback--wrapper {
+  position: relative;
+  overflow: hidden;
+  float: left;
+  margin-top: 145px;
+  margin-left: 365px; }
+  .aske--feedback--wrapper div {
+    font-size: 20px;
+    font-weight: bold; }
+    .aske--feedback--wrapper div button {
+      background-color: white;
+      color: #58c7f2;
+      border: 0px;
+      font-size: 20px;
+      font-weight: bold; }
+    .aske--feedback--wrapper div button:hover {
+      color: #0e91c4; }
+
+/*FEEDBACK AND*/
+/*CONTENT END*/
+/*FOOTET START*/
+footer {
+  background: url(../img/fone_footer.png);
+  position: relative;
+  overflow: hidden; }
+  footer .contacts--wrapper {
+    position: relative;
+    overflow: hidden;
+    float: left;
+    background-color: white;
+    padding: 10px;
+    margin-left: 73px;
+    width: 33%; }
+    footer .contacts--wrapper .contacts__title {
+      font-weight: bold;
+      font-size: 35px;
+      margin-top: 50px;
+      margin-left: -218px; }
+    footer .contacts--wrapper .contacts__phones {
+      line-height: 22px;
+      font-weight: bold;
+      margin-top: 17px;
+      font-size: 19px;
+      float: left;
+      margin-left: 143px; }
+      footer .contacts--wrapper .contacts__phones li {
+        margin-left: 10px;
+        margin-top: 15px; }
+        footer .contacts--wrapper .contacts__phones li a {
+          display: block;
+          width: 20px;
+          height: 18px;
+          background: url(../img/sprite_contacts_phone.png) no-repeat;
+          position: absolute;
+          left: 140px;
+          top: 129px; }
+        footer .contacts--wrapper .contacts__phones li .kyivstar, footer .contacts--wrapper .contacts__phones li .life, footer .contacts--wrapper .contacts__phones li .vodafone {
+          display: block;
+          width: 18px;
+          height: 18px;
+          background: url(../img/sprite_contacts_phone.png) no-repeat;
+          position: absolute;
+          left: 137px;
+          top: 164px;
+          background-position: 0px -23px; }
+        footer .contacts--wrapper .contacts__phones li .life, footer .contacts--wrapper .contacts__phones li .vodafone {
+          top: 201px;
+          background-position: 0px -45px; }
+        footer .contacts--wrapper .contacts__phones li .vodafone {
+          top: 240px;
+          background-position: 0px -63px; }
+    footer .contacts--wrapper .mail {
+      float: left;
+      font-weight: bold;
+      margin-top: 47px;
+      margin-left: 113px;
+      font-size: 18px; }
+      footer .contacts--wrapper .mail a {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        top: 307px;
+        left: 93px;
+        background: url(../img/sprite_contacts_phone.png) no-repeat;
+        background-position: 0px -80px; }
+      footer .contacts--wrapper .mail span {
+        color: #979797; }
+    footer .contacts--wrapper .viber {
+      float: left;
+      font-weight: bold;
+      margin-top: 56px;
+      margin-left: 143px;
+      font-size: 18px; }
+      footer .contacts--wrapper .viber a {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        top: 378px;
+        left: 128px;
+        background: url(../img/sprite_contacts_phone.png) no-repeat;
+        background-position: -1px -123px; }
+      footer .contacts--wrapper .viber span {
+        color: #a167c3; }
+    footer .contacts--wrapper .skype {
+      float: left;
+      font-weight: bold;
+      margin-top: 17px;
+      margin-left: 173px;
+      font-size: 18px; }
+      footer .contacts--wrapper .skype a {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        top: 414px;
+        left: 154px;
+        background: url(../img/sprite_contacts_phone.png) no-repeat;
+        background-position: -1px -100px; }
+      footer .contacts--wrapper .skype span {
+        color: #2e9aed; }
+    footer .contacts--wrapper img {
+      position: absolute;
+      left: 221px;
+      top: 476px; }
+    footer .contacts--wrapper .addres {
+      float: left;
+      margin-top: 115px;
+      margin-left: 112px;
+      font-weight: bold; }
+      footer .contacts--wrapper .addres span {
+        font-size: 19px; }
+  footer .form--footer {
+    position: relative;
+    overflow: hidden;
+    float: left; }
+    footer .form--footer #dialog {
+      position: relative;
+      overflow: hidden;
+      background-color: #e5e5e5;
+      display: block;
+      margin-left: 148px;
+      margin-top: 120px;
+      width: 391px;
+      height: 431px; }
+      footer .form--footer #dialog .form__title {
+        color: #58c7f2;
+        margin-top: 49px;
+        font-size: 34px;
+        font-weight: bold; }
+      footer .form--footer #dialog input {
+        margin-top: 22px;
+        margin-left: -1px;
+        padding: 25px 100px 25px 100px; }
+      footer .form--footer #dialog input.take--call {
+        margin-left: 21px;
+        margin-top: 15px;
+        font-size: 30px;
+        background-color: #58c7f2;
+        border-bottom: 5px solid #0e91c4;
+        color: white; }
+      footer .form--footer #dialog input.take--call:hover {
+        background-color: #0e91c4;
+        border: 0px; }
+
+/*background: url(../img/sprite_contacts_phone.png) 0 0 no-repeat;*/
+
+/*# sourceMappingURL=style.css.map */
