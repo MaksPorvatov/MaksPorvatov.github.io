@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Hostel</title>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <script type="text/javascript" src="../js/jquery-phone.min.js"></script>
+  <script type="text/javascript" src="../js/jquery.flexslider-min.js"></script>
+  <script type="text/javascript" src="../js/script.js"></script>
+  <link rel="stylesheet" href="../styles/style.css">
+
+</head>
+<body>
+
+
+  <div class="wrapper--rus">
+    <!-- HEADER -->
+    <header>
+      <!-- MENU -->
+      <div class="menu--top__wrapper">
+        <div class="logo"><img src="../img/logo.png" alt="logo"></div>
+        <a class="changeLang">ENG</a>
+        <a href="../index.html" class="changeLang--rus">РУС</a>
+        <ul class="menu--top">
+          <li class="menu--top__item"><a href="" class="menu--top__link">Rooms & prices</a></li>
+          <li class="menu--top__item"><a href="" class="menu--top__link">Optional services</a></li>
+          <li class="menu--top__item"><a href="" class="menu--top__link">What we offer</a></li>
+          <li class="menu--top__item"><a href="" class="menu--top__link">Feedbacks</a></li>
+          <li class="menu--top__item"><a href="" class="menu--top__link">Close to us</a></li>
+          <li class="menu--top__item"><a href="" class="menu--top__link">Get directions</a></li>
+          <li class="menu--top__item"><a href="" class="menu--top__link">Contacts</a></li>
+        </ul> 
+      </div>
+     <!--  MENU END -->
+
+     <!-- BOX FOR HEADER LEFT -->
+     <div class="header__box">
+       <div class="header__box--title">HOSTEL in the center of Kiev</div> 
+       <div class="header__box--information">
+         <div class="box--1"><span>You can pay by cash or by card</span><br>the price from 150 USD/day</div>
+         <img class="visa" src="../img/visa.png" alt="visa">
+         <div class="box--2"><span>We have convenient location</span><br>in the center of Kiev</div>
+         <img class="location" src="../img/location.png" alt="location">
+         <div class="box--3">8-6-2-1 places in rooms<br> comfort conditions</div>
+         <img class="lignt" src="../img/light.png" alt="light">
+       </div>
+       <form action="#" method="post">
+         <input type="submit" class="submit" value="Make a reservation" />
+       </form> 
+     <!-- BOX FOR HEADER LEFT END -->
+     </div>
+     <!-- BOX FOR HEADER RIGNT -->
+       <div class="header__box--contacts">
+         <div class="first--number">+38 (044) <span>123-45-67</span></div>
+         <div class="second--number">+38 (096) <span>123-45-67</span></div>
+       </div>
+     <!-- BOX FOR HEADER RIGNT END -->
+     <div id="dialog">
+       <form>
+         <div>
+           <input id="name" type="text" required placeholder="Your name">
+         </div>
+         <div>
+           <input class="phone" type="tel">
+         </div>
+         <input class="take--call" type="submit" value="Send">
+       </form>
+     </div>
+     <button class="opener">Order a call</button>
+    </header>
+    <!-- HERE IS END OF HEADER -->
+
+    <!-- HERE IS STAR OF MAIN MENU FIXED -->
+    <div class="menu--fixed--wrapper">
+      <nav>
+        <ul class="menu--fixed">
+          <li class="menu--fixed__item"><a href="#" class="menu--fixed__link">Main</a></li>
+          <li class="menu--fixed__item"><a href="#" class="menu--fixed__link">Rooms & prices</a></li>
+          <li class="menu--fixed__item"><a href="#" class="menu--fixed__link">Optional services</a></li>
+          <li class="menu--fixed__item"><a href="#" class="menu--fixed__link">What we offer</a></li>
+          <li class="menu--fixed__item"><a href="#" class="menu--fixed__link">Feedbacks</a></li>
+          <li class="menu--fixed__item"><a href="#" class="menu--fixed__link">Close to us</a></li>
+          <li class="menu--fixed__item"><a href="#" class="menu--fixed__link">Get directions</a></li>
+          <li class="menu--fixed__item"><a href="#" class="menu--fixed__link">Contacts</a></li>
+        </ul>
+      </nav>
+      <div class="menu--fixed__phones">
+        <div class="phones">+38 (044) 123-45-67</div>
+        <div class="phones">+38 (044) 123-45-67</div>
+      </div>
+      <input class="opener" type="submit" value="Order a call">
+    </div>
+    <!-- HERE IS END OF MAIN MENU FIXED -->
+
+   <!-- HERE IS STAT OF CONTENT -->
+   <div class="content">
+     <!--  HERE IS STARST OF TABS FOR HOTELS' NUMBERS -->
+     <div class="hotels--numbers-wrapper">
+       <div class="numbers__title">ROOMS & PRICES</div>
+       <div class="price">Cost: </div>
+       <select>
+         <option>from 10.12.15 to 10.01.16</option>
+         <option>from 10.12.15 to 10.01.16</option>
+         <option>from 10.12.15 to 10.01.16</option>
+         <option>from 10.12.15 to 10.01.16</option>
+       </select>
+       <!-- TABS START -->
+       <div id="tabs">
+         <img src="../img/sprite_sex.png">
+         <ul>
+           <li><a href="#tabs-1">COMMON<br> 8 people</a></li>
+           <li><a href="#tabs-2">COMMON<br> 6 people</a></li>
+           <li><a href="#tabs-3">FEMALE<br> 6 people</a></li>
+           <li><a href="#tabs-4">MALE<br> 6 people</a></li>
+           <li><a href="#tabs-5">VIP - 1<br> 1-2 people</a></li>
+           <li><a href="#tabs-6">VIP - 2<br> 1-2 people</a></li>
+         </ul>
+         <div id="tabs-1">
+           <h2>COMON ROOM FOR 8 people</h2>
+           <p>Large bunk beds, each bed measuring 90 cm by 200 cm, orthopedic matrasy. Bathroom on the floor. Rooms has individual lighting, lockers (lockers).</p>
+           <div><span>sun.-wed. 140 USD</span><span>thu.-sat. USD</span> place/day</div>
+           <button class="opener">MAKE A RESERVATION</button>
+         </div>
+         <div id="tabs-2">
+           <h2>COMON ROOM FOR 6 people</h2>
+           <p>Large bunk beds, each bed measuring 90 cm by 200 cm, orthopedic matrasy. Bathroom on the floor. Rooms has individual lighting, lockers (lockers).</p>
+           <div><span>sun.-wed. 140 USD</span><span>thu.-sat. USD</span> place/day</div>
+           <button class="opener">MAKE A RESERVATION</button>
+         </div>
+         <div id="tabs-3">
+           <h2>FEMALE ROOM FOR 6 people</h2>
+           <p>Large bunk beds, each bed measuring 90 cm by 200 cm, orthopedic matrasy. Bathroom on the floor. Rooms has individual lighting, lockers (lockers).</p>
+           <div><span>sun.-wed. 140 USD</span><span>thu.-sat. USD</span> place/day</div>
+           <button class="opener">MAKE A RESERVATION</button>
+         </div>
+         <div id="tabs-4">
+           <h2>MALE ROOM FOR 6 people</h2>
+           <p>Large bunk beds, each bed measuring 90 cm by 200 cm, orthopedic matrasy. Bathroom on the floor. Rooms has individual lighting, lockers (lockers).</p>
+           <div><span>sun.-wed. 140 USD</span><span>thu.-sat. USD</span> place/day</div>
+           <button class="opener">MAKE A RESERVATION</button>
+         </div>
+         <div id="tabs-5">
+           <h2>VIP - 1 room for 1-2 people</h2>
+           <p>Large bunk beds, each bed measuring 90 cm by 200 cm, orthopedic matrasy. Bathroom on the floor. Rooms has individual lighting, lockers (lockers).</p>
+           <div><span>sun.-wed. 140 USD</span><span>thu.-sat. USD</span> place/day</div>
+           <button class="opener">MAKE A RESERVATION</button>
+         </div>
+         <div id="tabs-6">
+           <h2>VIP - 2 room for 1-2 people</h2>
+           <p>Large bunk beds, each bed measuring 90 cm by 200 cm, orthopedic matrasy. Bathroom on the floor. Rooms has individual lighting, lockers (lockers).</p>
+           <div><span>sun.-wed. 140 USD</span><span>thu.-sat. USD</span> place/day</div>
+           <button class="opener">MAKE A RESERVATION</button>
+         </div>
+       </div>
+     </div>
+
+     <!--  HERE IS END OF TABS FOR HOTELS' NUMBERS -->
+
+     <!-- HERE IS START OF SLIDER --> 
+     <div class="flexwrapper">
+     <div class="flexslider">
+       <ul class="slides">
+         <li data-thumb="../img/slider1-thumb.png">
+           <img src="../img/slider_picture_1.png" />
+         </li>
+         <li data-thumb="../img/slider2-thumb.png">
+           <img src="../img/slider_picture_2.png" />
+         </li>
+           <li data-thumb="../img/slider3-thumb.png">
+           <img src="../img/slider_picture_3.png" />
+         </li>
+         <li data-thumb="../img/slider4-thumb.png">
+           <img src="../img/slider_picture_4.png" />
+         </li>
+         <li data-thumb="../img/slider5-thumb.png">
+           <img src="../img/slider_picture_5.png" />
+         </li>
+       </ul>
+     </div>
+     </div> 
+     <!-- HERE IS END OF SLIDER -->
+     <img class="sprite_advantages" src="../img/sprite_advantages.png">
+     <ul class="advantages">
+       <li>Arrive at 14.00,<br> move at 11.00</li>
+       <li>Hot water 24/7</li>
+       <li>Wi-Fi</li>
+       <li>Personal<br> lapms & electrical outlets</li>
+       <li>Personal<br> lockers</li>
+       <li>Bed linen and towels are of<br>high quality</li>
+     </ul>
+   </div>
+
+   <!-- HERE IS START FOR FEEDBACK -->
+   <div class="feedback--wrapper">
+     <div class="feedback__title">FEEDBACKS:</div>
+     <div class="feedback__slider">
+         <div class="carousel">
+          <ul class="slides">
+            <li>
+              <img src="../img/feedback.png">
+              <div class="feedback--person__title">Pierre, firm "Firm"</div>
+              <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus sequi tempora, quaerat sunt eum doloribus tenetur iusto impedit laborum illum quod iste quibusdam pariatur alias est sed maxime delectus similique.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus sequi tempora, quaerat sunt eum doloribus tenetur iusto impedit laborum illum quod iste quibusdam pariatur alias est sed maxime delectus similique.</div>
+            </li>
+            <li>
+              <img src="../img/feedback.png">
+              <div class="feedback--person__title">Pierre, firm "Firm"</div>
+              <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum aliquid dicta sint, at placeat, iusto, inventore eum laborum nisi laboriosam, accusantium sunt deserunt! Magnam aliquam, ducimus dolores nobis reprehenderit tempore!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus sequi tempora, quaerat sunt eum doloribus tenetur iusto impedit laborum illum quod iste quibusdam pariatur alias est sed maxime delectus similique.</div> 
+            </li>
+            <li >
+              <img src="../img/feedback.png">
+              <div class="feedback--person__title">Pierre, firm "Firm"</div>
+              <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas incidunt nisi officia doloremque rem a beatae facilis voluptates reprehenderit accusantium, magni officiis eum aspernatur ducimus laborum maiores, quibusdam quas quisquam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus sequi tempora, quaerat sunt eum doloribus tenetur iusto impedit laborum illum quod iste quibusdam pariatur alias est sed maxime delectus similique.</div>  
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="feedback__slider">
+         <div class="carousel">
+          <ul class="slides">
+            <li>
+              <img src="../img/feedback.png">
+              <div class="feedback--person__title">Pierre, firm "Firm"</div>
+              <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus sequi tempora, quaerat sunt eum doloribus tenetur iusto impedit laborum illum quod iste quibusdam pariatur alias est sed maxime delectus similique.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus sequi tempora, quaerat sunt eum doloribus tenetur iusto impedit laborum illum quod iste quibusdam pariatur alias est sed maxime delectus similique.</div>
+            </li>
+            <li>
+              <img src="../img/feedback.png">
+              <div class="feedback--person__title">Pierre, firm "Firm"</div>
+              <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum aliquid dicta sint, at placeat, iusto, inventore eum laborum nisi laboriosam, accusantium sunt deserunt! Magnam aliquam, ducimus dolores nobis reprehenderit tempore!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus sequi tempora, quaerat sunt eum doloribus tenetur iusto impedit laborum illum quod iste quibusdam pariatur alias est sed maxime delectus similique.</div> 
+            </li>
+            <li >
+              <img src="../img/feedback.png">
+              <div class="feedback--person__title">Pierre, firm "Firm"</div>
+              <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas incidunt nisi officia doloremque rem a beatae facilis voluptates reprehenderit accusantium, magni officiis eum aspernatur ducimus laborum maiores, quibusdam quas quisquam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus sequi tempora, quaerat sunt eum doloribus tenetur iusto impedit laborum illum quod iste quibusdam pariatur alias est sed maxime delectus similique.</div>  
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- FORM START -->
+      <form id="feedback--form" action="#" name="form" method="POST">
+        <div>
+          <div>Name<input type="text" name="first_name" id="first_name"></div>
+        </div>
+        <div>
+          <textarea cols="70" rows="20"></textarea>
+        </div>
+        <input type="submit" value="SEND">
+      </form>
+
+      <div class="aske--feedback--wrapper">
+        <div class="showForm"><button class="openerForm">Write to us </button>, what would you like to change or add.</div>
+      </div>
+      <!-- FORM END -->
+   </div>
+   <!-- HERE IS END FOR FEEDBACK -->
+   <!-- HERE IS END OF CONTENT -->
+
+   <!-- HERE IS START OF FOOTER -->
+   <footer>
+     <div class="contacts--wrapper">
+       <div class="contacts__title">CONTACTS:</div>
+       <ul class="contacts__phones">
+         <li><a class="home" href=""></a>+38 (044) 123-45-67</li>
+         <li><a class="kyivstar" href=""></a>+38 (096) 123-45-67</li>
+         <li><a class="life" href=""></a>+38 (063) 123-45-67</li>
+         <li><a class="vodafone" href=""></a>+38 (050) 123-45-67</li>
+       </ul>
+       <div class="mail"><a href=""></a><span>E-mail:</span>lightlife@hostel.kiev.ua</div>
+       <div class="viber"><a href=""></a><span>Viber:</span>+380961234567</div>
+       <div class="skype"><a href=""></a><span>Skype:</span>lightlife</div>
+       <img src="../img/location_footer.png" alt="">
+       <div class="addres"><span>Kiev, Kikvidzu str., 1/2</span><br>tube-station "Druzhbyi narodov" and "Pechersk"</div>
+     </div>
+     <div class="form--footer">
+       <div class="dialog">
+       <form>
+       <div class="form__title">or Leava a request,<br>We will contact you</div>
+         <div>
+           <input type="text" name="name" required placeholder="Youe name">
+         </div>
+         <div>
+           <input class="phone" type="tel">
+         </div>
+         <input class="take--call" type="submit" value="Send">
+       </form>
+     </div>
+     </div>
+   </footer>
+   <!-- HERE IS END OF FOOTET -->
+  </div>
+  
+</body>
+</html>

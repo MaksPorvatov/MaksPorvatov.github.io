@@ -2,15 +2,11 @@
 <html>
 <head>
   <meta charset="utf-8">
-	<title>Hostel</title>
-	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <title>Hostel</title>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
   <script type="text/javascript" src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-  <script type="text/javascript" src="js/jquery-phone.min.js"></script>
-  <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
-	<script type="text/javascript" src="js/script.js"></script>
-	<link rel="stylesheet" href="styles/reset.css">
-	<link rel="stylesheet" href="styles/style.css">
-  <link rel="stylesheet" href="styles/flexslider.css">
+  <script type="text/javascript" src="js/dist/script.main.min.js"></script>
+  <link rel="stylesheet" href="styles/style.css">
 
 </head>
 <body>
@@ -22,7 +18,8 @@
       <!-- MENU -->
       <div class="menu--top__wrapper">
         <div class="logo"><img src="img/logo.png" alt="logo"></div>
-        <div id="changeLa">ENG</div>
+        <a href="en/index_en.html" class="changeLang">ENG</a>
+        <a class="changeLang--rus">RUS</a>
         <ul class="menu--top">
           <li class="menu--top__item"><a href="" class="menu--top__link">Номера и цены</a></li>
           <li class="menu--top__item"><a href="" class="menu--top__link">Дополнительные услуги</a></li>
@@ -58,9 +55,14 @@
        </div>
      <!-- BOX FOR HEADER RIGNT END -->
      <div id="dialog">
-       <form class="phone">
-         <input id="phone" type="tel">
-         <input class="take--call" type="submit" value="Заказать звонок">
+       <form>
+         <div>
+           <input id="name" type="text">
+         </div>
+         <div>
+           <input class="phone" type="tel">
+         </div>
+         <input class="take--call" type="submit" value="Отправить">
        </form>
      </div>
      <button class="opener">Заказать звонок</button>
@@ -80,12 +82,12 @@
           <li class="menu--fixed__item"><a href="#" class="menu--fixed__link">Как добраться</a></li>
           <li class="menu--fixed__item"><a href="#" class="menu--fixed__link">Контакты</a></li>
         </ul>
-        <button class="opener">ЗАКАЗАТЬ ЗВОНОК</button>
       </nav>
       <div class="menu--fixed__phones">
         <div class="phones">+38 (044) 123-45-67</div>
         <div class="phones">+38 (044) 123-45-67</div>
       </div>
+      <input class="opener" type="submit" value="Заказать звонок">
      
     </div>
     <!-- HERE IS END OF MAIN MENU FIXED -->
@@ -269,13 +271,13 @@
      </div>
      <div class="form--footer">
        <div class="dialog">
-       <form class="phone">
+       <form>
        <div class="form__title">или Оставть заявку,<br>мы свяжемся с вами</div>
          <div>
-           <input id="name" type="text" value="Ваше имя">
+           <input type="text" name="name" required placeholder="Ваше имя">
          </div>
          <div>
-           <input id="phone" type="tel">
+           <input class="phone" type="tel">
          </div>
          <input class="take--call" type="submit" value="Отправить">
        </form>
@@ -290,3 +292,4 @@
 
 </body>
 </html>
+

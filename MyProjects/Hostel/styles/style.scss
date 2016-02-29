@@ -1,4 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:700,400);
+@import 'reset';
+@import 'slider';
 
 body{
 	max-width:2000px;
@@ -38,10 +40,23 @@ header{
   clear: both;
 }
 
-#changeLa{
+.changeLang{
+	display: block;
+	text-decoration: none;
+	color: black;
 	float: left;
 	margin-left: 54px;
 	margin-top: 25px;
+	font-size: 14px;
+}
+
+.changeLang--rus{
+	position: absolute;
+	left: 303px;
+	top: 10px;
+	display: block;
+	text-decoration: none;
+	color: black;
 	font-size: 14px;
 }
 
@@ -71,31 +86,27 @@ header{
 /*MENU END 
 
 BOX FOR HEADER LEFT */
+
 .header__box{
 	position: relative;
 	overflow: hidden;
 	float: left;
-	width: 815px;
+	width: 41%;
 	margin-left: 75px;
-
 	.header__box--title{
 		background-color: rgba(110,206,244, 0.9);
 		font-weight: bold;
 		color: white;
-		font-size: 75px;
+		font-size: 60px;
 		margin-top: 90px;
 		padding: 10px 0px 10px 0px;
 	}
 
 	.header__box--information{
 		background: url(../img/background_for_header_box.png);
-		width: 815px;
+		width: 99%;
 		height: 145px;
 		margin-top: 60px;
-	}
-
-	#dialog{
-		background-color: white;
 	}
 
 		.visa{
@@ -120,7 +131,7 @@ BOX FOR HEADER LEFT */
 		.location{
 			position: absolute;
 			left: 335px;
-			top: 277px;
+			top: 258px;
 		}
 
 		.box--2{
@@ -202,23 +213,29 @@ button.opener:hover{
 }
 
 #dialog{
-	background-color: white;
+	background-color: #e5e5e5;
+	width: 391px;
+	height: 431px;
 }
 
-form.phone{
-	margin-top: 20px;
+input{
+	margin-top: 22px;
+	margin-left: -1px;
+	padding: 25px 50px 25px 50px;
+}
 
-	.take--call{
-		display: block;
-		margin-top: 20px;
-		margin-left: 92px;
-		background-color: white;
-		padding: 15px; 
-	}
-
-	.take--call:hover{
+	input.take--call{
+		margin-left: 5px;
+		margin-top: 15px;
+		font-size: 30px;
 		background-color: #58c7f2;
+		border-bottom: 5px solid #0e91c4;
+		color: white;
 	}
+
+	input.take--call:hover{
+		background-color: #0e91c4;
+		border: 0px;
 }
 
 
@@ -230,6 +247,7 @@ form.phone{
 	background: url(../img/fone_main_menu.png);
 	height: 55px;
 	z-index: 1;
+	width: 100%;
 
 	.menu--fixed{
 		float: left;
@@ -263,20 +281,21 @@ form.phone{
 		}
 	}
 
-	button.opener{
-		position: absolute;
-		left: 1060px;
-		top: 1px;
+	input.opener{
+		float: left;
 		background-color: white;
 		color: #58c7f2;
-		padding: 17px 40px 17px 40px;
+		padding: 17px 60px 16px 60px;
 		font-size: 16px;
+		margin-top: 1px;
+		margin-left: 132px;
+		border: none;
 	}
 
-	button.opener:hover{
+	input.opener:hover{
 		background-color:#58c7f2;
 		color: white;
-		border: 0px;
+		border: 1px solid #58c7f2;
 	}
 }
 /*HERE IS END OF MENU FIXED*/
@@ -285,6 +304,7 @@ form.phone{
 .content{
 	position: relative;
 	overflow: hidden;
+	clear: both;
 }
 /*HERE IS STARST OF TABS FOR HOTELS' NUMBERS*/
 
@@ -524,7 +544,7 @@ form.phone{
 	border: 1px solid #58c7f2;
 	position: fixed;
 	left: 335px;
-	top: 160px;
+	top: 85px;
 	background-color: white;
 	padding: 30px;
 	border-radius: 15px;
@@ -724,7 +744,7 @@ footer{
 		overflow: hidden;
 		float: left;
 
-		#dialog{
+		.dialog{
 			position: relative;
 			overflow: hidden;
 			background-color: #e5e5e5;
@@ -765,7 +785,7 @@ footer{
 }
 
 
-/*background: url(../img/sprite_contacts_phone.png) 0 0 no-repeat;*/
+
 
 
 
