@@ -1,0 +1,517 @@
+body{
+	font-family: Arial;
+  max-width: 1920px;
+	margin: 0 auto;
+	height:100%;
+}
+
+.wrapper{
+	position: relative;
+	overflow: hidden;
+}
+ 
+/*HERE IS STARS OF TOP BLOCK*/
+
+.top--block--wrapper{
+	position: relative;
+	overflow: hidden;
+	height: 100%;
+	background-color: #f6f6f6;
+
+	.top--block__top--part{
+		position: relative;
+		overflow: hidden;
+
+		.top--part__title--top{
+			margin-left: 627px;
+			margin-top: 26px;
+			font-size: 20px;
+		}
+
+		.top--part__title--bottom{
+			font-size: 40px;
+			margin-left: 555px;
+			margin-top: 27px;
+			letter-spacing: 10px;
+		}
+
+		.top--part__first--block{
+			position: relative;
+			overflow: hidden;
+
+			.first--img{
+				float: left;
+				width: 30%;
+				 
+				 img{
+				  margin-top: -16px;
+				  margin-left: -118px;
+				  float: left;
+			  }
+		  }
+
+			.first--block__text--block{
+				position: relative;
+				overflow: hidden;
+				float: left;
+				width: 70%;
+
+				.first--text{
+					
+
+					h4{
+            margin-left: 28px;
+            margin-top: 150px;
+            font-size: 15px;
+            font-weight: bold;
+					}
+					div{
+						margin-top: 19px;
+						margin-left: 28px;
+            width: 90%;
+            text-align: justify;
+            line-height: 25px;
+            height: 30%;
+					}
+				}
+
+				.second--text{
+					@extend .first--text;
+				}
+			}/*end of .first--block__text--block*/
+		}/*end of .top--part__first--block */
+
+    /*HERE IS START OF SECOND BLOCK*/
+
+    .top--part__second--block{
+    	position: relative;
+    	overflow: hidden;
+    	background-color: white;
+
+    	.second--img{
+    		float: left;
+    		width: 15%;
+    		margin-left: 45px;
+    		 
+
+    		img{
+    			float: left;
+    			margin-left: -125px;
+    			margin-top: 168px;
+    			background-color: #f6f6f6;
+    		}
+    	}
+
+    	.third--img{
+    		float: left;
+    		margin-left: 10px;
+    		margin-top: 10px;
+    		width: 10%;
+
+    		img{
+    			float: left;
+    			margin-top: 215px;
+    			margin-left: 87px;
+    		}
+    	}
+
+    	.second--block__text--block{
+    		position: relative;
+    		overflow: hidden;
+    		float: right;
+    		width: 39%;
+
+    		.first--text{
+    			h4{
+    			  font-weight: bold;
+    			  margin-top: 255px;
+    		  }
+    		  div{
+    		  	margin-top: 10px;
+    		  }
+    		}
+
+    		.second--text{
+    			h4{
+    				margin-top: 40px;
+    				font-weight: bold;
+    			}
+    			div{
+    				margin-top: 10px;
+    			}
+    		}
+
+    		.third--text{
+    			div{
+    				font-weight: bold;
+    				text-align: center;
+    				margin-top: 115px;
+    			}
+    		}
+
+    		.foth--text{
+    			margin-top: 91px;
+    			margin-left: 10px;
+    			width: 90%;
+
+    			h4{
+    				font-weight: bold;
+
+    			}
+    			div{
+           
+    			}
+    		}
+    	}
+    }/*HERE IS AND OF SECOND BLOCK*/
+
+    /*HERE IS START OF THIRD BLOCK*/
+    .top--part__third--block{
+    	position: relative;
+    	overflow: hidden;
+    	background-color: white;
+    	.foth--img{
+        float: left;
+        margin-top: 35px;
+        margin-left: 82px;
+        width: 30%;
+    		img{
+          background-color: #f6f6f6;
+    		}
+    	}
+
+    	.third--block__text--block{
+    		position: relative;
+    		overflow: hidden;
+    		float: left;
+    		width: 43%;
+    		margin-left: 169px;
+    		.first--text{
+    			h4{
+    				font-weight: bold;
+    				margin-top: 140px;
+    				margin-left: 69px;
+    			}
+    			div{
+    				margin-top: 10px;
+    				margin-left: 70px;
+    			}
+    		}
+
+    		.second--text{
+    			margin-top: 40px;
+    			margin-left: 70px;
+    			h4{
+    				font-weight: bold;
+    				margin-top: 10px;
+    			}
+    			div{
+    				margin-top: 10px;
+    			}
+    		}
+
+    		.share--buttons{
+    			position: relative;
+    			overflow: hidden;
+    			ul{
+    				float: left;
+    				margin-top: 26px;
+    				margin-left: 65px;
+    				li{
+    					float: left;
+    					margin-left: 5px;
+    					.face{
+    						display: block;
+    						width: 15px;
+    						height: 13px;
+    						background-image: url(../img/share-sprite.png);
+    					}
+    					.vk{
+    						display: block;
+    						width: 25px;
+    						height: 13px;
+    						background-image: url(../img/share-sprite.png);
+    						background-position: -24px 0;
+    					}
+    				}
+    			}
+
+    			.g-plusone{
+    				width: 20px;
+    				height: 20px;
+    			}
+    		}
+    	}
+    }
+	}
+}
+
+.carousel--wrapper{
+	position: relative;
+	overflow: hidden;
+	background-color: white;
+	text-align: center;
+	border-bottom: 3px solid #e5e5e5;
+  .carousel__title{
+  	float: left;
+  	font-style: italic;
+  	font-size: 25px;
+  	margin-top: 30px;
+  	margin-left: 55px;
+  }
+}
+
+/*HERE IS START OF FOOTER*/
+.box--texts{
+	position: relative;
+	overflow: hidden;
+	.first--box{
+		margin-top: 160px;
+		float: left;
+		width: 25%;
+		border-right: 1px solid #e5e5e5;
+		padding: 25px 0 140px 0;
+		.first--box__title{
+      font-weight: bold;
+      text-align: center;
+      font-size: 14px;
+		}
+		.first--box__text{
+			margin-top: 20px;
+      text-align: center;
+      line-height: 22px;
+      font-size: 14px;
+		}
+	}
+
+	.second--box{
+		position: relative;
+		overflow: hidden;
+		float: left;
+		width: 25%;
+		margin-top: 165px;
+		.second--box__title{
+			text-align: center;
+			font-style: italic;
+			a{
+				display: block;
+				color: black;
+				text-decoration: none;
+				font-size: 28px
+			}
+			a:hover{
+				color: #e8dadc;
+			}
+		}
+
+		.second--box__text{
+			text-align: center;
+			margin-top: 20px;
+			line-height: 22px;
+			font-size: 14px;
+			clear: both;
+		}
+	}
+
+	.picture--footer{
+    float: left;
+    margin-top: 115px;
+	}
+
+	.third--box{
+		float: left;
+    position: relative;
+    overflow: hidden;
+    width: 28%;
+    margin-top: 165px;
+    border-left: 1px solid #e5e5e5;
+    margin-left: 12px;
+    padding: 25px 0 140px 0;
+    .third--box__title{
+      font-weight: bold;
+      text-align: center;
+      font-size: 14px;
+		}
+		.third--box__text{
+			margin-top: 20px;
+      text-align: center;
+      line-height: 22px;
+      font-size: 14px;
+		}
+
+		form{
+			margin-top: 40px;
+			margin-left: 90px;
+			input{
+				padding: 20px 18px;
+			}
+			input.submit{
+				background-color: #e8dadc;
+				border: none;
+			}
+		}
+	}
+}/*HERE IS END OF BLOCK UNDER SLID*/
+
+.menu--bottom{
+	position: relative;
+	overflow: hidden;
+	.sub{
+		float: left;
+		margin-top: 45px;
+		color:#808080; 
+		margin-left: 20px;
+	}
+	.menu{
+		float: right;
+		margin-top: 45px;
+		margin-right: 20px;
+		.menu__item{
+      float: left;
+      margin-left: 25px;
+      padding: 0 0 40px 0;
+      .menu__link{
+      	text-decoration: none;
+      	color: #808080;
+      }
+		}
+	}
+}
+/*HERE IS END OF FOOTER*/
+
+
+
+/*--- iPhone only CSS here ---*/
+@media screen and (max-width: 480px){
+  body{
+  	-webkit-text-size-adjust:none;
+    font-family:Helvetica, Arial, Verdana, sans-serif;
+    padding:5px;
+    width: 100%;
+  }
+  div{
+    clear: both!important;
+    display: block!important;
+    width: 100%!important;
+    float: none!important;
+    margin: 0!important;
+    padding: 0!important;
+  }  
+
+  div.top--part__title--top{
+  	margin-left: 105px!important;
+  }
+  div.top--part__title--bottom{
+  	margin-left: 40px!important;
+  }
+
+  .menu, .menu li{
+    float:none!important;
+    clear:both!important;
+    margin:0 0 20px 0!important;
+    display:block;
+    padding:0;
+    text-align:left!important;
+    width:100%;
+  }
+  .menu{
+    border:1px solid #ccc;
+    padding:5px;
+    -webkit-border-radius:5px;
+  }
+  .menu li{
+    margin:0!important;
+  }
+  .menu li a{
+    display:block;
+  }
+
+  img{
+    max-width:100%;
+    height:auto;
+  }
+  
+  .top--block--wrapper .top--block__top--part .top--part__first--block .first--img img{
+  	margin-top: -16px!important;
+  	margin-left: -36px!important;
+  }
+
+  .top--block--wrapper .top--block__top--part .top--part__first--block .first--block__text--block .first--text h4{
+  	margin-top: 7px !important;
+  	margin-left: 15px !important;
+  }
+  .top--block--wrapper .top--block__top--part .top--part__first--block .first--block__text--block .first--text div{
+  	width: 95% !important;
+  }
+
+  .top--block--wrapper .top--block__top--part .top--part__second--block .second--img img{
+  	margin-left: -8px !important;
+    margin-top: 21px !important;
+  }
+
+  .top--block--wrapper .top--block__top--part .top--part__second--block .third--img img {
+    margin-top: 18px !important;
+    margin-left: 10px !important;
+  }
+
+  .top--block--wrapper .top--block__top--part .top--part__second--block .second--block__text--block .first--text h4{
+  	margin-top: 13px !important;
+  }
+
+  .top--block--wrapper .top--block__top--part .top--part__second--block .second--block__text--block .first--text div{
+    margin-top: 10px !important;
+  }
+
+  .top--block--wrapper .top--block__top--part .top--part__second--block .second--block__text--block .second--text div {
+    margin-top: 10px !important;
+  }
+
+  .top--block--wrapper .top--block__top--part .top--part__second--block .second--block__text--block .third--text div{
+  	margin-top: 25px !important;
+  }
+
+  .top--block--wrapper .top--block__top--part .top--part__second--block .second--block__text--block .foth--text h4{
+  	margin-top: 25px !important;
+  }
+
+  .top--block--wrapper .top--block__top--part .top--part__second--block .second--block__text--block .foth--text div{
+  	margin-top: 10px !important;
+  	text-align: justify !important;
+  	width: 95% !important;
+  }
+
+  .top--block--wrapper .top--block__top--part .top--part__third--block .third--block__text--block .first--text h4{
+  	margin-top: 15px !important;
+    margin-left: 0px !important;
+  }
+  .top--block--wrapper .top--block__top--part .top--part__third--block .third--block__text--block .first--text div{
+  	text-align: justify;
+  	width: 95% !important;
+  }
+
+  .box--texts .first--box .first--box__title{
+  	margin-top: 15px !important;
+  }
+
+  .box--texts .second--box .second--box__title a{
+  	margin-top: 15px !important;
+  }
+
+  .box--texts .picture--footer{
+  	margin-top: 3px !important;
+  	margin-left: 55px !important; 
+  }
+
+  .box--texts .third--box form {
+    margin-left: 30px !important;
+  }
+
+
+
+
+
+
+
+}
+
+
