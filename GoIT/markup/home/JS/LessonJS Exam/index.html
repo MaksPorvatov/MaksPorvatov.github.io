@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>JS Exam</title>
+	<script src="js/jquery-1.12.1.min.js"></script>
+	<script src="js/template.js"></script>
+	<script src="js/jquery.flexslider-min.js"></script>
+	<script src="js/isotope.js"></script>
+	<script src="js/script.js"></script>
+	<link rel="stylesheet" href="styles/reset.css">
+	<link rel="stylesheet" href="styles/style.css">
+	<link rel="stylesheet" href="styles/flexslider.css">
+</head>
+<body>
+
+  <div class="wrapper">
+
+  	<!-- HERE IS START OF HEADER -->
+  	<div class="header">
+  		<div class="log-sign">
+  			<button type="submit" value="Log in" class="login" >Log in</button>
+  			<button type="submit" value="Sign up" class="signup" >Sign up</button>
+  		</div>
+  		<h1 class="header__title--top">URLAUBSGLÜCK</h1>
+  		<h3 class="header__title--middle">SHARE YOUR HOLIDAYS DREAMS</h3>
+  		<h3 class="header__title--bottom">And find the perfect partner to fullfill it</h3>
+  		<input type="submit" value="Find your holiday partner" class="header__find--partner" />
+  	</div>
+  	<!-- HERE IS END OF HEADER -->
+
+  	<!-- HERE IS START OF CONTENT -->
+  	<div class="content">
+  	  <h4 class="content__title">How Urlaubsglück works?</h4>
+  		<div class="sliders-wrapper">
+  		  <!-- FIRST SlIDER -->
+  			<div class="first-slider">
+          <div class="step">STEP 1</div>
+          <div class="text--bold">Sed leo enim,<br>condimentum</div>
+          <div class="text--lignter">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi eum ad.</div>
+  				<div class="flexslider">
+            <ul class="slides">
+              <li>
+                <img src="img/slider-first-img.png" />
+              </li>
+              <li>
+                <img src="img/slider-second-img.png" />
+              </li>
+              <li>
+              <img src="img/slider-third-img.png" />
+              </li>
+            </ul>
+          </div>
+  			</div>
+
+  			<!-- SECOND SLIDER -->
+  			<div class="second-slider">
+  			  <div class="step">STEP 2</div>
+          <div class="text--bold">Sed leo enim,<br>condimentum</div>
+          <div class="text--lignter">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi eum ad.</div>
+  				<div class="flexslider">
+            <ul class="slides">
+              <li>
+                <img src="img/slider-second-img.png" />
+              </li>
+              <li>
+                <img src="img/slider-third-img.png" />
+              </li>
+              <li>
+              <img src="img/slider-first-img.png" />
+              </li>
+            </ul>
+          </div>
+  			</div>
+
+  			<!-- THIRD SLIDER -->
+  			<div class="third-slider">
+  			  <div class="step">STEP 3</div>
+          <div class="text--bold">Sed leo enim,<br>condimentum</div>
+          <div class="text--lignter">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi eum ad.</div>
+  				<div class="flexslider">
+            <ul class="slides">
+              <li>
+                <img src="img/slider-third-img.png" />
+              </li>
+              <li>
+                <img src="img/slider-first-img.png" />
+              </li>
+              <li>
+              <img src="img/slider-second-img.png" />
+              </li>
+            </ul>
+          </div>
+  			</div>
+  		</div>
+
+  		<!-- HERE IS START OF COMMENTS -->
+  		<div class="comments-wrapper">
+  		  <h4 class="comments__title">Meet a partner for your best holiday</h4>
+  		  <div class="first-partner">
+  		  	<div class="photo"></div>
+  		  	<div class="icon"></div>
+  		  	<h6>Bredly Hunter</h6>
+  		  	<div>Based in Chicago. I love playing tennis and loud music.</div>
+  		  </div>
+  		  <div class="second-partner">
+  		  	<div class="photo"></div>
+  		  	<div class="icon"></div>
+  		  	<h6>Lucas Marsha</h6>
+  		  	<div>I get my insparation from nature and objects around me.I have a passino to colours, typography and skateboards</div>
+  		  </div>
+  		  <div class="third-partner">
+  		  	<div class="photo"></div>
+  		  	<div class="icon"></div>
+  		  	<h6>Heather Walker</h6>
+  		  	<div>I'am happy person that loves cats, and clinbing on mountines</div>
+  		  </div>
+  		  <div class="fourth-partner">
+  		  	<div class="photo"></div>
+  		  	<div class="icon"></div>
+  		  	<h6>Bradly Hunter</h6>
+  		  	<div>I'am happy person that loves cats, and clinbing on mountines</div>
+  		  </div>
+  		  <input type="submit" class="show-other-partners" value="See other partners">
+  		</div>
+      <!-- HERE IS END OF COMMENTS -->
+
+      <!-- HERE IS START OF IMAGES -->
+      <div class="grid-wrapper">
+        <h3 class="grid__title">Discover holiday activity ideas</h3>
+
+
+
+
+        <div class="ideas">
+          <script type ="text/template" id = "template">
+					  <div class = "grid">
+						  <%for(var i in data){%>
+							  <div class = "grid-item">
+								  <img src="<%= data[i].imageurl %>" class="grid--image" alt="">
+                  <p class="image--text"><%= data[i].word%></p>
+							  </div>
+						  <%}%>
+					  </div>
+				  </script>
+				</div>
+
+
+
+        
+        <h3 class="grid__title">Discover holiday activity ideas</h3>
+        <h4 class="search-partners">Hi! What are your holiday interests?</h4>
+        <form class="form-search-partners" action="" method="get">
+	        <fieldset>
+		        <input type="text" id="searchbar" placeholder="Enter your interests" />
+		        <input type="submit" value="Search partners" id="searchbtn" />
+	        </fieldset>
+        </form>
+      </div>
+      <!-- HERE IS END ON IMAGES -->
+    </div>
+    <!-- HERE IS END OF CONTENT -->
+
+    <!-- HERE Is sTART OF FOOTER -->
+    <div class="footer">
+    	<h2 class="footer__title--big--bold">URLAUBSGLÜCK</h2>
+      <div class="footer__company--bold">Company</div>
+      <ul class="menu">
+        <li class="menu__item"><a href="" class="menu__link">About</a></li>
+        <li class="menu__item"><a href="" class="menu__link">Contacts</a></li>
+        <li class="menu__item"><a href="" class="menu__link">Press</a></li>
+        <li class="menu__item"><a href="" class="menu__link">Blog</a></li>
+      </ul>
+      <div class="partners-footer--bold">Partners</div>
+      <div class="designed-by">designed-by</div>
+      <img src="img/logo-img--bottom.png" class="logo-img--bottom" alt="">
+    </div>
+    <!-- HERE IS END of FOOTER -->
+  </div>
+</body>
+</html>
