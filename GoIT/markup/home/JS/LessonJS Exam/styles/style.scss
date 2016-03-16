@@ -16,6 +16,7 @@ body{
 	overflow: hidden;
 }
 
+@media screen and (min-width : 319px){
 /*HERE IS STARI OF HEADER*/
 .header{
 	position: relative;
@@ -179,10 +180,79 @@ body{
 	}
 
 	.second-slider{
-		@extend .first-slider;
+		margin-top: 15px;
+		position: relative;
+		overflow: hidden;
+
+		.step{
+			position: absolute;
+			left: 32px;
+			top: 70px;
+			z-index: 1;
+			color: white;
+			background-color: #ff4e50;
+			border-radius: 50px;
+			font-size: 12px;
+			padding: 5px 15px;
+			font-family: 'Montserrat', sans-serif;
+		}
+		.text--bold{
+			position: absolute;
+			left: 32px;
+			top: 106px;
+			z-index: 1;
+			color: white;
+			font-weight: bold;
+			font-size: 28px;
+		}
+		.text--lignter{
+      position: absolute;
+      color: white;
+      font-family: 'Roboto', sans-serif;
+      font-weight: lighter;
+      font-size: 15px;
+			left: 32px;
+			top: 170px;
+			z-index: 1;
+		}
 	}
+
 	.third-slider{
-		@extend .first-slider;
+		margin-top: 15px;
+		position: relative;
+		overflow: hidden;
+
+		.step{
+			position: absolute;
+			left: 32px;
+			top: 70px;
+			z-index: 1;
+			color: white;
+			background-color: #ff4e50;
+			border-radius: 50px;
+			font-size: 12px;
+			padding: 5px 15px;
+			font-family: 'Montserrat', sans-serif;
+		}
+		.text--bold{
+			position: absolute;
+			left: 32px;
+			top: 106px;
+			z-index: 1;
+			color: white;
+			font-weight: bold;
+			font-size: 28px;
+		}
+		.text--lignter{
+      position: absolute;
+      color: white;
+      font-family: 'Roboto', sans-serif;
+      font-weight: lighter;
+      font-size: 15px;
+			left: 32px;
+			top: 170px;
+			z-index: 1;
+		}
 	}
 }
 /*SLIDER END*/
@@ -239,52 +309,121 @@ body{
 }
 
 .second-partner{
-	@extend .first-partner;
+	position: relative;
+	overflow: hidden;
 	.photo{
-		background-position: -6px -129px;
+		width: 120px;
+		height: 120px;
+		background: url(../img/sprite-for-comments-photos.png) -6px -129px;
+		border-radius: 100px;
+		margin-top: 30px;
+		margin-left: 100px;
 	}
 	.icon{
+		width: 45px;
+		height: 40px;
+		background: url(../img/sprite-for-comments.png) 0px -49px;
+		position: absolute;
 		left: 140px;
-		background-position: 0px -49px;
+		top: 106px;
+	}
+	h6{
+		font-size: 15px;
+		font-weight: bold;
+		font-family: 'Montserrat', sans-serif;
+		margin-top: 30px;
+		margin-left: 110px;
 	}
 	div{
 		margin-left: 38px;
-		width: 77%;
+		width: 77%;text-align: center;
+		margin-top: 10px;
+		font-family: 'Roboto', sans-serif;
+		font-weight: lighter;
 	}
 }
 
 .third-partner{
-	@extend .first-partner;
+	position: relative;
+	overflow: hidden;
 	.photo{
-		background-position: -6px -261px;
+		width: 120px;
+		height: 120px;
+		background: url(../img/sprite-for-comments-photos.png) -6px -261px;
+		border-radius: 100px;
+		margin-top: 30px;
+		margin-left: 100px;
 	}
 	.icon{
 		left: 140px;
-		background-position: 0px -91px;
+		width: 45px;
+		height: 40px;
+		background: url(../img/sprite-for-comments.png) 0px -91px;
+		position: absolute;
+		top: 106px;
+	}
+	h6{
+		font-size: 15px;
+		font-weight: bold;
+		font-family: 'Montserrat', sans-serif;
+		margin-top: 30px;
+		margin-left: 110px;
 	}
 	div{
+		text-align: center;
+		margin-top: 10px;
+		font-family: 'Roboto', sans-serif;
+		font-weight: lighter;
 		margin-left: 38px;
 		width: 77%;
 	}
 }
 
 .fourth-partner{
-	@extend .first-partner;
+	position: relative;
+	overflow: hidden;
 	.photo{
-		background-position: -6px -921px;
+		width: 120px;
+		height: 120px;
+		background: url(../img/sprite-for-comments-photos.png) -6px -921px;
+		border-radius: 100px;
+		margin-top: 30px;
+		margin-left: 100px;
 	}
 	.icon{
 		left: 140px;
-		background-position: 0px -132px;
+		width: 45px;
+		height: 40px;
+		background: url(../img/sprite-for-comments.png) 0px -132px;
+		position: absolute;
+		top: 106px;
+	}
+	h6{
+		font-size: 15px;
+		font-weight: bold;
+		font-family: 'Montserrat', sans-serif;
+		margin-top: 30px;
+		margin-left: 110px;
 	}
 	div{
+		text-align: center;
+		margin-top: 10px;
+		font-family: 'Roboto', sans-serif;
+		font-weight: lighter;
 		margin-left: 38px;
 		width: 77%;
 	}
 }
 
 .show-other-partners{
-	@extend .header__find--partner;
+	border-radius: 50px;
+	border: none;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 16px;
+	padding: 10px 50px;
+	text-align: center;
+	outline: none;
+	background-color: transparent;
 	color: #ff4e50;
 	margin-left: 46px;
 
@@ -319,7 +458,7 @@ body{
 }
 
 .grid{
-  margin-left: 10px;
+  margin-left: 3px;
   margin-top: 10px;
 }
 
@@ -449,9 +588,12 @@ body{
 	margin-left: 100px;
 }
 /*HERE IS END OF FOOTER*/
+}
 
 
-@media screen and (min-device-width : 768px){
+
+
+@media screen and (min-width : 767px){
   .header{
   	background-position: -200px 0;
   }  
@@ -502,6 +644,20 @@ body{
   	height: 100%;
   }
 
+  .second-slider{
+  	width: 30%;
+  	float: left;
+  	margin-left: 20px;
+  	height: 100%;
+  }
+
+  .third-slider{
+  	width: 30%;
+  	float: left;
+  	margin-left: 20px;
+  	height: 100%;
+  }
+
   .sliders-wrapper .first-slider .text--lignter{
   	top: 245px;
   }
@@ -514,7 +670,46 @@ body{
   	top: 140px;
   }
 
+  .sliders-wrapper .second-slider .text--lignter{
+  	top: 245px;
+  }
+
+  .sliders-wrapper .second-slider .text--bold{
+  	top: 185px;
+  }
+
+  .sliders-wrapper .second-slider .step{
+  	top: 140px;
+  }
+
+  .sliders-wrapper .third-slider .text--lignter{
+  	top: 245px;
+  }
+
+  .sliders-wrapper .third-slider .text--bold{
+  	top: 185px;
+  }
+
+  .sliders-wrapper .third-slider .step{
+  	top: 140px;
+  }
+
   .first-partner{
+  	width: 44%;
+  	float: left;
+  }
+
+  .second-partner{
+  	width: 44%;
+  	float: left;
+  }
+
+  .third-partner{
+  	width: 44%;
+  	float: left;
+  }
+
+  .fourth-partner{
   	width: 44%;
   	float: left;
   }
@@ -620,7 +815,7 @@ body{
 
 /*DESCOPT*/
 
-@media screen and (min-device-width : 1024px){
+@media screen and (min-width : 1023px){
 	.header{
 		background-position: 0 0;
 		background-size: cover;
@@ -664,11 +859,37 @@ body{
   	height: 100%;
   }
 
+  .second-slider{
+  	width: 25%;
+  	float: left;
+  	margin-left: 1px;
+  	height: 100%;
+  }
+
+  .third-slider{
+  	width: 25%;
+  	float: left;
+  	margin-left: 1px;
+  	height: 100%;
+  }
+
   .comments__title{
   	margin-left: -88px;
   }
 
   .first-partner{
+  	width: 25%;
+  }
+
+  .second-partner{
+  	width: 25%;
+  }
+
+  .third-partner{
+  	width: 25%;
+  }
+
+  .fourth-partner{
   	width: 25%;
   }
 
