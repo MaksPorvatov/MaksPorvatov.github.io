@@ -822,6 +822,170 @@ body{
 	}
 
 	.header__title--middle{
+		width: 40%;
+		margin-left: 361px;
+		font-size: 35px;
+		line-height: 55px;
+	}
+
+	.header__title--bottom{
+		margin-left: 189px;
+	}
+
+	.header__find--partner{
+		margin-left: 545px;
+	}
+
+	.content__title{
+		margin-left: 389px;
+	}
+
+	.sliders-wrapper{
+		margin-left: 245px;
+	}
+
+	.flexslider .slides img{
+  	height: 296px !important;
+  }
+
+  .flex-viewport{
+  	height: 296px;
+  }
+
+  .first-slider{
+  	width: 25%;
+  	float: left;
+  	margin-left: 1px;
+  	height: 100%;
+  }
+
+  .second-slider{
+  	width: 25%;
+  	float: left;
+  	margin-left: 1px;
+  	height: 100%;
+  }
+
+  .third-slider{
+  	width: 25%;
+  	float: left;
+  	margin-left: 1px;
+  	height: 100%;
+  }
+
+  .comments-wrapper{
+  	margin-left: -40px;
+  }
+  .comments__title{
+  	margin-left: 9px;
+  }
+
+  .first-partner{
+  	width: 25%;
+  }
+
+  .first-partner .icon{
+  	left: 99px;
+  }
+
+  .first-partner div{
+  	margin-left: 80px;
+  }
+
+  .second-partner{
+  	width: 25%;
+  }
+
+  .second-partner .icon{
+  	left: 116px;
+  }
+
+  .second-partner div{
+  	margin-left: 6px;
+  }
+
+  .third-partner{
+  	width: 25%;
+  }
+
+  .third-partner .icon{
+  	left: 126px;
+  }
+
+  .third-partner div{
+  	margin-left: 59px;
+  }
+
+  .fourth-partner{
+  	width: 25%;
+  }
+
+  .fourth-partner .icon{
+  	left: 125px;
+  }
+
+  .fourth-partner div{
+  	margin-left: 58px;
+  }
+
+  .show-other-partners{
+  	margin-top: 65px;
+  	margin-left: 100px;
+  }
+
+  .ideas {
+    margin-left: 124px;
+    width: 90%;
+}
+
+  .search-partners{
+  	margin-left: 351px;
+  }
+
+  #searchbar{
+  	margin-left: 264px;
+  	margin-top: 55px;
+  	margin-bottom: 60px;
+  }
+
+  #searchbtn{
+  	margin-top: 55px;
+  	margin-bottom: 60px;
+  }
+
+  .footer__title--big--bold{
+  	margin-left: 222px;
+  }
+
+  .designed-by {
+    margin-left: 296px;
+    margin-top: -13px;
+}
+
+  .logo-img--bottom{
+  	margin-left: 792px;
+  }
+
+  .menu{
+  	left: 380px;
+  }
+
+  .image--text {
+    left: 1px;
+    top: 10px;
+    padding: 114px 101px;
+  }
+
+}
+
+
+@media screen and (min-width : 1365px){
+	.header{
+		background-position: 0 0;
+		background-size: cover;
+	}
+
+	.header__title--middle{
 		width: 30%;
 		margin-left: 470px;
 		font-size: 35px;
