@@ -403,24 +403,17 @@ body {
     width: 300px;
     height: 120px;
     border-radius: 15px;
-    margin-top: 10px; }
+    margin-top: 10px;
+    float: left; }
 
-  .grid--image {
-    width: inherit;
-    height: inherit;
-    border-radius: inherit;
-    margin-top: inherit; }
-
-  .image--text {
-    position: absolute;
+  .grid-item__text {
     font-weight: bold;
     font-size: 23px;
-    left: 1px;
-    top: 10px;
     color: white;
-    padding: 43px 137px;
+    padding: 49px 137px;
     background-color: rgba(26, 25, 21, 0.5);
-    border-radius: 15px; }
+    border-radius: 15px;
+    text-align: center; }
 
   .search-partners {
     font-family: 'Roboto', sans-serif;
@@ -609,33 +602,32 @@ body {
   .grid__title {
     margin-left: 203px; }
 
-  .grid {
-    position: relative;
-    overflow: hidden;
-    float: left;
-    width: 238px;
-    margin-left: 10px;
-    height: 260px; }
-
   .ideas {
-    margin-left: 12px;
-    width: 100%;
-    position: relative;
-    overflow: hidden; }
+    margin-left: 50px;
+    width: 90%; }
+
+  .grid {
+    width: 100%; }
 
   .grid-item {
-    width: 232px;
-    float: left !important;
-    height: 260px; }
+    height: 310px;
+    width: 235px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 20px; }
+
+  .grid-item--width2 {
+    width: 495px; }
 
   .grid__title {
     margin-top: 80px;
     margin-left: 0; }
 
-  .image--text {
+  .grid-item__text {
     left: 1px;
     top: 10px;
-    padding: 120px 103px; }
+    padding: 144px 103px;
+    border-radius: 3px; }
 
   .search-partners {
     margin-left: 230px;
@@ -803,10 +795,11 @@ body {
   .menu {
     left: 380px; }
 
-  .image--text {
+  .grid-item__text {
     left: 1px;
-    top: 10px;
-    padding: 114px 101px; } }
+    top: 1px;
+    padding: 144px 101px;
+    border-radius: 3px; } }
 @media screen and (min-width: 1365px) {
   .header {
     background-position: 0 0;
@@ -873,6 +866,32 @@ body {
     margin-left: 255px;
     width: 66%; }
 
+  /*.grid-item{
+  	float: left;
+  }*/
+  .ideas {
+    margin-left: 158px;
+    width: 90%; }
+
+  .grid {
+    width: 100%; }
+
+  .grid-item {
+    height: 310px;
+    width: 300px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 20px; }
+
+  .grid-item--width2 {
+    width: 620px; }
+
+  .grid-item__text {
+    left: 1px;
+    top: 1px;
+    padding: 144px 101px;
+    border-radius: 3px; }
+
   .search-partners {
     margin-left: 510px; }
 
@@ -895,11 +914,6 @@ body {
     margin-left: 460px; }
 
   .menu {
-    left: 380px; }
-
-  .image--text {
-    left: 1px;
-    top: 10px;
-    padding: 114px 101px; } }
+    left: 380px; } }
 
 /*# sourceMappingURL=style.css.map */

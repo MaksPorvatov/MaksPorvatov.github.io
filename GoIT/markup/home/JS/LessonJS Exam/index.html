@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>JS Exam</title>
 	<script src="js/jquery-1.12.1.min.js"></script>
+  
 	<script src="js/template.js"></script>
 	<script src="js/jquery.flexslider-min.js"></script>
 	<script src="js/isotope.js"></script>
@@ -131,31 +132,30 @@
         <h3 class="grid__title">Discover holiday activity ideas</h3>
 
 
-
-
         <div class="ideas">
           <script type ="text/template" id = "template">
-					  <div class = "grid">
-						  <%for(var i in data){%>
-							  <div class = "grid-item">
-								  <img src="<%= data[i].imageurl %>" class="grid--image" alt="">
-                  <p class="image--text"><%= data[i].word%></p>
-							  </div>
-						  <%}%>
-					  </div>
-				  </script>
-				</div>
+            <div class="grid">
+              <% for (var i =0; i<images.length; i++) { %>
+                <div class="grid-item 
+                  <% if ((i==5)||(i==4)){%> 
+                    grid-item--width2  
+                  <%}%> animated zoomIn" style = "background: url(<%=images[i].imageurl%>) center no-repeat; background-size: 100% 100%">
+                  <div class="grid-item__text"><%=images[i].word%></div>
+                </div>          
+              <%}; %>
+            </div>
+          </script>
+        </div>
+
 
 
 
         
         <h3 class="grid__title">Discover holiday activity ideas</h3>
         <h4 class="search-partners">Hi! What are your holiday interests?</h4>
-        <form class="form-search-partners" action="" method="get">
-	        <fieldset>
+        <form id="form-search-partners" action="" method="get">
 		        <input type="text" id="searchbar" placeholder="Enter your interests" />
 		        <input type="submit" value="Search partners" id="searchbtn" />
-	        </fieldset>
         </form>
       </div>
       <!-- HERE IS END ON IMAGES -->
