@@ -4,8 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>JS Exam</title>
-	<script src="js/jquery-1.12.1.min.js"></script>
-  
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script src="js/respond.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-ajaxtransport-xdomainrequest/1.0.3/jquery.xdomainrequest.min.js"></script>
 	<script src="js/template.js"></script>
 	<script src="js/jquery.flexslider-min.js"></script>
 	<script src="js/isotope.js"></script>
@@ -13,6 +14,9 @@
 	<link rel="stylesheet" href="styles/reset.css">
 	<link rel="stylesheet" href="styles/style.css">
 	<link rel="stylesheet" href="styles/flexslider.css">
+  <!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+  <![endif]-->
 </head>
 <body>
 
@@ -139,7 +143,7 @@
                 <div class="grid-item 
                   <% if ((i==5)||(i==4)){%> 
                     grid-item--width2  
-                  <%}%> animated zoomIn" style = "background: url(<%=images[i].imageurl%>) center no-repeat; background-size: 100% 100%">
+                  <%}%> " style = "background: url(<%=images[i].imageurl%>) center no-repeat; background-size: 100% 100%">
                   <div class="grid-item__text"><%=images[i].word%></div>
                 </div>          
               <%}; %>

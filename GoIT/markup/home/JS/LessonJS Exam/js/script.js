@@ -170,13 +170,16 @@ $(window).load(function() {
 
   // })();  
 
-
+$.support.cors = true;
 
 var queryPic = '';
 
 		function renderList(queryPic) {
 
 			$.ajax({
+				cache: false,
+        dataType: 'json',
+        type: 'GET',
 				url: 'http://api.pixplorer.co.uk/image?word=' + queryPic + '&amount=7&size=tb',
 				success: function(data) {
 					console.log(data);
