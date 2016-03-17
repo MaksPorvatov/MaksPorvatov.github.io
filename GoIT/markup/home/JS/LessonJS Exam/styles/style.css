@@ -603,21 +603,21 @@ body {
     margin-left: 203px; }
 
   .ideas {
-    margin-left: 50px;
-    width: 90%; }
+    margin-left: 0px;
+    width: 100%; }
 
   .grid {
     width: 100%; }
 
   .grid-item {
     height: 310px;
-    width: 235px;
+    width: 225px;
     border-radius: 4px;
     box-sizing: border-box;
     margin-bottom: 20px; }
 
   .grid-item--width2 {
-    width: 495px; }
+    width: 485px; }
 
   .grid__title {
     margin-top: 80px;
