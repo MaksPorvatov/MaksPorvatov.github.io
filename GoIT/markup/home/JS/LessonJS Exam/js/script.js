@@ -172,22 +172,22 @@ $(window).load(function() {
 
 $.support.cors = true;
 
-var queryPic = '';
+var images = '';
 
-		function renderList(queryPic) {
+		function renderGrid(images) {
 
 			$.ajax({
 				cache: false,
         dataType: 'json',
         type: 'GET',
-				url: 'http://api.pixplorer.co.uk/image?word=' + queryPic + '&amount=7&size=tb',
+				url: 'http://api.pixplorer.co.uk/image?word=' + images + '&amount=7&size=tb',
 				success: function(data) {
 					console.log(data);
-					var piclist = tmpl($('#template').html(), data);
+					var imagesGrid = tmpl($('#template').html(), data);
 
 					$('.grid').remove();
 
-					$('.ideas').append(piclist);
+					$('.ideas').append(imagesGrid);
 					$('.grid').isotope({
 						itemSelector: '.grid-item',
 						layoutMode: 'masonry',
@@ -204,11 +204,11 @@ var queryPic = '';
 
 			e.preventDefault();
 			var query = encodeURIComponent($('#searchbar').val());
-			renderList(query);
+			renderGrid(query);
 
 		});
 
-		renderList();
+		renderGrid();
 
 
 
