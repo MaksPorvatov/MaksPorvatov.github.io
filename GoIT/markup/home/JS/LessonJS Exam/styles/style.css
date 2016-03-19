@@ -39,7 +39,7 @@ body {
     background-color: transparent;
     border: none;
     padding: 5px 15px 5px 15px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", Arial, sans-serif;
     outline: none; }
 
   .signup {
@@ -50,7 +50,7 @@ body {
     background-color: transparent;
     border: none;
     padding: 5px 15px 5px 15px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", Arial, sans-serif;
     outline: none; }
 
   .login:hover {
@@ -61,13 +61,17 @@ body {
     border: 2px solid white;
     border-radius: 50px; }
 
+  .header__block--title {
+    position: relative;
+    overflow: hidden; }
+
   .header__title--top {
     color: white;
     font-size: 21px;
     font-weight: bold;
     margin-top: 175px;
     margin-left: 69px;
-    font-family: 'Montserrat', sans-serif; }
+    font-family: "Montserrat", Arial, sans-serif; }
 
   .header__title--middle {
     color: white;
@@ -75,7 +79,7 @@ body {
     text-align: center;
     margin-top: 33px;
     margin-left: 5px;
-    font-family: 'Montserrat', sans-serif; }
+    font-family: "Montserrat", Arial, sans-serif; }
 
   .header__title--bottom {
     color: white;
@@ -84,7 +88,7 @@ body {
     margin-top: 25px;
     margin-left: 45px;
     font-weight: lighter;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", courier, sans-serif;
     text-align: center;
     width: 72%; }
 
@@ -92,7 +96,7 @@ body {
     border-radius: 50px;
     border: none;
     color: white;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", Arial, sans-serif;
     margin-top: 16px;
     margin-left: 29px;
     padding: 10px 50px;
@@ -116,7 +120,7 @@ body {
     margin-left: 16px;
     font-weight: bold;
     font-size: 22px;
-    font-family: 'Montserrat', sans-serif; }
+    font-family: "Montserrat", Arial, sans-serif; }
 
   /*SLIDER START*/
   .sliders-wrapper {
@@ -136,7 +140,7 @@ body {
         border-radius: 50px;
         font-size: 12px;
         padding: 5px 15px;
-        font-family: 'Montserrat', sans-serif; }
+        font-family: "Montserrat", Arial, sans-serif; }
       .sliders-wrapper .first-slider .text--bold {
         position: absolute;
         left: 32px;
@@ -148,7 +152,7 @@ body {
       .sliders-wrapper .first-slider .text--lignter {
         position: absolute;
         color: white;
-        font-family: 'Roboto', sans-serif;
+        font-family: "Roboto", courier, sans-serif;
         font-weight: lighter;
         font-size: 15px;
         left: 32px;
@@ -168,7 +172,7 @@ body {
         border-radius: 50px;
         font-size: 12px;
         padding: 5px 15px;
-        font-family: 'Montserrat', sans-serif; }
+        font-family: "Montserrat", Arial, sans-serif; }
       .sliders-wrapper .second-slider .text--bold {
         position: absolute;
         left: 32px;
@@ -180,7 +184,7 @@ body {
       .sliders-wrapper .second-slider .text--lignter {
         position: absolute;
         color: white;
-        font-family: 'Roboto', sans-serif;
+        font-family: "Roboto", courier, sans-serif;
         font-weight: lighter;
         font-size: 15px;
         left: 32px;
@@ -200,7 +204,7 @@ body {
         border-radius: 50px;
         font-size: 12px;
         padding: 5px 15px;
-        font-family: 'Montserrat', sans-serif; }
+        font-family: "Montserrat", Arial, sans-serif; }
       .sliders-wrapper .third-slider .text--bold {
         position: absolute;
         left: 32px;
@@ -212,7 +216,7 @@ body {
       .sliders-wrapper .third-slider .text--lignter {
         position: absolute;
         color: white;
-        font-family: 'Roboto', sans-serif;
+        font-family: "Roboto", courier, sans-serif;
         font-weight: lighter;
         font-size: 15px;
         left: 32px;
@@ -231,7 +235,7 @@ body {
     text-align: center;
     margin-left: 10px;
     margin-top: 50px;
-    font-family: 'Montserrat', sans-serif; }
+    font-family: "Montserrat", Arial, sans-serif; }
 
   .first-partner {
     position: relative;
@@ -253,14 +257,14 @@ body {
     .first-partner h6 {
       font-size: 15px;
       font-weight: bold;
-      font-family: 'Montserrat', sans-serif;
+      font-family: "Montserrat", Arial, sans-serif;
       margin-top: 30px;
       margin-left: 110px; }
     .first-partner div {
       text-align: center;
       margin-top: 10px;
       margin-left: 57px;
-      font-family: 'Roboto', sans-serif;
+      font-family: "Roboto", courier, sans-serif;
       font-weight: lighter;
       width: 64%; }
 
@@ -284,7 +288,7 @@ body {
     .second-partner h6 {
       font-size: 15px;
       font-weight: bold;
-      font-family: 'Montserrat', sans-serif;
+      font-family: "Montserrat", Arial, sans-serif;
       margin-top: 30px;
       margin-left: 110px; }
     .second-partner div {
@@ -292,7 +296,7 @@ body {
       width: 77%;
       text-align: center;
       margin-top: 10px;
-      font-family: 'Roboto', sans-serif;
+      font-family: "Roboto", courier, sans-serif;
       font-weight: lighter; }
 
   .third-partner {
@@ -315,13 +319,13 @@ body {
     .third-partner h6 {
       font-size: 15px;
       font-weight: bold;
-      font-family: 'Montserrat', sans-serif;
+      font-family: "Montserrat", Arial, sans-serif;
       margin-top: 30px;
       margin-left: 110px; }
     .third-partner div {
       text-align: center;
       margin-top: 10px;
-      font-family: 'Roboto', sans-serif;
+      font-family: "Roboto", courier, sans-serif;
       font-weight: lighter;
       margin-left: 38px;
       width: 77%; }
@@ -346,13 +350,13 @@ body {
     .fourth-partner h6 {
       font-size: 15px;
       font-weight: bold;
-      font-family: 'Montserrat', sans-serif;
+      font-family: "Montserrat", Arial, sans-serif;
       margin-top: 30px;
       margin-left: 110px; }
     .fourth-partner div {
       text-align: center;
       margin-top: 10px;
-      font-family: 'Roboto', sans-serif;
+      font-family: "Roboto", courier, sans-serif;
       font-weight: lighter;
       margin-left: 38px;
       width: 77%; }
@@ -360,7 +364,7 @@ body {
   .show-other-partners {
     border-radius: 50px;
     border: none;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", Arial, sans-serif;
     margin-top: 16px;
     padding: 10px 50px;
     text-align: center;
@@ -381,7 +385,7 @@ body {
     border-bottom: 3px solid #ff4e50; }
 
   .grid__title {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", Arial, sans-serif;
     font-weight: bold;
     width: 95%;
     margin-top: 37px;
@@ -416,7 +420,7 @@ body {
     text-align: center; }
 
   .search-partners {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", courier, sans-serif;
     margin-left: 24px;
     margin-top: 10px;
     font-weight: lighter;
@@ -435,7 +439,7 @@ body {
     border-radius: 50px;
     border: none;
     color: white;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", Arial, sans-serif;
     margin-top: 20px;
     margin-left: 56px;
     padding: 10px 50px;
@@ -457,14 +461,14 @@ body {
     font-weight: bold;
     margin-top: 48px;
     margin-left: 85px;
-    font-family: 'Montserrat', sans-serif; }
+    font-family: "Montserrat", Arial, sans-serif; }
 
   .footer__company--bold {
     font-weight: bold;
     margin-left: 120px;
     margin-top: 15px;
     font-size: 18px;
-    font-family: 'Montserrat', sans-serif; }
+    font-family: "Montserrat", Arial, sans-serif; }
 
   .menu {
     position: relative;
@@ -478,18 +482,18 @@ body {
 
   .menu__link {
     color: #a3a3a3;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", courier, sans-serif;
     font-weight: lighter;
     text-decoration: none; }
 
   .partners-footer--bold {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", Arial, sans-serif;
     font-weight: bold;
     margin-top: 10px;
     margin-left: 125px; }
 
   .designed-by {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", Arial, sans-serif;
     font-weight: bold;
     font-size: 10px;
     margin-top: 40px;
@@ -824,7 +828,7 @@ body {
     font-weight: bold; }
 
   .header__title--bottom {
-    margin-left: 144px;
+    margin-left: 174px;
     margin-top: 37px;
     font-size: 25px; }
 

@@ -1,6 +1,8 @@
 @import 'reset.css';
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,700italic,700,500italic,500,400italic,300italic,300,100italic,100);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+$roboto:          'Roboto', courier, sans-serif;
+$montserrat:      'Montserrat', Arial, sans-serif;
 
 
 body{
@@ -46,7 +48,7 @@ body{
   background-color: transparent;
   border: none;
   padding: 5px 15px 5px 15px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: $montserrat;
   outline: none;
 }
 
@@ -58,7 +60,7 @@ body{
   background-color: transparent;
   border: none;
   padding: 5px 15px 5px 15px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: $montserrat;
   outline: none;
 }
 
@@ -72,13 +74,18 @@ body{
 	border-radius: 50px;
 }
 
+.header__block--title{
+	position: relative;
+	overflow: hidden;
+}
+
 .header__title--top{
 	color: white;
 	font-size: 21px;
 	font-weight: bold;
 	margin-top: 175px;
 	margin-left: 69px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: $montserrat;
 }
 
 .header__title--middle{
@@ -87,7 +94,7 @@ body{
 	text-align: center;
 	margin-top: 33px;
 	margin-left: 5px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: $montserrat;
 }
 
 .header__title--bottom{
@@ -97,7 +104,7 @@ body{
 	margin-top: 25px;
 	margin-left: 45px;
 	font-weight: lighter;
-	font-family: 'Roboto', sans-serif;
+	font-family: $roboto;
 	text-align: center;
 	width: 72%;
 }
@@ -106,7 +113,7 @@ body{
 	border-radius: 50px;
 	border: none;
 	color: white;
-	font-family: 'Montserrat', sans-serif;
+	font-family: $montserrat;
 	margin-top: 16px;
 	margin-left: 29px;
 	padding: 10px 50px;
@@ -133,7 +140,7 @@ body{
 	margin-left: 16px;
 	font-weight: bold;
 	font-size: 22px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: $montserrat;
 }
 
 /*SLIDER START*/
@@ -156,7 +163,7 @@ body{
 			border-radius: 50px;
 			font-size: 12px;
 			padding: 5px 15px;
-			font-family: 'Montserrat', sans-serif;
+			font-family: $montserrat;
 		}
 		.text--bold{
 			position: absolute;
@@ -170,7 +177,7 @@ body{
 		.text--lignter{
       position: absolute;
       color: white;
-      font-family: 'Roboto', sans-serif;
+      font-family: $roboto;
       font-weight: lighter;
       font-size: 15px;
 			left: 32px;
@@ -194,7 +201,7 @@ body{
 			border-radius: 50px;
 			font-size: 12px;
 			padding: 5px 15px;
-			font-family: 'Montserrat', sans-serif;
+			font-family: $montserrat;
 		}
 		.text--bold{
 			position: absolute;
@@ -208,7 +215,7 @@ body{
 		.text--lignter{
       position: absolute;
       color: white;
-      font-family: 'Roboto', sans-serif;
+      font-family: $roboto;
       font-weight: lighter;
       font-size: 15px;
 			left: 32px;
@@ -232,7 +239,7 @@ body{
 			border-radius: 50px;
 			font-size: 12px;
 			padding: 5px 15px;
-			font-family: 'Montserrat', sans-serif;
+			font-family: $montserrat;
 		}
 		.text--bold{
 			position: absolute;
@@ -246,7 +253,7 @@ body{
 		.text--lignter{
       position: absolute;
       color: white;
-      font-family: 'Roboto', sans-serif;
+      font-family: $roboto;
       font-weight: lighter;
       font-size: 15px;
 			left: 32px;
@@ -269,7 +276,7 @@ body{
 	text-align: center;
 	margin-left: 10px;
 	margin-top: 50px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: $montserrat;
 }
 
 .first-partner{
@@ -294,7 +301,7 @@ body{
 	h6{
 		font-size: 15px;
 		font-weight: bold;
-		font-family: 'Montserrat', sans-serif;
+		font-family: $montserrat;
 		margin-top: 30px;
 		margin-left: 110px;
 	}
@@ -302,7 +309,7 @@ body{
 		text-align: center;
 		margin-top: 10px;
 		margin-left: 57px;
-		font-family: 'Roboto', sans-serif;
+		font-family: $roboto;
 		font-weight: lighter;
 		width: 64%;
 	}
@@ -330,7 +337,7 @@ body{
 	h6{
 		font-size: 15px;
 		font-weight: bold;
-		font-family: 'Montserrat', sans-serif;
+		font-family: $montserrat;
 		margin-top: 30px;
 		margin-left: 110px;
 	}
@@ -338,7 +345,7 @@ body{
 		margin-left: 38px;
 		width: 77%;text-align: center;
 		margin-top: 10px;
-		font-family: 'Roboto', sans-serif;
+		font-family: $roboto;
 		font-weight: lighter;
 	}
 }
@@ -365,14 +372,14 @@ body{
 	h6{
 		font-size: 15px;
 		font-weight: bold;
-		font-family: 'Montserrat', sans-serif;
+		font-family: $montserrat;
 		margin-top: 30px;
 		margin-left: 110px;
 	}
 	div{
 		text-align: center;
 		margin-top: 10px;
-		font-family: 'Roboto', sans-serif;
+		font-family: $roboto;
 		font-weight: lighter;
 		margin-left: 38px;
 		width: 77%;
@@ -401,14 +408,14 @@ body{
 	h6{
 		font-size: 15px;
 		font-weight: bold;
-		font-family: 'Montserrat', sans-serif;
+		font-family: $montserrat;
 		margin-top: 30px;
 		margin-left: 110px;
 	}
 	div{
 		text-align: center;
 		margin-top: 10px;
-		font-family: 'Roboto', sans-serif;
+		font-family: $roboto;
 		font-weight: lighter;
 		margin-left: 38px;
 		width: 77%;
@@ -418,7 +425,7 @@ body{
 .show-other-partners{
 	border-radius: 50px;
 	border: none;
-	font-family: 'Montserrat', sans-serif;
+	font-family: $montserrat;
 	margin-top: 16px;
 	padding: 10px 50px;
 	text-align: center;
@@ -443,7 +450,7 @@ body{
 }
 
 .grid__title{
-  font-family: 'Montserrat', sans-serif;
+  font-family: $montserrat;
   font-weight: bold;
   width: 95%;
   margin-top: 37px;
@@ -483,7 +490,7 @@ body{
 }
 
 .search-partners{
-  font-family: 'Roboto', sans-serif;
+  font-family: $roboto;
   margin-left: 24px;
   margin-top: 10px;
   font-weight: lighter;	
@@ -505,7 +512,7 @@ body{
   border-radius: 50px;
 	border: none;
 	color: white;
-	font-family: 'Montserrat', sans-serif;
+	font-family: $montserrat;
 	margin-top: 20px;
 	margin-left: 56px;
 	padding: 10px 50px;
@@ -529,7 +536,7 @@ body{
 	font-weight: bold;
 	margin-top: 48px;
 	margin-left: 85px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: $montserrat;
 }
 
 .footer__company--bold{
@@ -537,7 +544,7 @@ body{
   margin-left: 120px;
   margin-top: 15px;
   font-size: 18px;
-  font-family: 'Montserrat', sans-serif;	
+  font-family: $montserrat;	
 }
 
 .menu{
@@ -554,20 +561,20 @@ body{
 
 .menu__link{
 	color: #a3a3a3;
-	font-family: 'Roboto', sans-serif;
+	font-family: $roboto;
 	font-weight: lighter;
 	text-decoration: none;
 }
 
 .partners-footer--bold{
-  font-family: 'Montserrat', sans-serif;
+  font-family: $montserrat;
   font-weight: bold;
   margin-top: 10px;
   margin-left: 125px;
 }
 
 .designed-by{
-  font-family: 'Montserrat', sans-serif;
+  font-family: $montserrat;
   font-weight: bold;
   font-size: 10px;
   margin-top: 40px;
@@ -1000,7 +1007,7 @@ body{
 	}
 
 	.header__title--bottom{
-		margin-left: 144px;
+		margin-left: 174px;
     margin-top: 37px;
     font-size: 25px;
 	}
