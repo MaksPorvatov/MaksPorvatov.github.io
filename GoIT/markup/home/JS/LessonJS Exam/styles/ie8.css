@@ -1,5 +1,5 @@
 .header__title--middle{
-	margin-left: 473px;
+	margin-left: 473px !important;
 }
 
 .header__find--partner{
@@ -7,17 +7,17 @@
 }
 
 .content__title{
-	margin-left: 525px;
+	margin-left: 525px !important;
 }
 
 .show-other-partners{
-	margin-left: -974px;
+	margin-left: -974px !important;
 }
 
 .search-partners{
-	margin-left: 512px;
+	margin-left: 512px !important;
 }
 
 #searchbar{
-	margin-left: 419px;
+	margin-left: 419px !important;
 }
