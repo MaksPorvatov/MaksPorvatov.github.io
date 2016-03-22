@@ -21,3 +21,35 @@
 #searchbar{
 	margin-left: 419px !important;
 }
+
+.first-partner div{
+  margin-left: 50px !important; 	
+}
+
+.first-partner .icon{
+	left: 127px !important;
+}
+
+.second-partner div{
+	margin-left: 24px !important;
+}
+
+.second-partner .icon{
+	margin-left: 151px !important;
+}
+
+.third-partner div{
+	margin-left: 32px !important;
+}
+
+.third-partner .icon{
+	left: 148px !important;
+}
+
+.fourth-partner div{
+	margin-left: 28px !important;
+}
+
+.fourth-partner .icon{
+	left: 152px !important;
+}
