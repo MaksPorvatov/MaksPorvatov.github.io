@@ -182,7 +182,6 @@ var images = '';
         type: 'GET',
 				url: 'http://api.pixplorer.co.uk/image?word=' + images + '&amount=7&size=tb',
 				success: function(data) {
-					console.log(data);
 					var imagesGrid = tmpl($('#template').html(), data);
 
 					$('.grid').remove();
