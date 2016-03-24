@@ -2,16 +2,21 @@
 	margin-left: 380px !important;
 }
 
+.header__title--bottom {
+    margin-left: 163px;
+}
+
+
 .header__find--partner{
-	margin-left: 500px !important;
+	margin-left: 524px !important;
 }
 
 .content__title{
-	margin-left: 570px !important;
+	margin-left: 526px !important;
 }
 
 .show-other-partners{
-	margin-left: 10px !important;
+	margin-left: -67px !important;
 }
 
 .search-partners{
@@ -19,9 +24,13 @@
 }
 
 #searchbar{
-	margin-left: 480px !important;
+	margin-left: 424px !important;
 }
 
 .second-partner .icon{
-	left: 168px !important;
+	left: 142px !important;
+}
+
+.second-partner div{
+	margin-left: 36px;
 }
