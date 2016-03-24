@@ -3,7 +3,7 @@
 }
 
 .header__title--bottom {
-    margin-left: 163px;
+    margin-left: 168px !important;
 }
 
 
@@ -32,5 +32,5 @@
 }
 
 .second-partner div{
-	margin-left: 36px;
+	margin-left: 36px !important;
 }
