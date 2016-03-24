@@ -674,7 +674,7 @@ body {
   .footer {
     height: 175px; } }
 /*DESCOPT*/
-@media screen and (min-width: 1023px) {
+@media screen and (min-width: 1020px) {
   .header {
     background-position: 0 0;
     background-size: cover; }
@@ -709,17 +709,53 @@ body {
     margin-left: 1px;
     height: 100%; }
 
+  .sliders-wrapper .first-slider .step {
+    top: 140px;
+    left: 10px; }
+
+  .sliders-wrapper .first-slider .text--bold {
+    top: 185px;
+    left: 15px; }
+
+  .sliders-wrapper .first-slider .text--lignter {
+    top: 245px;
+    left: 15px; }
+
   .second-slider {
     width: 25%;
     float: left;
     margin-left: 1px;
     height: 100%; }
 
+  .sliders-wrapper .second-slider .step {
+    top: 140px;
+    left: 10px; }
+
+  .sliders-wrapper .second-slider .text--bold {
+    top: 185px;
+    left: 15px; }
+
+  .sliders-wrapper .second-slider .text--lignter {
+    top: 245px;
+    left: 15px; }
+
   .third-slider {
     width: 25%;
     float: left;
     margin-left: 1px;
     height: 100%; }
+
+  .sliders-wrapper .third-slider .step {
+    top: 140px;
+    left: 10px; }
+
+  .sliders-wrapper .third-slider .text--bold {
+    top: 185px;
+    left: 15px; }
+
+  .sliders-wrapper .third-slider .text--lignter {
+    top: 245px;
+    left: 15px; }
 
   .comments-wrapper {
     margin-left: -40px; }
@@ -743,7 +779,7 @@ body {
     left: 116px; }
 
   .second-partner div {
-    margin-left: 6px; }
+    margin-left: 62px; }
 
   .third-partner {
     width: 25%; }
@@ -765,7 +801,7 @@ body {
 
   .show-other-partners {
     margin-top: 65px;
-    margin-left: 100px; }
+    margin-left: -85px; }
 
   .ideas {
     margin-left: 124px;
