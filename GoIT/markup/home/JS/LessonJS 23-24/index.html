@@ -24,7 +24,7 @@
 
   <script type="text/html" id = "list-template">
     <% for (var i =0; i<data.length; i++) { %>
-      <li class="todo-list__item"><input class="todo-list__input" type="text" value="<%= data[i] %>"> <span data-value="<%= data[i] %>" class="todo-list__item-delete">x</span></li>
+      <li class="todo-list__item"><input  disabled = "disabled" class="todo-list__input" type="text" value="<%= data[i] %>"> <span data-value="<%= data[i] %>" class="todo-list__item-delete">x</span></li>
     <%}; %>
   </script>
 
