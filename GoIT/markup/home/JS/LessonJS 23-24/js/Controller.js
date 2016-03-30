@@ -1,5 +1,5 @@
 define(
-  'Controller', ['Model', 'View'],
+  'Controller', ['jquery','Model', 'View'],
   function() {
     function Controller(model, view) {
       var self = this;
