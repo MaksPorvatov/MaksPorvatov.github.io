@@ -1,5 +1,5 @@
 define(
-  'view', 
+  'View', 
   ['jquery', 'model'],
   function() {
     function View(model) {
