@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>HW-js-23-24</title>
+  <title>LessonJS 23-24</title>
   <script data-main="js/app.js" src="js/require.js"></script>
   <link rel="stylesheet" href="styles/style.css" />
 </head>
@@ -13,8 +13,8 @@
   <script type="text/html" id = "wrapper-template">
     <div class="wrapper">
       <h1 class="header">ToDo list</h1>
-      <div class="controlls clearfix">
-        <input type="text" class="controlls__item-value" placeholder="What will U do?">
+      <div class="controlls">
+        <input type="text" class="controlls__item-value" placeholder="What will you do?">
         <button class="controlls__item-add">Add</button>
       </div>
       <ul class="todo-list"></ul>
@@ -24,10 +24,7 @@
 
   <script type="text/html" id = "list-template">
     <% for (var i =0; i<data.length; i++) { %>
-      <li class="todo-list__item animated 
-        <% if (i%2) {%>zoomInRight<%} else { %>
-          zoomInLeft
-        <%}%>"><input  disabled = "disabled" class="todo-list__input" type="text" value="<%= data[i] %>"> <span data-value="<%= data[i] %>" class="todo-list__item-delete icon-cancel"> </span></li>
+      <li class="todo-list__item"><input class="todo-list__input" type="text" value="<%= data[i] %>"> <span data-value="<%= data[i] %>" class="todo-list__item-delete">x</span></li>
     <%}; %>
   </script>
 
