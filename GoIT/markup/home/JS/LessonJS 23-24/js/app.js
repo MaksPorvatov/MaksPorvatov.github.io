@@ -14,8 +14,8 @@ requirejs.config({
 });
 
 require(
-  ['jquery', 'template', 'model', 'view', 'controller'],
-  function(jquery, template, model, view, controller) {
+  ['jquery', 'template', 'Model', 'View', 'Controller'],
+  function(jquery, template, Model, View, Controller) {
 
     var firstToDoList = ['Make coffee', 'Go to bed', 'Learn', 'Nothing'];
     var model = new model(firstToDoList);
