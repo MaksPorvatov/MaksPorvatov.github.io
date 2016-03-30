@@ -14,12 +14,12 @@ requirejs.config({
 });
 
 require(
-  ['jquery', 'template', 'Model', 'View', 'Controller'],
-  function(jquery, template, Model, View, Controller) {
+  ['jquery', 'template', 'model', 'view', 'controller'],
+  function(jquery, template, model, view, controller) {
 
     var firstToDoList = ['Make coffee', 'Go to bed', 'Learn', 'Nothing'];
-    var Model = new Model(firstToDoList);
-    var View = new View(Model);
-    var Controller = new Controller(Model, View);
+    var model = new model(firstToDoList);
+    var view = new view(model);
+    var controller = new controller(model, view);
   }
 );
