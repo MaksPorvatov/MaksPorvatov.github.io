@@ -1,33 +1,25 @@
 requirejs.config({
   paths: {
-  	'jquery': 'https://code.jquery.com/jquery-1.12.0.min'
+    'jquery': 'http://code.jquery.com/jquery-1.11.3.min',
+    'template': 'template'
   },
-  shin: {
-  	'jquery': {
-  		exports: 'jquery'
-  	}
+  shim: {
+    'jquery': {
+      exports: 'jQuery'
+    },
+    'template': {
+      exports: 'template'
+    }
   }
-})
-
-
-
+});
 
 require(
-  [ 
-    'template',
-    'Model',
-    'View',
-    'Controller',
-    'jquery'
-  ],
+  ['jquery', 'template', 'model', 'view', 'controller'],
+  function(jquery, template, model, view, controller) {
 
-  function(template, Model, View, Controller, $){
-
-  	$(function() {
-       var firstToDoList = ['learn javascript','learn html', 'make coffe'];
-       var newModel = new Model(firstToDoList);
-       var newView = new View(newModel);
-       var newController = new Controller(newModel, newView);
-    });
+    var firstToDoList = ['Make coffee', 'Go to bed', 'Learn', 'Nothing'];
+    var model = new model(firstToDoList);
+    var view = new view(model);
+    var controller = new controller(model, view);
   }
 );

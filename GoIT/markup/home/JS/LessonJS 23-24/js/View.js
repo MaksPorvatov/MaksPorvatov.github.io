@@ -1,29 +1,37 @@
 define(
-	'View',
-	['jquery', 'Model'],
-	function() {
-	  function View(model) {
+  'view', 
+  ['jquery', 'model'],
+  function() {
+    function View(model) {
       var self = this;
 
       function init() {
-  	    var wrapper = tmpl($('#wrapper--template').html() );
+        var wrapper = tmpl($('#wrapper-template').html());
 
-  	    $('body').append(wrapper);
+        $('.container').append(wrapper);
+
         self.elements = {
-    	    input: $('.item--value'),
-    	    addBtn: $('.item--add'),
-    	    listContainer: $('.item--list')
+          input: $('.controll__item-value'),
+          addBtn: $('.controll__item-add'),
+          listContainer: $('.todo-list'),
+          inputItem: $('.todo-list__input')
         };
+
         self.renderList(model.data);
-      }
+
+      };
 
       self.renderList = function(data) {
-        var list = tmpl($('#list--template').html(), {data: data}); 
-        self.elements.listContainer.html(list);
-      };  
+        var list = tmpl($('#template').html(), {
+          data: data
+        });
+
+        self.elements.listContainer.html(list)
+      };
 
       init();
-    }
+
+    };
     return View;
   }
 );
