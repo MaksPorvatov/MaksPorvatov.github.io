@@ -18,8 +18,8 @@ require(
   function(jquery, template, Model, View, Controller) {
 
     var firstToDoList = ['Make coffee', 'Go to bed', 'Learn', 'Nothing'];
-    var model = new model(firstToDoList);
-    var view = new view(model);
-    var controller = new controller(model, view);
+    var Model = new Model(firstToDoList);
+    var View = new View(Model);
+    var Controller = new Controller(Model, View);
   }
 );
