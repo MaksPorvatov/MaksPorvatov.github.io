@@ -1,7 +1,7 @@
-.container{
+.box{
 	margin-top: 100px;
 	margin-left: 500px;
-	background-color: #ffa;
+	background-color: #0000CD;
 	width: 20%;
 	padding: 15px;
 	border-radius: 15px;
@@ -9,4 +9,8 @@
 
 ul{
 	list-style: none;
+}
+li:hover{
+	color: #FFFF00;
+	font-size: 15px; 
 }
