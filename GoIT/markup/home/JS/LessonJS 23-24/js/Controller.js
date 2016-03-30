@@ -5,8 +5,17 @@ define(
       var self = this;
 
       view.elements.addBtn.on('click', addItem);
+
+      view.elements.input.on('keypress', function(e) {
+        if (e.which == 13) {
+          var newItem = view.elements.input.val();
+          model.addItem(newItem);
+          view.renderList(model.data);
+          view.elements.input.val('');
+        }
+      });
+
       view.elements.listContainer.on('click', '.todo-list__item-delete', removeItem);
-      
 
       view.elements.listContainer.on('dblclick', '.todo-list__input', function() {
         $(this).addClass('active').removeAttr('disabled');

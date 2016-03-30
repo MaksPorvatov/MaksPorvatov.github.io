@@ -11,8 +11,8 @@ define(
         $('.container').append(wrapper);
 
         self.elements = {
-          input: $('.controll__item-value'),
-          addBtn: $('.controll__item-add'),
+          input: $('.controlls__item-value'),
+          addBtn: $('.controlls__item-add'),
           listContainer: $('.todo-list'),
           inputItem: $('.todo-list__input')
         };
@@ -22,7 +22,7 @@ define(
       };
 
       self.renderList = function(data) {
-        var list = tmpl($('#template').html(), {
+        var list = tmpl($('#list-template').html(), {
           data: data
         });
 
