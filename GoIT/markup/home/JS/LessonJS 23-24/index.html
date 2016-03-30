@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <title>HW-js-23-24</title>
-  <link rel="stylesheet" href="styles/style.css" />
   <script data-main="js/app.js" src="js/require.js"></script>
+  <link rel="stylesheet" href="styles/style.css" />
 </head>
 
 <body>
@@ -27,7 +27,7 @@
       <li class="todo-list__item animated 
         <% if (i%2) {%>zoomInRight<%} else { %>
           zoomInLeft
-        <%}%>"><input  disabled = "disabled" class="todo-list__input" type="text" value="<%= data[i] %>"> <span data-value="<%= data[i] %>" class="todo-list__item-delete icon-cancel">x</span></li>
+        <%}%>"><input  disabled = "disabled" class="todo-list__input" type="text" value="<%= data[i] %>"> <span data-value="<%= data[i] %>" class="todo-list__item-delete icon-cancel"> </span></li>
     <%}; %>
   </script>
 
