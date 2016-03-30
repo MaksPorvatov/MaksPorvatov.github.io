@@ -21,7 +21,7 @@ require(
     'jquery'
   ],
 
-  function(template, Model, View, Controller, $){
+  function(tmpl, Model, View, Controller, $){
 
   	$(function() {
        var firstToDoList = ['learn javascript','learn html', 'make coffe'];
