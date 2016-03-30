@@ -1,25 +1,33 @@
 requirejs.config({
   paths: {
-    'jquery': 'http://code.jquery.com/jquery-1.11.3.min',
-    'tmpl': 'tmpl'
+  	'jquery': 'https://code.jquery.com/jquery-1.12.0.min'
   },
-  shim: {
-    'jquery': {
-      exports: 'jQuery'
-    },
-    'tmpl': {
-      exports: 'tmpl'
-    }
+  shin: {
+  	'jquery': {
+  		exports: 'jquery'
+  	}
   }
-});
+})
+
+
+
 
 require(
-  ['jquery', 'tmpl', 'model', 'view', 'controller'],
-  function(jquery, tmpl, model, view, controller) {
+  [ 
+    'template',
+    'Model',
+    'View',
+    'Controller',
+    'jquery'
+  ],
 
-    var firstToDoList = ['JavaScript', 'HTML', 'CSS', 'jQuery'];
-    var model = new model(firstToDoList);
-    var view = new view(model);
-    var controller = new controller(model, view);
+  function(template, Model, View, Controller, $){
+
+  	$(function() {
+       var firstToDoList = ['learn javascript','learn html', 'make coffe'];
+       var newModel = new Model(firstToDoList);
+       var newView = new View(newModel);
+       var newController = new Controller(newModel, newView);
+    });
   }
 );
