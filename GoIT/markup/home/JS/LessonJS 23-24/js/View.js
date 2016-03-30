@@ -1,6 +1,6 @@
 define(
-  'view', 
-  ['jquery', 'model'],
+  'View', 
+  ['jquery', 'Model'],
   function() {
     function View(model) {
       var self = this;

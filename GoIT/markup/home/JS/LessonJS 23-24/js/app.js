@@ -14,12 +14,12 @@ requirejs.config({
 });
 
 require(
-  ['jquery', 'tmpl', 'model', 'view', 'controller'],
-  function(jquery, tmpl, model, view, controller) {
+  ['jquery', 'tmpl', 'Model', 'View', 'Controller'],
+  function(jquery, tmpl, Model, View, Controller) {
 
     var firstToDoList = ['JavaScript', 'HTML', 'CSS', 'jQuery'];
-    var model = new model(firstToDoList);
-    var view = new view(model);
-    var controller = new controller(model, view);
+    var model = new Model(firstToDoList);
+    var view = new View(model);
+    var controller = new Controller(model, view);
   }
 );
