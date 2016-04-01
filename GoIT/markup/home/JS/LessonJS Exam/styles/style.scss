@@ -589,7 +589,7 @@ body{
 
 
 
-@media screen and (min-width : 767px){
+@media screen and (min-width : 747px){
   .header{
   	background-position: -200px 0;
   }  
@@ -811,7 +811,7 @@ body{
 
 /*DESCOPT*/
 
-@media screen and (min-width : 1023px){
+@media screen and (min-width : 960px){
 	.header{
 		background-position: 0 0;
 		background-size: cover;
@@ -825,11 +825,11 @@ body{
 	}
 
 	.header__title--bottom{
-		margin-left: 189px;
+		margin-left: 199px;
 	}
 
 	.header__find--partner{
-		margin-left: 421px;
+		margin-left: 434px;
 	}
 
 	.content__title{
@@ -855,11 +855,35 @@ body{
   	height: 100%;
   }
 
+  .sliders-wrapper .first-slider .step{
+  	left: 10px;
+  }
+
+  .sliders-wrapper .first-slider .text--bold{
+  	left: 10px;
+  }
+
+  .sliders-wrapper .first-slider .text--lignter{
+  	left: 10px;
+  }
+
   .second-slider{
   	width: 25%;
   	float: left;
   	margin-left: 1px;
   	height: 100%;
+  }
+
+  .sliders-wrapper .second-slider .step{
+  	left: 10px;
+  }
+
+  .sliders-wrapper .second-slider .text--bold{
+  	left: 10px;
+  }
+
+  .sliders-wrapper .second-slider .text--lignter{
+  	left: 10px;
   }
 
   .third-slider{
@@ -869,11 +893,23 @@ body{
   	height: 100%;
   }
 
+  .sliders-wrapper .third-slider .step{
+  	left: 10px;
+  }
+
+  .sliders-wrapper .third-slider .text--bold{
+  	left: 10px;
+  }
+
+  .sliders-wrapper .third-slider .text--lignter{
+  	left: 10px;
+  }
+
   .comments-wrapper{
   	margin-left: -40px;
   }
   .comments__title{
-  	margin-left: 9px;
+  	margin-left: 73px;
   }
 
   .first-partner{
@@ -897,7 +933,7 @@ body{
   }
 
   .second-partner div{
-  	margin-left: 6px;
+  	margin-left: 56px;
   }
 
   .third-partner{
@@ -909,7 +945,7 @@ body{
   }
 
   .third-partner div{
-  	margin-left: 59px;
+  	margin-left: 66px;
   }
 
   .fourth-partner{
@@ -926,7 +962,7 @@ body{
 
   .show-other-partners{
   	margin-top: 65px;
-  	margin-left: 100px;
+  	margin-left: -100px;
   }
 
   .ideas {
