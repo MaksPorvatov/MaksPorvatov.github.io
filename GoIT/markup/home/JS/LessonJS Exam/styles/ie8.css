@@ -60,7 +60,7 @@
 }
 
 .third-partner .icon{
-	left: 120px !important;
+	left: 140px !important;
 }
 
 .fourth-partner div{
@@ -69,4 +69,8 @@
 
 .fourth-partner .photo{
 	margin-left: 110px !important;
+}
+
+.fourth-partner .icon{
+	left: 140px !important;
 }
