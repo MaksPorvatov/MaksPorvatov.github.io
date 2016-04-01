@@ -581,6 +581,9 @@ body {
   .sliders-wrapper .third-slider .step {
     top: 140px; }
 
+  .comments__title {
+    margin-left: -67px; }
+
   .first-partner {
     width: 44%;
     float: left; }
@@ -596,6 +599,9 @@ body {
   .fourth-partner {
     width: 44%;
     float: left; }
+
+  .show-other-partners {
+    margin-left: 194px; }
 
   .comments-wrapper {
     margin-left: 52px; }
@@ -793,6 +799,9 @@ body {
   .show-other-partners {
     margin-top: 65px;
     margin-left: -100px; }
+
+  .grid__title {
+    margin-left: 10px; }
 
   .ideas {
     margin-left: 124px;
