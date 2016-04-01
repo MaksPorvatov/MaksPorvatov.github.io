@@ -36,7 +36,7 @@
 }
 
 .first-partner .icon{
-	left: 120px !important;
+	left: 125px !important;
 }
 
 .second-partner div{
@@ -44,7 +44,7 @@
 }
 
 .second-partner .icon{
-	left: 142px !important;
+	left: 145px !important;
 }
 
 .second-partner .photo{
@@ -73,4 +73,8 @@
 
 .fourth-partner .icon{
 	left: 140px !important;
+}
+
+.show-other-partners{
+	margin-left: -91px !important;
 }
