@@ -59,8 +59,12 @@
 	margin-left: 110px !important;
 }
 
+.third-partner .icon{
+	left: 120px !important;
+}
+
 .fourth-partner div{
-  margin-left: 38px;
+  margin-left: 48px !important;
 }
 
 .fourth-partner .photo{
