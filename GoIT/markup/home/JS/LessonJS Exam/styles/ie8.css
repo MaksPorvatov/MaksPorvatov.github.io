@@ -47,10 +47,22 @@
 	left: 142px !important;
 }
 
+.second-partner .photo{
+	margin-left: 100px !important;
+}
+
 .third-partner div{
   margin-left: 49px !important;
 }
 
+.third-partner .photo{
+	margin-left: 100px !important;
+}
+
 .fourth-partner div{
   margin-left: 48px;
+}
+
+.fourth-partner .photo{
+	margin-left: 100px !important;
 }
