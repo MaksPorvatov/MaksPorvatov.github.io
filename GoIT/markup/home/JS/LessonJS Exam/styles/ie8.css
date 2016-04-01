@@ -27,6 +27,26 @@
 	margin-left: 424px !important;
 }
 
+.first-partner div{
+	margin-left: 60px !important;
+}
+
+.first-partner .icon{
+	left: 120px !important;
+}
+
+.second-partner div{
+  margin-left: 40px !important;
+}
+
 .second-partner .icon{
 	left: 142px !important;
+}
+
+.third-partner div{
+  margin-left: 49px !important;
+}
+
+.fourth-partner div{
+  margin-left: 48px;
 }
