@@ -4,12 +4,18 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>JS Exam</title>
-  <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-ajaxtransport-xdomainrequest/1.0.3/jquery.xdomainrequest.min.js"></script>
-  <script src="js/dist/script.main.min.js"></script>
+  <script type="text/javascript" src="js/src/jquery-1.9.1.js"></script>
+  <script src="js/src/jquery.xdomainrequest.min.js"></script>
+  <script src="js/src/isotope.js"></script>
+  <script src="js/src/jquery.flexslider-min.js"></script>
+  <script src="js/src/template.js"></script>
+  <script src="js/src/respond.js"></script>
+  <script src="js/src/script.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="js/css/style.concat.css">
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/flexslider.css">
+  <link rel="stylesheet" href="styles/style.css">
   <!--[if lte IE 8]>
     <link rel="stylesheet" type="text/css" media="all" href="styles/ie8.css" />
     <script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -21,17 +27,18 @@
   <div class="wrapper">
 
   	<!-- HERE IS START OF HEADER -->
-  	<div class="header">
+  	<header class="header">
   		<div class="log-sign">
   			<button type="submit" value="Log in" class="login" >Log in</button>
   			<button type="submit" value="Sign up" class="signup" >Sign up</button>
   		</div>
   		<h1 class="header__title--top">URLAUBSGLÜCK</h1>
-      <div class="header__block--title"></div>
-  		   <h3 class="header__title--middle">SHARE YOUR HOLIDAYS DREAMS</h3>
-  		   <h3 class="header__title--bottom">And find the perfect partner to fullfill it</h3>
+      <div class="header__block--title">
+  		   <h1 class="header__title--middle">SHARE YOUR HOLIDAYS DREAMS</h1>
+  		   <h2 class="header__title--bottom">And find the perfect partner to fullfill it</h2>
   		   <input type="submit" value="Find your holiday partner" class="header__find--partner" />
       </div>
+    </header>
   	<!-- HERE IS END OF HEADER -->
 
   	<!-- HERE IS START OF CONTENT -->
@@ -154,7 +161,7 @@
 
 
         
-        <h3 class="grid__title">Discover holiday activity ideas</h3>
+        <h3 class="grid__title--bottom">Discover holiday activity ideas</h3>
         <h4 class="search-partners">Hi! What are your holiday interests?</h4>
         <form id="form-search-partners" action="" method="get">
 		        <input type="text" id="searchbar" placeholder="Enter your interests" />
@@ -166,7 +173,7 @@
     <!-- HERE IS END OF CONTENT -->
 
     <!-- HERE Is sTART OF FOOTER -->
-    <div class="footer">
+    <footer class="footer">
     	<h2 class="footer__title--big--bold">URLAUBSGLÜCK</h2>
       <div class="footer__company--bold">Company</div>
       <ul class="menu">
@@ -178,7 +185,7 @@
       <div class="partners-footer--bold">Partners</div>
       <div class="designed-by">designed-by</div>
       <img src="img/logo-img--bottom.png" class="logo-img--bottom" alt="">
-    </div>
+    </footer>
     <!-- HERE IS END of FOOTER -->
   </div>
   </div>
