@@ -429,7 +429,8 @@ body {
     height: 120px;
     border-radius: 15px;
     margin-top: 10px;
-    float: left; }
+    float: left;
+    background-size: cover; }
 
   .grid-item__text {
     font-weight: bold;
