@@ -430,7 +430,8 @@ body {
     border-radius: 15px;
     margin-top: 10px;
     float: left;
-    background-size: cover; }
+    background-size: cover;
+    box-sizing: border-box; }
 
   .grid-item__text {
     font-weight: bold;
