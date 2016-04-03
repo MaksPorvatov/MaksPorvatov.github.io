@@ -84,5 +84,6 @@ h3 .grid-title{
 }*/
 
 .grid-item{
-	background-size: cover;
+  background-size: cover;
+  box-sizing: border-box;
 }
