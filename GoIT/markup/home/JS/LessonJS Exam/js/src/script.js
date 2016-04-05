@@ -180,7 +180,7 @@ var images = '';
 				cache: false,
         dataType: 'json',
         type: 'GET',
-				url: 'http://api.pixplorer.co.uk/image?word=' + images + '&amount=7&size=tb',
+				url: '//api.pixplorer.co.uk/image?word=' + images + '&amount=7&size=tb',
 				success: function(data) {
 					var imagesGrid = tmpl($('#template').html(), data);
 

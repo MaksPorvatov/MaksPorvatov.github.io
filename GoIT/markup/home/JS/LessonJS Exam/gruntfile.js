@@ -55,12 +55,12 @@ module.exports = function(grunt) {
       }]
     }
   },
-  // watch: {
-  //   sass: {
-  //     files: ['styles/*.scss'],
-  //     tasks: ['sass'],
-  //   }
-  // },
+  watch: {
+    sass: {
+      files: ['styles/*.scss'],
+      tasks: ['sass'],
+    }
+  },
 
 });
 
@@ -71,6 +71,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-sass');
   grunt.loadNpmTasks('grunt-contrib-watch');
   
-  grunt.registerTask('default', ['concat', 'uglify', 'concat_css', 'cssmin']);
+  grunt.registerTask('default', ['concat', 'uglify', 'concat_css', 'cssmin', 'watch']);
  
 };
