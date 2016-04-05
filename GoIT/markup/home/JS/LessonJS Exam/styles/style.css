@@ -971,12 +971,6 @@ body {
   .menu {
     left: 370px; }
 
-  .grid-item__text {
-    left: 1px;
-    top: 1px;
-    padding: 144px 101px;
-    border-radius: 3px; }
-
   .footer__company--bold {
     float: left;
     margin-top: 40px;
