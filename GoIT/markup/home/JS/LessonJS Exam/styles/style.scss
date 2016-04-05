@@ -153,6 +153,10 @@ body{
 	position: relative;
 	overflow: hidden;
 
+	.flex-control-nav flex-control-paging li a{
+		display: none;
+	}
+
 	.flexslider .slides img {
     height: 225px;
   }
@@ -964,7 +968,8 @@ body{
 	}
 
 	.sliders-wrapper .flexslider .slides img{
-  	
+    height: 400px;	
+    background-color: #1a1915; 
   }
 
   .flex-viewport{
@@ -1145,7 +1150,7 @@ body{
   }
 
   #searchbar{
-  	margin-left: 345px;
+  	margin-left: 320px;
   	margin-top: 37px;
   	margin-bottom: 60px;
   }
