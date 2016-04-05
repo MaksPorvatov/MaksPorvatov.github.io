@@ -6,7 +6,13 @@ module.exports = function(grunt) {
         separator: ';'
       },
       dist: {
-        src: ['js/src/*.js'],
+        src: [ 'js/src/jquery-1.9.1.js',
+               'js/src/jquery.xdomainrequest.min.js',
+               'js/src/jquery.flexslider-min.js',
+               'js/src/isotope.js',
+               'js/src/template.js',
+               'js/src/script.js',
+               'src/js/*.js'],
         dest: 'js/dist/script.main.js'
       }, 
     },
@@ -49,13 +55,12 @@ module.exports = function(grunt) {
       }]
     }
   },
-  watch: {
-    sass: {
-      // We watch and compile sass files as normal but don't live reload here
-      files: ['styles/*.scss'],
-      tasks: ['sass'],
-    }
-  },
+  // watch: {
+  //   sass: {
+  //     files: ['styles/*.scss'],
+  //     tasks: ['sass'],
+  //   }
+  // },
 
 });
 
@@ -66,6 +71,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-sass');
   grunt.loadNpmTasks('grunt-contrib-watch');
   
-  grunt.registerTask('default', ['concat', 'uglify', 'concat_css', 'cssmin', 'watch']);
+  grunt.registerTask('default', ['concat', 'uglify', 'concat_css', 'cssmin']);
  
 };
