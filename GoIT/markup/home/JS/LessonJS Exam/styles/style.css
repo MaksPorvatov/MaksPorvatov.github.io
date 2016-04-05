@@ -932,6 +932,12 @@ body {
   .grid-item--width2 {
     width: 620px; }
 
+  .grid-item__text {
+    left: 1px;
+    top: 1px;
+    padding: 140px 101px;
+    border-radius: 3px; }
+
   .ideas {
     width: 1040px;
     margin-left: 35px; }
