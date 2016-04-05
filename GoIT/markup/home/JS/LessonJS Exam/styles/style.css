@@ -863,7 +863,8 @@ body {
     margin: 0 auto; }
 
   .comments__title {
-    margin-left: 0; }
+    margin-left: 0;
+    margin-top: 37px; }
 
   .first-partner {
     width: 25%;
@@ -928,7 +929,7 @@ body {
   .grid__title {
     width: 352px;
     margin: 0 auto;
-    margin-top: 100px; }
+    margin-top: 105px; }
 
   .grid-item {
     width: 300px;
@@ -946,7 +947,12 @@ body {
 
   .ideas {
     width: 1040px;
-    margin-left: 35px; }
+    margin-left: 35px;
+    margin-top: 25px; }
+
+  .grid__title--bottom {
+    margin-top: 78px;
+    margin-left: 28px; }
 
   .search-partners {
     margin-left: 25px; }
