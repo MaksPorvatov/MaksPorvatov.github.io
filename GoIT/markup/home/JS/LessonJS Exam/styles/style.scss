@@ -41,7 +41,7 @@ body{
 }
 
 .login{
-  float: left;
+/*  float: left;
   color: white;
   margin-top: 25px;
   background-color: transparent;
@@ -51,10 +51,28 @@ body{
   font-family: $montserrat;
   outline: none;
   font-size: 14px;
+  box-sizing: border-box;
+  display: inline-block;*/
+  text-decoration: none;
+  display: inline-block;
+  width: 85px;
+  padding: 3px;
+  border: 2px solid;
+  border-color: transparent;
+  border-radius: 18px;
+  color: #ffffff;
+  font-family: $montserrat;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  float: left;
+  margin-left: 34px;
+  margin-top: 25px;
+  background-color: transparent;
 }
 
 .signup{
-  float: left;
+ /* float: left;
   color: white;
   margin-top: 26px;
   margin-left: 7px;
@@ -65,16 +83,35 @@ body{
   font-family: $montserrat;
   outline: none;
   font-size: 14px;
+  box-sizing: border-box;
+  display: inline-block;*/
+  text-decoration: none;
+  display: inline-block;
+  width: 85px;
+  padding: 3px;
+  border: 2px solid;
+  border-color: transparent;
+  border-radius: 18px;
+  color: #ffffff;
+  font-family: $montserrat;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  float: left;
+  margin-top: 26px;
+  background-color: transparent;
 }
 
 .login:hover{
 	border: 2px solid white;
 	border-radius: 50px;
+	box-sizing: border-box
 }
 
 .signup:hover{
 	border: 2px solid white;
 	border-radius: 50px;
+	box-sizing: border-box
 }
 
 .header__block--title{

@@ -32,37 +32,74 @@ body {
     text-align: center; }
 
   .login {
-    float: left;
-    color: white;
-    margin-top: 25px;
-    background-color: transparent;
-    margin-left: 34px;
-    border: none;
-    padding: 5px 15px 5px 15px;
+    /*  float: left;
+      color: white;
+      margin-top: 25px;
+      background-color: transparent;
+      margin-left: 34px;
+      border: none;
+      padding: 5px 15px 5px 15px;
+      font-family: $montserrat;
+      outline: none;
+      font-size: 14px;
+      box-sizing: border-box;
+      display: inline-block;*/
+    text-decoration: none;
+    display: inline-block;
+    width: 85px;
+    padding: 3px;
+    border: 2px solid;
+    border-color: transparent;
+    border-radius: 18px;
+    color: #ffffff;
     font-family: "Montserrat", Arial, sans-serif;
-    outline: none;
-    font-size: 14px; }
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    float: left;
+    margin-left: 34px;
+    margin-top: 25px;
+    background-color: transparent; }
 
   .signup {
-    float: left;
-    color: white;
-    margin-top: 26px;
-    margin-left: 7px;
-    text-align: center;
-    background-color: transparent;
-    border: none;
-    padding: 5px 15px 5px 15px;
+    /* float: left;
+     color: white;
+     margin-top: 26px;
+     margin-left: 7px;
+     text-align: center;
+     background-color: transparent;
+     border: none;
+     padding: 5px 15px 5px 15px;
+     font-family: $montserrat;
+     outline: none;
+     font-size: 14px;
+     box-sizing: border-box;
+     display: inline-block;*/
+    text-decoration: none;
+    display: inline-block;
+    width: 85px;
+    padding: 3px;
+    border: 2px solid;
+    border-color: transparent;
+    border-radius: 18px;
+    color: #ffffff;
     font-family: "Montserrat", Arial, sans-serif;
-    outline: none;
-    font-size: 14px; }
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    float: left;
+    margin-top: 26px;
+    background-color: transparent; }
 
   .login:hover {
     border: 2px solid white;
-    border-radius: 50px; }
+    border-radius: 50px;
+    box-sizing: border-box; }
 
   .signup:hover {
     border: 2px solid white;
-    border-radius: 50px; }
+    border-radius: 50px;
+    box-sizing: border-box; }
 
   .header__block--title {
     position: relative;
