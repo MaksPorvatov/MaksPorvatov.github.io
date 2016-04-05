@@ -1120,6 +1120,8 @@ body{
 
   .grid-item{
   	width: 300px;
+  	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(url(<%=images[i].imageurl%>), sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(url(<%=images[i].imageurl%>), sizingMethod='scale')";
   }
 
   .grid-item--width2{
