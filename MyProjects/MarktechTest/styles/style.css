@@ -685,7 +685,7 @@
 
   .sidebar{
   	background-color: #f0f1f2;
-    width: 279px;
+    width: 270px;
     margin-left: 10px;
   }
 
@@ -888,6 +888,10 @@
 
   .expetrises-img{
   	margin-left: 20px;
+  }
+
+  .expetrises-nav{
+  	margin-left: 11px;
   }
 
   .categories-img{
