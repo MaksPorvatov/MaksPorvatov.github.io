@@ -152,7 +152,7 @@
 	background-color: #f0f1f2;
 }
 
-.copywriter__first{
+.copywriter{
 	position: relative;
 	overflow: hidden;
 	background-color: #fff;
@@ -188,6 +188,8 @@
  float: left;	
  margin-top: 16px;
  margin-left: -15px;
+ width: 16px;
+ height: 9px;
 }
 
 .container__reviews{
@@ -318,13 +320,6 @@
   margin-top: 15px;	
 }
 
-.copywriter__second{
-	position: relative;
-	overflow: hidden;
-	background-color: #fff;
-	margin-top: 10px;
-}
-
 .verified-img{
 	position: absolute;
 	top: 75px;
@@ -352,47 +347,6 @@
   text-align:left;
 }
 
-.copywriter__third{
-	position: relative;
-	overflow: hidden;
-	background-color: #fff;
-	margin-top: 10px;
-}
-
-.copywriter__fourth{
-	position: relative;
-	overflow: hidden;
-	background-color: #fff;
-	margin-top: 10px;
-}
-
-.copywriter__fifth{
-	position: relative;
-	overflow: hidden;
-	background-color: #fff;
-	margin-top: 10px;
-}
-
-.copywriter__sixth{
-	position: relative;
-	overflow: hidden;
-	background-color: #fff;
-	margin-top: 10px;
-}
-
-.copywriter__seventh{
-	position: relative;
-	overflow: hidden;
-	background-color: #fff;
-	margin-top: 10px;
-}
-
-.copywriter__eighth{
-	position: relative;
-	overflow: hidden;
-	background-color: #fff;
-	margin-top: 10px;
-}
 /*END OF CONTENT*/
 
 
@@ -435,6 +389,39 @@
   font-size:14px;
   color:#0077ff;
   line-height:32px;	
+}
+
+.categories{
+	position: relative;
+	overflow: hidden;
+}
+
+.categories-img{
+  margin-top: 10px;
+  float: left;	
+}
+
+.categories__title{
+	font-weight: bold;
+  font-size:15px;
+  color:#000000;
+  margin-top: 10px;
+  margin-left: 10px;
+  float: left;
+}
+
+.categories-nav{
+  position: relative;
+	overflow: hidden;
+	float: left;
+  margin-left: 28px;	
+}
+
+.categories__link{
+  text-decoration: none;
+  font-size:14px;
+  color:#0077ff;
+  line-height:32px;		
 }
 
 .languages{
@@ -539,3 +526,193 @@
   line-height:32px;	
 }
 /*END OF SIDE BAR*/
+
+
+/*DESKOPT*/
+
+@media screen and (min-width: 939px) {
+	.container-top{
+		width: 1280px;
+		height: 85px;
+	}
+
+	.logo{
+		float: left;
+		margin-top: 18px;
+		margin-left: 30px;
+	}
+
+	.copywriters {
+    float: left;
+    padding: 35px 27px;
+    margin-top: 0px;
+  }
+
+  .open-orders{
+  	float: left;
+  	margin-top: 1px;
+  	margin-left: -40px;
+  }
+
+  .login{
+  	float: left;
+  	margin-top: 31px;
+  	margin-left: 144px;
+  }
+
+  .login__writer{
+  	float: left;
+  	margin-top: 21px;
+  }
+
+  .container-login{
+  	width: 735px;
+  }
+
+  .login__client{
+  	margin-top: 21px;
+  }
+
+
+  /*CONTENT*/
+
+  .content{
+  	margin: 0 auto;
+  	width: 910px;
+  	float: left;
+  	margin-left: 34px;
+  }
+
+  .container__content__title {
+    float: left;
+    margin-left: 111px;
+  }
+
+  .content__copywriters__container {
+    float: left;
+    margin-left: 79px;
+  }
+
+  .copywriter__img {
+    margin-top: 35px;
+    margin-left: 30px;
+  }
+
+  .name{
+  	position: relative;
+  	overflow: hidden;
+  	float: left;
+  	margin-top: 25px;
+    margin-left: 20px;
+  }
+
+  .container__reviews {
+    float: left;
+    margin-left: 24px;
+    margin-top: 24px;
+  }
+
+  .flag {
+    position: absolute;
+    top: 25px;
+    left: 197px;
+  }
+
+  .container__language {
+    margin-left: 30px;
+    margin-top: 28px;
+  }
+
+  .container__orders{
+    margin-left: 30px;
+    margin-top: 28px;	
+  }
+
+  .container__portfolio {
+    clear: none; 
+    margin-left: 45px;
+    margin-top: 26px;
+  }
+
+  .hire{
+    position: absolute;
+    left: 635px;
+    top: -9px;
+  }
+
+  .verified-img {
+    top: 98px;
+    left: 88px;
+  }
+
+  .copywriter{
+  	width: 825px;
+  	height: 170px;
+  }
+
+  .first-text{
+  	width: 303px;
+  	margin-left: 133px;
+  	margin-top: 87px;
+  	height: 63px;
+  }
+
+  .second-text{
+  	width: 328px;
+  	margin-left: 484px;
+    margin-bottom: 42px;
+    margin-top: -65px;
+  }
+
+  .container__verified {
+    top: 124px;
+    left: 43px;
+  }
+
+  .expetrises {
+    margin-top: 66px;
+  }
+
+  .sidebar{
+  	background-color: #f0f1f2;
+    width: 370px;
+    margin-left: 10px;
+  }
+
+  .expetrises-img{
+  	margin-left: 20px;
+  }
+
+  .categories-img{
+  	margin-left: 20px;
+  }
+
+  .categories-nav{
+  	margin-left: 48px;
+  }
+
+  .languages-img{
+  	margin-left: 20px;
+  }
+
+  .languages {
+    width: 222px;
+  }
+
+  .country-img{
+  	margin-left: 20px;
+  }
+
+  .country {
+    width: 255px;
+  }
+
+  .cities-img{
+  	margin-left: 20px;
+  }
+
+  .cities {
+    width: 300px;
+  }
+
+}
