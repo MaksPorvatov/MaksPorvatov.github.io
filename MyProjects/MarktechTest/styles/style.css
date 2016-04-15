@@ -557,12 +557,219 @@
   .login{
   	float: left;
   	margin-top: 31px;
-  	margin-left: 144px;
+  	margin-left: 0;
   }
 
   .login__writer{
   	float: left;
   	margin-top: 21px;
+  	margin-left: 1px;
+  }
+
+  .login__client{
+  	margin-left: 2px;
+  }
+
+  .container-login{
+  	width: 735px;
+  }
+
+  .login__client{
+  	margin-top: 21px;
+  }
+
+
+  /*CONTENT*/
+
+  .content{
+  	margin: 0 auto;
+  	width: 733px;
+  	float: left;
+  	margin-left: 0;
+  }
+
+  .container__content__title {
+    float: left;
+    margin-left: 111px;
+  }
+
+  .content__copywriters__container {
+    float: left;
+    margin-left: 79px;
+  }
+
+  .copywriter__img {
+    margin-top: 35px;
+    margin-left: 30px;
+  }
+
+  .name{
+  	position: relative;
+  	overflow: hidden;
+  	float: left;
+  	margin-top: 25px;
+    margin-left: 20px;
+  }
+
+  .container__reviews {
+    float: left;
+    margin-left: 24px;
+    margin-top: 24px;
+  }
+
+  .flag {
+    position: absolute;
+    top: 25px;
+    left: 197px;
+  }
+
+  .container__language {
+    margin-left: 30px;
+    margin-top: 28px;
+  }
+
+  .container__orders{
+    margin-left: 30px;
+    margin-top: 28px;	
+  }
+
+  .container__portfolio {
+    clear: none; 
+    margin-left: 25px;
+    margin-top: 26px;
+  }
+
+  .hire{
+    position: absolute;
+    left: 565px;
+    top: -9px;
+  }
+
+  .verified-img {
+    top: 98px;
+    left: 88px;
+  }
+
+  .content__copywriters__container {
+    float: left;
+    margin-left: 0;
+  }
+
+  .copywriter{
+  	width: 825px;
+  	height: 170px;
+  }
+
+  .first-text{
+  	width: 303px;
+  	margin-left: 133px;
+  	margin-top: 87px;
+  	height: 63px;
+  }
+
+  .second-text{
+  	width: 288px;
+    margin-left: 443px;
+    margin-bottom: 42px;
+    margin-top: -65px;
+  }
+
+  .container__verified {
+    top: 124px;
+    left: 43px;
+  }
+
+  .expetrises {
+    margin-top: 66px;
+  }
+
+  .sidebar{
+  	background-color: #f0f1f2;
+    width: 279px;
+    margin-left: 10px;
+  }
+
+  .expetrises-img{
+  	margin-left: 20px;
+  }
+
+  .expetrises-nav{
+  	margin-left: 52px;
+  }
+
+  .categories-img{
+  	margin-left: 20px;
+  }
+
+  .categories-nav{
+  	margin-left: 48px;
+  }
+
+  .languages-img{
+  	margin-left: 20px;
+  }
+
+  .languages {
+    width: 222px;
+  }
+
+  .country-img{
+  	margin-left: 20px;
+  }
+
+  .country {
+    width: 255px;
+  }
+
+  .cities-img{
+  	margin-left: 20px;
+  }
+
+  .cities {
+    width: 300px;
+  }
+}
+
+@media screen and (min-width: 1330px) {
+	.container-top{
+		width: 1280px;
+		height: 85px;
+	}
+
+	.logo{
+		float: left;
+		margin-top: 18px;
+		margin-left: 30px;
+	}
+
+	.copywriters {
+    float: left;
+    padding: 35px 27px;
+    margin-top: 0px;
+  }
+
+  .open-orders{
+  	float: left;
+  	margin-top: 1px;
+  	margin-left: -40px;
+  }
+
+  .login{
+  	float: left;
+  	margin-top: 31px;
+  	margin-left: 144px;
+  }
+
+  .login__writer{
+    margin-left: 30px;
+  }
+
+  .login__client{
+  	margin-left: 30px;
+  }
+
+  .container-login{
+  	margin-left: 30px;
   }
 
   .container-login{
@@ -636,7 +843,7 @@
 
   .hire{
     position: absolute;
-    left: 635px;
+    left: 610px;
     top: -9px;
   }
 
@@ -675,7 +882,7 @@
 
   .sidebar{
   	background-color: #f0f1f2;
-    width: 306px;
+    width: 370px;
     margin-left: 10px;
   }
 
