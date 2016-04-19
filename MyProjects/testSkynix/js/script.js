@@ -3,7 +3,7 @@ $(function() {
   $('input[type="submit"]').prop('disabled', true); 
 
   $('input:radio').click(function() {
-    if($(this).val() ) {
+    if( $(this) ) {
       $('input[type="submit"]').prop('disabled', false);
     }
   })
@@ -14,7 +14,7 @@ $(function() {
   	maxWidth: 300,
   	content: 'Lorem ipsum dolor sit amet',
   	theme: 'tooltipster-theme',
-  	timer: 1000,
+  	timer: 3000,
   });
 
   $('.send-answer').click(function() {
@@ -24,23 +24,5 @@ $(function() {
   		border: 'none'
   	})
   }) 
-
-
-  // enquire.register("screen and (max-width:300px)", {
-  //   match : function() {
-
-  //     $('.tooltip').tooltipster({
-  // 	    animation: 'fade',
-  // 	    delay: 200,
-  // 	    maxWidth: 300,
-  // 	    content: 'Lorem ipsum dolor sit amet',
-  // 	    theme: 'tooltipster-theme',
-  // 	    trigger: 'hover',
-  // 	    autoClose: false,
-  // 	    hideOnClick: true,
-  //     });
-
-  //   }
-  // })
 
 });
