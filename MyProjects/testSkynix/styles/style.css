@@ -32,6 +32,7 @@ hr{
 .box-answers1{
   margin: 0 auto;	
   text-align: center;
+  width: 280px;
 }
 
 input[type=radio] {
