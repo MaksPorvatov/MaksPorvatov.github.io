@@ -9,7 +9,7 @@ $(function(){
 	// MODAL WINDOW
 	var overlay = $('#overlay'); 
   var open_modal = $('.open_modal'); 
-  var close = $('#overlay'); 
+  var close = $('#overlay', '#overlay2'); 
   var modal = $('.modal_form'); 
 
   open_modal.click( function(event){ 
