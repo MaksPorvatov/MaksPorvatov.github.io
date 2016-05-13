@@ -38,6 +38,7 @@
         </form>
       </div>
       <a href="#feedback" id="feedback__button" class="open_modal">Получить консультацию</a> 
+      <div id="overlay"></div>
    	</header>
   	<!-- END HEADER -->
 
@@ -83,14 +84,26 @@
 
   	<!-- START FOOTER -->
   	<footer class="footer">
-      <!-- <a href="#feedback" id="feedback__footer" class="open_modal">Связаться с нами</a> -->
+      <div id="feedback1" class="modal_form"> 
+         <form class="feedback_form">
+          <div>
+            <input id="name" type="text" placeholder="Имя">
+          </div>
+          <div>
+            <input class="phone" type="tel" placeholder="Телефон">
+          </div>
+          <input class="take--call" type="submit" value="Отправить">
+        </form>
+      </div>
+      <a href="#feedback1" id="feedback__footer" class="open_modal">Связаться с нами</a>
       <div class="bottom__line">
       	<div class="we__in__vk">Мы вконтакте</div>
       </div>
   	</footer>
   	<!-- END FOOTER -->
 
-  <div id="overlay"></div>
+    <div id="overlay"></div>
+
   </div>
 
 </body>
