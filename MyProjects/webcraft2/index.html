@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Webcraft</title>
+	<script src="js/jquery-1.9.1.js"></script>
+	<script src="js/burger-menu.js"></script>
+	<script src="js/slider.js"></script>
+	<script src="js/script.js"></script>
+	<link rel="stylesheet" href="styles/burger-menu.css">
+	<link rel="stylesheet" href="styles/slider.css">
+	<link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+  <div class="wrapper">
+    
+    <!-- START HEADER -->
+  	<header class="header">
+      <ul class="burger__menu" id="menu">
+	      <li><a href="#">Главная</a></li>
+	      <li><a href="#">Статьи</a></li>
+	      <li><a href="#">Контакты</a></li>
+      </ul>
+
+      <div class="title__header">Разработка сайтов под ключ</div>
+
+      <div id="feedback" class="modal_form"> 
+         <form class="feedback_form">
+          <div>
+            <input id="name" type="text" placeholder="Имя">
+          </div>
+          <div>
+            <input class="phone" type="tel" placeholder="Телефон">
+          </div>
+          <input class="take--call" type="submit" value="Отправить">
+        </form>
+      </div>
+      <a href="#feedback" id="feedback__button" class="open_modal">Получить консультацию</a> 
+      <div id="overlay"></div>
+   	</header>
+  	<!-- END HEADER -->
+
+  	<!-- START OF CONTENT -->	
+  	<div class="content">
+  	  <div class="content__box__1">
+  	    <div class="box__text">
+  	  	  <h3>Адаптивность и кросбраузерность</h3>
+  	  	  <div class="text">Ваш сайт будетхорошо выглядеть в любом браузере и на любом устройстве</div>
+  	    </div>	
+  	    <img class="phone__img" src="imgs/phone.png" alt="phone">
+  	  </div>
+  	  <div class="content__box__2">
+  	    <div class="box__text">
+  	      <h3>Уникальный дизайн</h3>
+  	  	  <div class="text">Мы разработаем уникальный дизайн, что повысит рейтинг в поисковых системах</div>	
+  	    </div>
+  	    <img class="img__for__content__box2" src="imgs/img-for-content-box2.png" alt="">
+  	  </div>
+  	  <div class="content__box__3">
+  	    <div class="flexslider">
+          <ul class="slides">
+            <li>
+              <img src="imgs/img1.png" />
+            </li>
+            <li>
+              <img src="imgs/img2-min.png" />
+            </li>
+            <li>
+              <img src="imgs/img3-min.png" />
+            </li>
+            <li>
+              <img src="imgs/img4-min.png" />
+            </li>
+          </ul>
+        </div>	
+  	  </div>
+  	</div>
+  	<!-- END OF CONTENT -->
+
+  	<!-- START FOOTER -->
+  	<footer class="footer">
+      <a href="#feedback" id="feedback__footer" class="open_modal">Связаться с нами</a>
+      <div class="bottom__line">
+      	<div class="we__in__vk">Мы вконтакте</div>
+      </div>
+  	</footer>
+  	<!-- END FOOTER -->
+
+  </div>
+
+</body>
+</html>
+
