@@ -182,7 +182,7 @@
   			padding: 11px 32px 11px 32px;
         margin-left: 13px;
         margin-top: 47px;
-        margin-bottom: 62px;
+        margin-bottom: 40px;
   		}
   	}
   	/*END FORM*/
@@ -221,7 +221,8 @@
     			background-color: #79be00;
     			text-align: center;
     			font-size: 33px;
-    			padding: 5px 0;
+    			padding: 0 0 10px 0;
+    			font-weight: bold;
     		}
     	}
 
@@ -257,6 +258,8 @@
     			font-size: 18px;
     			margin-left: 19px;
           margin-top: 24px;
+          border-bottom: 1px solid #256799;
+          width: 97px; 
     		}
     		.services__item1__list{
     			position: relative;
@@ -286,6 +289,8 @@
     			font-size: 18px;
     			margin-left: 19px;
           margin-top: 19px;
+          border-bottom: 1px solid #256799;
+          width: 63px; 
     		}
     		.services__item2__list{
     			position: relative;
@@ -315,6 +320,8 @@
     			font-size: 18px;
     			margin-left: 19px;
           margin-top: 19px;
+          border-bottom: 1px dashed #256799; 
+          width: 177px;
     		}
     		.services__item3__list{
     			position: relative;
@@ -344,6 +351,8 @@
     			font-size: 18px;
     			margin-left: 19px;
           margin-top: 19px;
+          border-bottom: 1px dashed #256799; 
+          width: 223px;
     		}
     		.services__item4__list{
     			position: relative;
@@ -417,19 +426,21 @@
       margin-left: 45px;
   		border-radius: 3px;
   		color: white;
+  		margin-bottom: 20px;
   	}
 
   	.footer__timetable{
   		position: relative;
   		overflow: hidden;
+  		background-color: white;
   		.footer__timetable__title{
         font-size: 14px;
   		  font-weight: bold;
-  		  margin-top: 32px;
+  		  margin-top: 40px;
         margin-left: 43px; 
   		}
   		.footer__timetable__text{
-  			margin-top: 54px;
+  			margin-top: 28px;
   			margin-left: 10px;
   			.fa-clock-o:before {
           margin-left: 25px;
@@ -442,6 +453,7 @@
   		.footer__timetable__address{
   			margin-top: 10px;
   			margin-left: 10px;
+  			margin-bottom: 40px;
   			.fa-map-marker:before {
           margin-left: 26px;
           margin-right: 5px;
@@ -471,25 +483,25 @@
   				width: 50px;
   				height: 50px;
   				.netwokrs__item--vk{
-  				  background: url(../img/sprite.png) 0 0 no-repeat;
+  				  background: url(../img/sprite1.png) 0 0 no-repeat;
   				  width: 50px;
   				  height: 50px;
   				  display: block;
   			  }
   			  .netwokrs__item--fb{
-            background: url(../img/sprite.png) -51px 0 no-repeat;
+            background: url(../img/sprite1.png) -48px 0 no-repeat;
             width: 50px;
   				  height: 50px;
   				  display: block;
   			  }
   			  .netwokrs__item--od{
-  			    background: url(../img/sprite.png) -104px 0 no-repeat;	
+  			    background: url(../img/sprite1.png) -140px 0 no-repeat;	
   			    width: 50px;
   				  height: 50px;
   				  display: block;
   			  }
   			  .netwokrs__item--sk{
-  			    background: url(../img/sprite.png) -156px 0 no-repeat;	
+  			    background: url(../img/sprite1.png) -95px 0 no-repeat;	
   			    width: 50px;
   				  height: 50px;	
   				  display: block;
