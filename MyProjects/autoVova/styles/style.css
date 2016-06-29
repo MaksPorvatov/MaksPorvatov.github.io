@@ -337,8 +337,7 @@
       font-weight: bold; }
     .footer .footer__contacts__mail {
       margin-top: 5px;
-      margin-left: 43px;
-      font-weight: bold; }
+      margin-left: 43px; }
       .footer .footer__contacts__mail .fa-envelope-o:before {
         padding-right: 5px; }
     .footer .footer__contacts__submit {
