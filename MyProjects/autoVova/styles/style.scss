@@ -46,6 +46,9 @@
   	line-height: 32px;
     margin-left: 36px;
     margin-top: 62px;
+    .phone__1, .phone__2, .phone__3{
+      font-weight: bold;
+    }
   }
 
   .email{
@@ -290,7 +293,7 @@
     			margin-left: 19px;
           margin-top: 19px;
           border-bottom: 1px solid #256799;
-          width: 63px; 
+          width: 73px; 
     		}
     		.services__item2__list{
     			position: relative;
@@ -321,7 +324,7 @@
     			margin-left: 19px;
           margin-top: 19px;
           border-bottom: 1px dashed #256799; 
-          width: 177px;
+          width: 220px;
     		}
     		.services__item3__list{
     			position: relative;
@@ -410,7 +413,7 @@
 
   	.footer__contacts__mail{
   		margin-top: 5px;
-      margin-left: 43px;
+      margin-left: 47px;
   		.fa-envelope-o:before {
   			padding-right: 5px;
   		}

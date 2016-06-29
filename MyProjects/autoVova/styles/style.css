@@ -39,6 +39,8 @@
     line-height: 32px;
     margin-left: 36px;
     margin-top: 62px; }
+    .phones__email .phone__1, .phones__email .phone__2, .phones__email .phone__3 {
+      font-weight: bold; }
 
   .email {
     color: #476a83;
@@ -243,7 +245,7 @@
           margin-left: 19px;
           margin-top: 19px;
           border-bottom: 1px solid #256799;
-          width: 63px; }
+          width: 73px; }
         .content .services .services__item2__container .services__item2__list {
           position: relative;
           overflow: hidden;
@@ -268,7 +270,7 @@
           margin-left: 19px;
           margin-top: 19px;
           border-bottom: 1px dashed #256799;
-          width: 177px; }
+          width: 220px; }
         .content .services .services__item3__container .services__item3__list {
           position: relative;
           overflow: hidden;
@@ -337,7 +339,7 @@
       font-weight: bold; }
     .footer .footer__contacts__mail {
       margin-top: 5px;
-      margin-left: 43px; }
+      margin-left: 47px; }
       .footer .footer__contacts__mail .fa-envelope-o:before {
         padding-right: 5px; }
     .footer .footer__contacts__submit {
